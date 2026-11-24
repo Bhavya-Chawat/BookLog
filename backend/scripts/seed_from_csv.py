@@ -5,7 +5,7 @@ Both CSV header styles are accepted ("title" and "Book:title").
 
 Usage (from the repo root):
     createdb booklog                       # once
-    backend/venv/bin/python backend/db/seed_from_csv.py [file.csv ...]
+    backend/venv/bin/python backend/scripts/seed_from_csv.py [file.csv ...]
 
 DATABASE_URL is read from backend/.env (default: postgresql://localhost:5432/booklog).
 This DROPS and recreates all tables, so users/diary data are wiped.
@@ -24,8 +24,8 @@ load_dotenv(os.path.join(REPO_ROOT, "backend", ".env"))
 # Setup scripts run as your own (superuser) account, not the API role
 DATABASE_URL = os.getenv("DATABASE_ADMIN_URL", "postgresql://localhost:5432/booklog")
 CSV_PATHS = sys.argv[1:] or [
-    os.path.join(REPO_ROOT, "data.csv"),
-    os.path.join(REPO_ROOT, "master_curated_books_universe_180.csv"),
+    os.path.join(REPO_ROOT, "data", "data.csv"),
+    os.path.join(REPO_ROOT, "data", "master_curated_books_universe_180.csv"),
 ]
 
 # "Book:title" style headers -> plain names
@@ -65,7 +65,7 @@ def main():
     conn = psycopg2.connect(DATABASE_URL)
     try:
         with conn, conn.cursor() as cur:
-            with open(os.path.join(HERE, "schema.sql"), encoding="utf-8") as f:
+            with open(os.path.join(REPO_ROOT, "backend", "db", "schema.sql"), encoding="utf-8") as f:
                 cur.execute(f.read())
 
             rows = [row for path in CSV_PATHS for row in read_rows(path)]
@@ -136,7 +136,7 @@ def main():
             authors, genres = cur.fetchone()
 
         # Phase 2+ migrations (each file manages its own transaction)
-        migrations_dir = os.path.join(HERE, "migrations")
+        migrations_dir = os.path.join(REPO_ROOT, "backend", "db", "migrations")
         for name in sorted(os.listdir(migrations_dir)):
             if name.endswith(".sql"):
                 with conn.cursor() as cur, open(os.path.join(migrations_dir, name), encoding="utf-8") as f:

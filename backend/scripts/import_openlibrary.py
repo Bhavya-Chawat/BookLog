@@ -4,10 +4,10 @@ database, with cover images, descriptions, publishers, authors, author bios
 and author photos.
 
 Run AFTER seed_from_csv.py (it only adds rows, never deletes):
-    backend/venv/bin/python backend/db/import_openlibrary.py            # default 80 new books per genre
-    backend/venv/bin/python backend/db/import_openlibrary.py --per-genre 40
+    backend/venv/bin/python backend/scripts/import_openlibrary.py            # default 80 new books per genre
+    backend/venv/bin/python backend/scripts/import_openlibrary.py --per-genre 40
 
-API responses are cached in backend/db/.openlibrary_cache/, so re-running is fast.
+API responses are cached in backend/scripts/.openlibrary_cache/, so re-running is fast.
 """
 import argparse
 import hashlib
@@ -88,6 +88,14 @@ GENRE_QUERIES = {
     "dragons": "Fantasy", "magic": "Fantasy", "post-apocalyptic_fiction": "Dystopian",
     "productivity": "Self-Help", "leadership": "Business", "entrepreneurship": "Business",
     "personal_finance": "Business", "mental_health": "Psychology", "neuroscience": "Science",
+    # more technology and science
+    "computer_science": "Technology", "computer_programming": "Technology", "software_engineering": "Technology",
+    "machine_learning": "Technology", "computer_security": "Technology", "internet": "Technology",
+    "information_technology": "Technology", "electronic_digital_computers": "Technology",
+    "engineering": "Technology", "inventions": "Technology", "technology": "Technology",
+    "data_mining": "Technology", "algorithms": "Technology", "computer_networks": "Technology",
+    "space": "Popular Science", "outer_space": "Popular Science", "climate_change": "Popular Science",
+    "genetics": "Science", "chemistry": "Science", "medicine": "Science", "quantum_theory": "Science",
 }
 
 # Extra genres picked up from a book's own subject list (lower-case subject -> genre)
@@ -187,9 +195,18 @@ def main():
     parser.add_argument("--cache-only", action="store_true",
                         help="import only what is already in the download cache (no network); "
                              "authors not downloaded yet are added without a bio or photo")
+    parser.add_argument("--subjects", help="comma-separated Open Library subjects to import (default: all in GENRE_QUERIES), "
+                                           "e.g. computer_science,machine_learning")
     args = parser.parse_args()
     global CACHE_ONLY
     CACHE_ONLY = args.cache_only
+    queries = GENRE_QUERIES
+    if args.subjects:
+        wanted = [s.strip() for s in args.subjects.split(",") if s.strip()]
+        unknown = [s for s in wanted if s not in GENRE_QUERIES]
+        if unknown:
+            parser.error(f"unknown subjects (add them to GENRE_QUERIES first): {', '.join(unknown)}")
+        queries = {s: GENRE_QUERIES[s] for s in wanted}
 
     conn = psycopg2.connect(DATABASE_URL)
     cur = conn.cursor()
@@ -207,7 +224,7 @@ def main():
     fields = ("key,title,subtitle,author_name,author_key,first_publish_year,isbn,"
               "number_of_pages_median,ratings_average,ratings_count,cover_i,publisher,subject")
     picked = {}  # work key -> book dict
-    for subject, genre in GENRE_QUERIES.items():
+    for subject, genre in queries.items():
         added = 0
         for page in range(1, args.pages + 1):
             q = urllib.parse.urlencode({

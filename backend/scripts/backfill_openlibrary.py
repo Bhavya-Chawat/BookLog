@@ -1,9 +1,9 @@
 """
 Finish the Open Library import: fill in what the first run skipped.
 
-  python backend/db/backfill_openlibrary.py            # descriptions + author bios/photos
-  python backend/db/backfill_openlibrary.py --cache-only
-  python backend/db/backfill_openlibrary.py --skip-books --wikipedia   # authors, with Wikipedia fallback
+  python backend/scripts/backfill_openlibrary.py            # descriptions + author bios/photos
+  python backend/scripts/backfill_openlibrary.py --cache-only
+  python backend/scripts/backfill_openlibrary.py --skip-books --wikipedia   # authors, with Wikipedia fallback
 
 The first import (import_openlibrary.py) was stopped early and saved what it
 had. That left books with a generated one-line description and authors with

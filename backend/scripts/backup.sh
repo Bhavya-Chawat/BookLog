@@ -1,8 +1,8 @@
 #!/bin/sh
 # Back up the BookLog PostgreSQL database to a single file.
 #
-#   sh backend/db/backup.sh                 -> backups/booklog-YYYY-MM-DD.dump
-#   sh backend/db/backup.sh my-file.dump
+#   sh backend/scripts/backup.sh                 -> backups/booklog-YYYY-MM-DD.dump
+#   sh backend/scripts/backup.sh my-file.dump
 #
 # The custom format (-Fc) is compressed and restores with pg_restore
 # (see restore.sh). Neo4j is rebuilt from PostgreSQL after a restore, and
