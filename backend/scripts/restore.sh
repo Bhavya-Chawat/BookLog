@@ -1,8 +1,8 @@
 #!/bin/sh
 # Restore a BookLog backup made with backup.sh (works on another computer too).
 #
-#   sh backend/db/restore.sh booklog-2026-11-11.dump          # into database "booklog"
-#   sh backend/db/restore.sh booklog-2026-11-11.dump mydb     # into another name
+#   sh backend/scripts/restore.sh booklog-2026-11-11.dump          # into database "booklog"
+#   sh backend/scripts/restore.sh booklog-2026-11-11.dump mydb     # into another name
 #
 # Run from the repo root, as your own PostgreSQL superuser (the default on a
 # Homebrew install). It:
@@ -17,7 +17,7 @@ DB="${2:-booklog}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
 if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
-    echo "Usage: sh backend/db/restore.sh <backup.dump> [database]" >&2
+    echo "Usage: sh backend/scripts/restore.sh <backup.dump> [database]" >&2
     exit 1
 fi
 
@@ -28,12 +28,16 @@ fi
 
 createdb "$DB"
 pg_restore --no-owner --no-privileges -d "$DB" "$FILE"
-psql -q -v ON_ERROR_STOP=1 -d "$DB" -f "$HERE/migrations/003_app_role.sql"
-psql -q -v ON_ERROR_STOP=1 -d "$DB" -f "$HERE/migrations/004_report_role.sql"
+psql -q -v ON_ERROR_STOP=1 -d "$DB" -f "$HERE/../db/migrations/003_app_role.sql"
+psql -q -v ON_ERROR_STOP=1 -d "$DB" -f "$HERE/../db/migrations/004_report_role.sql"
+# mood tags: only for backups made before migration 005
+if [ "$(psql -d "$DB" -tAc "SELECT to_regclass('public.mood_rule') IS NULL")" = "t" ]; then
+    psql -q -v ON_ERROR_STOP=1 -d "$DB" -f "$HERE/../db/migrations/005_mood_tags.sql"
+fi
 echo "Restored $FILE into '$DB': $(psql -d "$DB" -tAc 'SELECT count(*) FROM book') books, $(psql -d "$DB" -tAc 'SELECT count(*) FROM users') users"
 
 if [ -x "$HERE/../venv/bin/python" ] && [ -f "$HERE/../.env" ]; then
-    DATABASE_URL="postgresql://booklog_app@localhost:5432/$DB" "$HERE/../venv/bin/python" "$HERE/sync_neo4j.py" || echo "Neo4j not rebuilt (is it running?). Run backend/db/sync_neo4j.py later."
+    DATABASE_URL="postgresql://booklog_app@localhost:5432/$DB" "$HERE/../venv/bin/python" "$HERE/sync_neo4j.py" || echo "Neo4j not rebuilt (is it running?). Run backend/scripts/sync_neo4j.py later."
 else
-    echo "Next: set up backend/venv and backend/.env, then run backend/db/sync_neo4j.py to rebuild Neo4j."
+    echo "Next: set up backend/venv and backend/.env, then run backend/scripts/sync_neo4j.py to rebuild Neo4j."
 fi
