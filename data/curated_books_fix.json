@@ -1,0 +1,3214 @@
+[
+ {
+  "title": "Pride and Prejudice",
+  "match": "author",
+  "ol_key": "/works/OL66554W",
+  "ol_title": "Pride and Prejudice",
+  "authors": [
+   "Jane Austen"
+  ],
+  "author_keys": [
+   "OL21594A"
+  ],
+  "csv_author": "Jane Austen",
+  "pub_year": 1813,
+  "page_count": 351,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14348537-L.jpg",
+  "avg_rating": 4.2,
+  "ratings_count": 419,
+  "publisher": "Nelson Doubleday, Inc.",
+  "description": "Pride and Prejudice is an 1813 novel of manners written by Jane Austen. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness. Mr. Bennet, owner of the Longbourn estate in Hertfordshire, has five daughters, but his property is entailed and can only be passed to a male heir. His wife also lacks an inheritance, so his family faces becoming very poor upon his death. Thus, it is imperative that at least one of the girls marry well to support the others, which is a motivation that drives the plot."
+ },
+ {
+  "title": "Moby-Dick",
+  "match": "author",
+  "ol_key": "/works/OL102749W",
+  "ol_title": "Moby Dick",
+  "authors": [
+   "Herman Melville"
+  ],
+  "author_keys": [
+   "OL29497A"
+  ],
+  "csv_author": "Herman Melville",
+  "pub_year": 1851,
+  "page_count": 453,
+  "isbn": "9782413019756",
+  "cover_url": "https://covers.openlibrary.org/b/id/10544254-L.jpg",
+  "avg_rating": 3.96,
+  "ratings_count": 200,
+  "publisher": "DELCOURT",
+  "description": "\"Command the murderous chalices! Drink ye harpooners! Drink and swear, ye men that man the deathful whaleboat's bow -- Death to Moby Dick!\" So Captain Ahab binds his crew to fulfil his obsession -- the destruction of the great white whale. Under his lordly but maniacal command the Pequod's commercial mission is perverted to one of vengeance. To Ahab, the monster that destroyed his body is not a creature, but the symbol of \"some unknown but still reasoning thing.\" Uncowed by natural disasters, ill omens, even death, Ahab urges his ship towards \"the undeliverable, nameless perils of the whale.\""
+ },
+ {
+  "title": "1984",
+  "match": "author",
+  "ol_key": "/works/OL1168083W",
+  "ol_title": "Nineteen Eighty-Four",
+  "authors": [
+   "George Orwell"
+  ],
+  "author_keys": [
+   "OL15318546A"
+  ],
+  "csv_author": "George Orwell",
+  "pub_year": 1949,
+  "page_count": 318,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9267242-L.jpg",
+  "avg_rating": 4.29,
+  "ratings_count": 455,
+  "publisher": null,
+  "description": "Nineteen Eighty-Four: A Novel, often referred to as 1984, is a dystopian social science fiction novel by the English novelist George Orwell (the pen name of Eric Arthur Blair). It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, Nineteen Eighty-Four centres on the consequences of totalitarianism, mass surveillance, and repressive regimentation of persons and behaviours within society. Orwell, himself a democratic socialist, modelled the authoritarian government in the novel after Stalinist Russia. More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated."
+ },
+ {
+  "title": "The Great Gatsby",
+  "match": "author",
+  "ol_key": "/works/OL468431W",
+  "ol_title": "The Great Gatsby",
+  "authors": [
+   "F. Scott Fitzgerald"
+  ],
+  "author_keys": [
+   "OL27349A"
+  ],
+  "csv_author": "F. Scott Fitzgerald",
+  "pub_year": 1920,
+  "page_count": 185,
+  "isbn": "9780199536405",
+  "cover_url": "https://covers.openlibrary.org/b/id/10590366-L.jpg",
+  "avg_rating": 3.99,
+  "ratings_count": 261,
+  "publisher": "Oxford University Press",
+  "description": "Here is a novel, glamorous, ironical, compassionate – a marvelous fusion into unity of the curious incongruities of the life of the period – which reveals a hero like no other – one who could live at no other time and in no other place. But he will live as a character, we surmise, as long as the memory of any reader lasts. \"There was something gorgeous about him, some heightened sensitivity to the promises of life.... It was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again.\" It is the story of this Jay Gatsby who came so mysteriously to West Egg, of his sumptuous entertainments, and of his love for Daisy Buchanan – a story that ranges from pure lyrical beauty to sheer brutal realism, and is infused with a sense of the strangeness of human circumstance in a heedless universe. It is a magical, living book, blended of irony, romance, and mysticism. \\--first edition jacket"
+ },
+ {
+  "title": "To Kill a Mockingbird",
+  "match": "author",
+  "ol_key": "/works/OL3140822W",
+  "ol_title": "To Kill a Mockingbird",
+  "authors": [
+   "Harper Lee"
+  ],
+  "author_keys": [
+   "OL498120A"
+  ],
+  "csv_author": "Harper Lee",
+  "pub_year": 1960,
+  "page_count": 320,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14351077-L.jpg",
+  "avg_rating": 4.14,
+  "ratings_count": 291,
+  "publisher": "J. B. Lippincott",
+  "description": "One of the best-loved stories of all time, To Kill a Mockingbird has been translated into more than 40 languages, sold more than 30 million copies worldwide, served as the basis for an enormously popular motion picture, and voted one of the best novels of the 20th century by librarians across the United States. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father -- a crusading local lawyer -- risks everything to defend a black man unjustly accused of a terrible crime. Lawyer Atticus Finch defends Tom Robinson -- a black man charged with the rape of a white girl. Writing through the young eyes of Finch's children Scout and Jem, Harper Lee explores with rich humor and unswerving honesty the irrationality of adult attitudes toward race and class in small-town Alabama during the mid-1930s Depression years. The conscience of a town steeped in prejudice, violence, and hypocrisy is pricked by the stamina and quiet heroism of one man's struggle for justice. But the weight of history will only tolerate so much."
+ },
+ {
+  "title": "Crime and Punishment",
+  "match": "author",
+  "ol_key": "/works/OL32525579W",
+  "ol_title": "Crime and Punishment",
+  "authors": [
+   "Michael R. Katz",
+   "Фёдор Михайлович Достоевский"
+  ],
+  "author_keys": [
+   "OL1350915A",
+   "OL22242A"
+  ],
+  "csv_author": "Fyodor Dostoevsky",
+  "pub_year": 1941,
+  "page_count": 551,
+  "isbn": "9781435131828",
+  "cover_url": "https://covers.openlibrary.org/b/id/13116014-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": "Barnes & Noble",
+  "description": null
+ },
+ {
+  "title": "Jane Eyre",
+  "match": "author",
+  "ol_key": "/works/OL1095427W",
+  "ol_title": "Jane Eyre",
+  "authors": [
+   "Charlotte Brontë"
+  ],
+  "author_keys": [
+   "OL113362A"
+  ],
+  "csv_author": "Charlotte Brontë",
+  "pub_year": 1847,
+  "page_count": 480,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8235363-L.jpg",
+  "avg_rating": 4.04,
+  "ratings_count": 192,
+  "publisher": "Harper & brothers",
+  "description": "The novel is set somewhere in the north of England. Jane's childhood at Gateshead Hall, where she is emotionally and physically abused by her aunt and cousins; her education at Lowood School, where she acquires friends and role models but also suffers privations and oppression; her time as the governess of Thornfield Hall, where she falls in love with her Byronic employer, Edward Rochester; her time with the Rivers family, during which her earnest but cold clergyman cousin, St John Rivers, proposes to her. Will she or will she not marry him?"
+ },
+ {
+  "title": "War and Peace",
+  "match": "author",
+  "ol_key": "/works/OL267171W",
+  "ol_title": "War and Peace",
+  "authors": [
+   "Leo Tolstoy"
+  ],
+  "author_keys": [
+   "OL26783A"
+  ],
+  "csv_author": "Leo Tolstoy",
+  "pub_year": 1845,
+  "page_count": 696,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12621906-L.jpg",
+  "avg_rating": 4.23,
+  "ratings_count": 44,
+  "publisher": null,
+  "description": "War and Peace delineates in graphic detail events surrounding the French invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of five Russian aristocratic families. The novel begins in the year 1805 during the reign of Tsar Alexander I and leads up to the 1812 French invasion of Russia by Napoleon. The era of Catherine the Great (1762–1796), when the royal court in Paris was the centre of western European civilization,[16] is still fresh in the minds of older people. Catherine, fluent in French and wishing to reshape Russia into a great European nation, made French the language of her royal court. For the next one hundred years, it became a social requirement for members of the Russian nobility to speak French and understand French culture.[16] This historical and cultural context in the aristocracy is reflected in War and Peace. Catherine's grandson, Alexander I, came to the throne in 1801 at the age of 24. In the novel, his mother, Marya Feodorovna, is the most powerful woman in the Russian court. War and Peace tells the story of five aristocratic families — the Bezukhovs, the Bolkonskys, the Rostovs, the Kuragins and the Drubetskoys—and the entanglements of their personal lives with the history of 1805–1813, principally Napoleon's invasion of Russia in 1812. The Bezukhovs, while very rich, are a fragmented family as the old Count, Kirill Vladimirovich, has fathered dozens of illegitimate sons."
+ },
+ {
+  "title": "The Catcher in the Rye",
+  "match": "author",
+  "ol_key": "/works/OL3335245W",
+  "ol_title": "The Catcher in the Rye",
+  "authors": [
+   "J. D. Salinger",
+   "Shao jia yun"
+  ],
+  "author_keys": [
+   "OL540486A",
+   "OL7766520A"
+  ],
+  "csv_author": "J.D. Salinger",
+  "pub_year": 1945,
+  "page_count": 240,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+  "avg_rating": 3.61,
+  "ratings_count": 418,
+  "publisher": null,
+  "description": "Story of Holden Caufield with his idiosyncrasies, penetrating insight, confusion, sensitivity and negativism. Holden, knowing he is to be expelled from school, decides to leave early. He spends three days in New York City and tells the story of what he did and suffered there."
+ },
+ {
+  "title": "The Odyssey",
+  "match": "author",
+  "ol_key": "/works/OL26446888W",
+  "ol_title": "The Odyssey",
+  "authors": [
+   "Ὅμηρος"
+  ],
+  "author_keys": [
+   "OL18404A"
+  ],
+  "csv_author": "Homer",
+  "pub_year": 1946,
+  "page_count": 352,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12474938-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 1,
+  "publisher": null,
+  "description": "A new translation of the epic poem retells the story of Odysseus's ten-year voyage home to Ithaca after the Trojan War."
+ },
+ {
+  "title": "Anna Karenina",
+  "match": "author",
+  "ol_key": "/works/OL26380516W",
+  "ol_title": "Anna Karenina",
+  "authors": [
+   "Лев Толстой"
+  ],
+  "author_keys": [
+   "OL26783A"
+  ],
+  "csv_author": "Leo Tolstoy",
+  "pub_year": 2014,
+  "page_count": 496,
+  "isbn": "9788497941648",
+  "cover_url": "https://covers.openlibrary.org/b/id/12327215-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Edimat Libros",
+  "description": null
+ },
+ {
+  "title": "Wuthering Heights",
+  "match": "author",
+  "ol_key": "/works/OL21177W",
+  "ol_title": "Wuthering Heights",
+  "authors": [
+   "Emily Brontë"
+  ],
+  "author_keys": [
+   "OL24529A"
+  ],
+  "csv_author": "Emily Brontë",
+  "pub_year": 1846,
+  "page_count": 318,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+  "avg_rating": 4.1,
+  "ratings_count": 312,
+  "publisher": "Nelson Doubleday",
+  "description": "Wuthering Heights is an 1847 novel by Emily Brontë, initially published under the pseudonym Ellis Bell. It concerns two families of the landed gentry living on the West Yorkshire moors, the Earnshaws and the Lintons, and their turbulent relationships with Earnshaw's adopted son, Heathcliff. The novel was influenced by Romanticism and Gothic fiction."
+ },
+ {
+  "title": "Brave New World",
+  "match": "author",
+  "ol_key": "/works/OL64365W",
+  "ol_title": "Brave New World",
+  "authors": [
+   "Aldous Huxley"
+  ],
+  "author_keys": [
+   "OL19767A"
+  ],
+  "csv_author": "Aldous Huxley",
+  "pub_year": 1932,
+  "page_count": 241,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8231823-L.jpg",
+  "avg_rating": 3.97,
+  "ratings_count": 490,
+  "publisher": null,
+  "description": "Originally published in 1932, this outstanding work of literature is more crucial and relevant today than ever before. Cloning, feel-good drugs, antiaging programs, and total social control through politics, programming, and media -- has Aldous Huxley accurately predicted our future? With a storyteller's genius, he weaves these ethical controversies in a compelling narrative that dawns in the year 632 AF (After Ford, the deity). When Lenina and Bernard visit a savage reservation, we experience how Utopia can destroy humanity. A powerful work of speculative fiction that has enthralled and terrified readers for generations, Brave New World is both a warning to be heeded and thought-provoking yet satisfying entertainment. - Container."
+ },
+ {
+  "title": "The Brothers Karamazov",
+  "match": "author",
+  "ol_key": "/works/OL24600223W",
+  "ol_title": "The Brothers Karamazov",
+  "authors": [
+   "Фёдор Михайлович Достоевский",
+   "Constance Garrett"
+  ],
+  "author_keys": [
+   "OL22242A",
+   "OL9271534A"
+  ],
+  "csv_author": "Fyodor Dostoevsky",
+  "pub_year": 2015,
+  "page_count": 867,
+  "isbn": "9781530117505",
+  "cover_url": "https://covers.openlibrary.org/b/id/11263774-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 1,
+  "publisher": "CreateSpace Independent Publishing Platform",
+  "description": null
+ },
+ {
+  "title": "Don Quixote",
+  "match": "author",
+  "ol_key": "/works/OL26799707W",
+  "ol_title": "Don Quixote",
+  "authors": [
+   "Miguel de Cervantes Saavedra"
+  ],
+  "author_keys": [
+   "OL66452A"
+  ],
+  "csv_author": "Miguel de Cervantes",
+  "pub_year": 2017,
+  "page_count": 398,
+  "isbn": "9781434104434",
+  "cover_url": "https://covers.openlibrary.org/b/id/13846974-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "The Editorium, LLC",
+  "description": null
+ },
+ {
+  "title": "The Iliad",
+  "match": "author",
+  "ol_key": "/works/OL27292338W",
+  "ol_title": "The Iliad",
+  "authors": [
+   "Όμηρος"
+  ],
+  "author_keys": [
+   "OL18404A"
+  ],
+  "csv_author": "Homer",
+  "pub_year": 1946,
+  "page_count": 564,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12621988-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": "Standard Ebooks",
+  "description": "<p>The <i>Iliad</i> is one of the oldest works of Western literature, dating back to classical antiquity. <a href=\"https://standardebooks.org/ebooks/homer\">Homer’s</a> epic poem belongs in a collection called the Epic Cycle, which includes the <i><a href=\"https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant\">Odyssey</a></i>. It was originally written in ancient Greek and utilized a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by converting his translation into blank verse.</p> <p>This epic poem begins with the Achaean army sacking the city of Chryse and capturing two maidens as prizes of war. One of the maidens, Chryseis, is given to Agamemnon, the leader of the Achaeans, and the other maiden, Briseis, was given to the army’s best warrior, Achilles. Chryseis’ father, the city’s priest, prays to the god Apollo and asks for a plague on the Achaean army. To stop this plague, Agamemnon returns Chryseis to her father, but then orders Achilles to give him Briseis as compensation. Achilles refuses.</p>"
+ },
+ {
+  "title": "Great Expectations",
+  "match": "author",
+  "ol_key": "/works/OL8721462W",
+  "ol_title": "Great Expectations",
+  "authors": [
+   "Charles Dickens"
+  ],
+  "author_keys": [
+   "OL24638A"
+  ],
+  "csv_author": "Charles Dickens",
+  "pub_year": 1861,
+  "page_count": 482,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/13322313-L.jpg",
+  "avg_rating": 3.78,
+  "ratings_count": 165,
+  "publisher": "Peebles Classic Library",
+  "description": "Great Expectations is the thirteenth novel by Charles Dickens and his penultimate completed novel. It depicts the education of an orphan nicknamed Pip (the book is a bildungsroman; a coming-of-age story). It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person. The novel was first published as a serial in Dickens's weekly periodical All the Year Round, from 1 December 1860 to August 1861. In October 1861, Chapman and Hall published the novel in three volumes. The novel is set in Kent and London in the early to mid-19th century and contains some of Dickens's most celebrated scenes, starting in a graveyard, where the young Pip is accosted by the escaped convict Abel Magwitch. Great Expectations is full of extreme imagery – poverty, prison ships and chains, and fights to the death – and has a colourful cast of characters who have entered popular culture. These include the eccentric Miss Havisham, the beautiful but cold Estella, and Joe, the unsophisticated and kind blacksmith. Dickens's themes include wealth and poverty, love and rejection, and the eventual triumph of good over evil. Great Expectations, which is popular both with readers and literary critics, has been translated into many languages and adapted numerous times into various media."
+ },
+ {
+  "title": "Ulysses",
+  "match": "author",
+  "ol_key": "/works/OL86318W",
+  "ol_title": "Ulysses",
+  "authors": [
+   "James Joyce"
+  ],
+  "author_keys": [
+   "OL31827A"
+  ],
+  "csv_author": "James Joyce",
+  "pub_year": 1914,
+  "page_count": 736,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/13136548-L.jpg",
+  "avg_rating": 3.67,
+  "ratings_count": 21,
+  "publisher": "Shakespeare",
+  "description": "Written over a seven-year period, from 1914 to 1921, this book has survived bowdlerization, legal action and controversy. The novel deals with the events of one day in Dublin, 16th June 1904, now known as \"Bloomsday\". The principal characters are Stephen Dedalus, Leopold Bloom and his wife Molly. Ulysses has been labelled dirty, blasphemous and unreadable. In a famous 1933 court decision, Judge John M. Woolsey declared it an emetic book-although he found it not quite obscene enough to disallow its importation into the United States-and Virginia Woolf was moved to decry James Joyce's \"cloacal obsession\". None of these descriptions, however, do the slightest justice to the novel. To this day it remains the modernist masterpiece, in which the author takes both Celtic lyricism and vulgarity to splendid extremes. It is funny, sorrowful, and even (in its own way) suspenseful. And despite the exegetical industry that has sprung up in the last 75 years, Ulysses is also a compulsively readable book."
+ },
+ {
+  "title": "Les Misérables",
+  "match": "author",
+  "ol_key": "/works/OL1063588W",
+  "ol_title": "Les Misérables",
+  "authors": [
+   "Victor Hugo"
+  ],
+  "author_keys": [
+   "OL107571A"
+  ],
+  "csv_author": "Victor Hugo",
+  "pub_year": 1862,
+  "page_count": 520,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
+  "avg_rating": 4.25,
+  "ratings_count": 60,
+  "publisher": "J. Hetzel et A. Lacroix",
+  "description": "In this story of the trials of the peasant Jean Valjean--a man unjustly imprisoned, baffled by destiny, and hounded by his nemesis, the magnificently realized, ambiguously malevolent police detective Javert--Hugo achieves the sort of rare imaginative resonance that allows a work of art to transcend its genre."
+ },
+ {
+  "title": "Dracula",
+  "match": "author",
+  "ol_key": "/works/OL85892W",
+  "ol_title": "Dracula",
+  "authors": [
+   "Bram Stoker"
+  ],
+  "author_keys": [
+   "OL31727A"
+  ],
+  "csv_author": "Bram Stoker",
+  "pub_year": 1897,
+  "page_count": 384,
+  "isbn": "9786052492840",
+  "cover_url": "https://covers.openlibrary.org/b/id/12216503-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 258,
+  "publisher": "Dorlion Yayinevi",
+  "description": "In the story, a couple and their friends are tormented by Count Dracula—a supernatural, blood-drinking entity bound by a contagious curse—who intends to leave his secluded castle in Transylvania for the bustling London of the 19th century. With the help of Professor Van Helsing, the group sets out to confront the undead, despite all the dangers such an offensive will entail."
+ },
+ {
+  "title": "Frankenstein",
+  "match": "author",
+  "ol_key": "/works/OL26860869W",
+  "ol_title": "Frankenstein",
+  "authors": [
+   "Mary Shelley"
+  ],
+  "author_keys": [
+   "OL25342A"
+  ],
+  "csv_author": "Mary Shelley",
+  "pub_year": 2017,
+  "page_count": 291,
+  "isbn": "9788445019795",
+  "cover_url": "https://covers.openlibrary.org/b/id/15266215-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": "Editorial Planeta",
+  "description": "Narra a história do Dr. Victor Frankenstein, um cientista ambicioso que cria uma criatura de forma monstruosa a partir de partes de cadáveres, e a subsequente tragédia que assola suas vidas após a criatura ser rejeitada e abandonada por seu criador."
+ },
+ {
+  "title": "The Divine Comedy",
+  "match": "author",
+  "ol_key": "/works/OL20915164W",
+  "ol_title": "The Divine Comedy",
+  "authors": [
+   "Dante Alighieri"
+  ],
+  "author_keys": [
+   "OL29303A"
+  ],
+  "csv_author": "Dante Alighieri",
+  "pub_year": 2013,
+  "page_count": null,
+  "isbn": "9781447242192",
+  "cover_url": "https://covers.openlibrary.org/b/id/10282707-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Picador",
+  "description": null
+ },
+ {
+  "title": "The Picture of Dorian Gray",
+  "match": "author",
+  "ol_key": "/works/OL8193416W",
+  "ol_title": "The Picture of Dorian Gray",
+  "authors": [
+   "Oscar Wilde"
+  ],
+  "author_keys": [
+   "OL20646A"
+  ],
+  "csv_author": "Oscar Wilde",
+  "pub_year": 1890,
+  "page_count": 246,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14314858-L.jpg",
+  "avg_rating": 4.18,
+  "ratings_count": 142,
+  "publisher": null,
+  "description": "The Picture of Dorian Gray is a philosophical novel by Irish writer Oscar Wilde. A shorter novella-length version was published in the July 1890 issue of the American periodical Lippincott’s Monthly Magazine. The novel-length version was published in April 1891. (Source: Wikipedia)"
+ },
+ {
+  "title": "The Hobbit",
+  "match": "author",
+  "ol_key": "/works/OL27482W",
+  "ol_title": "The Hobbit",
+  "authors": [
+   "J.R.R. Tolkien"
+  ],
+  "author_keys": [
+   "OL26320A"
+  ],
+  "csv_author": "J.R.R. Tolkien",
+  "pub_year": 1937,
+  "page_count": 310,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14627509-L.jpg",
+  "avg_rating": 4.29,
+  "ratings_count": 510,
+  "publisher": "Ballantine Books",
+  "description": "The Hobbit is a tale of high adventure, undertaken by a company of dwarves in search of dragon-guarded gold. A reluctant partner in this perilous quest is Bilbo Baggins, a comfort-loving unambitious hobbit, who surprises even himself by his resourcefulness and skill as a burglar. Encounters with trolls, goblins, dwarves, elves, and giant spiders, conversations with the dragon, Smaug, and a rather unwilling presence at the Battle of Five Armies are just some of the adventures that befall Bilbo. Bilbo Baggins has taken his place among the ranks of the immortals of children’s fiction. Written by Professor Tolkien for his children, The Hobbit met with instant critical acclaim when published."
+ },
+ {
+  "title": "Fahrenheit 451",
+  "match": "author",
+  "ol_key": "/works/OL103123W",
+  "ol_title": "Fahrenheit 451",
+  "authors": [
+   "Ray Bradbury"
+  ],
+  "author_keys": [
+   "OL24137A"
+  ],
+  "csv_author": "Ray Bradbury",
+  "pub_year": 1953,
+  "page_count": 190,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12993656-L.jpg",
+  "avg_rating": 3.98,
+  "ratings_count": 459,
+  "publisher": "Corgi Books",
+  "description": "Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. Often regarded as one of his best works, the novel presents a future American society where books are outlawed and \"firemen\" burn any that are found. The book's tagline explains the title as \"'the temperature at which book paper catches fire, and burns\": the autoignition temperature of paper. The lead character, Guy Montag, is a fireman who becomes disillusioned with his role of censoring literature and destroying knowledge, eventually quitting his job and committing himself to the preservation of literary and cultural writings. The novel has been the subject of interpretations focusing on the historical role of book burning in suppressing dissenting ideas for change. In a 1956 radio interview, Bradbury said that he wrote Fahrenheit 451 because of his concerns at the time (during the McCarthy era) about the threat of book burning in the United States. In later years, he described the book as a commentary on how mass media reduces interest in reading literature. In 1954, Fahrenheit 451 won the American Academy of Arts and Letters Award in Literature and the Commonwealth Club of California Gold Medal. It later won the Prometheus \"Hall of Fame\" Award in 1984 and a \"Retro\" Hugo Award, one of a limited number of Best Novel Retro Hugos ever given, in 2004. Bradbury was honored with a Spoken Word Grammy nomination for his 1976 audiobook version."
+ },
+ {
+  "title": "The Grapes of Wrath",
+  "match": "author",
+  "ol_key": "/works/OL23205W",
+  "ol_title": "The Grapes of Wrath",
+  "authors": [
+   "John Steinbeck"
+  ],
+  "author_keys": [
+   "OL25788A"
+  ],
+  "csv_author": "John Steinbeck",
+  "pub_year": 1939,
+  "page_count": 544,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12715902-L.jpg",
+  "avg_rating": 3.96,
+  "ratings_count": 113,
+  "publisher": "Modern Library",
+  "description": "Steinbeck’s classic novel of the Great Depression is as vivid now as ever. The story focuses on a family of Oklahoma sharecroppers, farmers who work another man’s land for a share of the crops. Driven from their home by drought and poverty they take to the road in a battered old truck and make their way to California to look for work. When they arrive they find hundreds of others like them being forced to work for breadline wages. they begin working as fruit pickers, strike-breakers replacing the people who have been trying to establish a union but their consciences force them to leave."
+ },
+ {
+  "title": "Of Mice and Men",
+  "match": "author",
+  "ol_key": "/works/OL23204W",
+  "ol_title": "Of Mice and Men",
+  "authors": [
+   "John Steinbeck"
+  ],
+  "author_keys": [
+   "OL25788A"
+  ],
+  "csv_author": "John Steinbeck",
+  "pub_year": 1937,
+  "page_count": 119,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14319003-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 313,
+  "publisher": null,
+  "description": "The second book in John Steinbeck’s labor trilogy, Of Mice and Men is a touching tale of two migrant laborers in search of work and eventual liberation from their social circumstances. Fiercely devoted to one another, George and Lennie plan to save up to finance their dream of someday owning a small piece of land. The pair seems unstoppable until tragedy strikes and their hopes come crashing down, forcing George to make a difficult decision regarding the welfare of his best friend. The novel is set on a ranch in Soledad, CA. Author Frank Bergon recalls reading Of Mice and Men for the first time as a teenager living in the San Joaquin Valley and remembers how he saw “as if in a jolt of light the ordinary surroundings of [his] life become worthy of literature.” Steinbeck works to propagate the notion that meaningful stories emerge from the marginalized; that even those on the fringes of society can make deserving contributions to the literary canon. Source: http://www.steinbeck.org/about-john/his-works/"
+ },
+ {
+  "title": "A Tale of Two Cities",
+  "match": "author",
+  "ol_key": "/works/OL8193465W",
+  "ol_title": "A Tale of Two Cities",
+  "authors": [
+   "Charles Dickens"
+  ],
+  "author_keys": [
+   "OL24638A"
+  ],
+  "csv_author": "Charles Dickens",
+  "pub_year": 1800,
+  "page_count": 388,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/13301713-L.jpg",
+  "avg_rating": 3.79,
+  "ratings_count": 210,
+  "publisher": null,
+  "description": "A Tale of Two Cities is a historical novel published in 1859 by Charles Dickens, set in London and Paris before and during the French Revolution. The novel tells the story of the French Doctor Manette, his 18-year-long imprisonment in the Bastille in Paris, and his release to live in London with his daughter Lucie whom he had never met. The story is set against the conditions that led up to the French Revolution and the Reign of Terror. In the Introduction to the Encyclopedia of Adventure Fiction, critic Don D'Ammassa argues that it is an adventure novel because the protagonists are in constant danger of being imprisoned or killed. As Dickens's best-known work of historical fiction, A Tale of Two Cities is said to be one of the best-selling novels of all time. In 2003, the novel was ranked 63rd on the BBC's The Big Read poll. The novel has been adapted for film, television, radio, and the stage, and has continued to influence popular culture."
+ },
+ {
+  "title": "The Count of Monte Cristo",
+  "match": "author",
+  "ol_key": "/works/OL43161739W",
+  "ol_title": "The Count of Monte Cristo",
+  "authors": [
+   "Alexandre Dumas"
+  ],
+  "author_keys": [
+   "OL6819624A"
+  ],
+  "csv_author": "Alexandre Dumas",
+  "pub_year": 1964,
+  "page_count": 242,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14937760-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Playmore,Inc.",
+  "description": "Thrown in prison for a crime he has not committed, Edmond Dantès is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape, but also to use the treasure to plot the destruction of the three men responsible for his incarceration."
+ },
+ {
+  "title": "Madame Bovary",
+  "match": "author",
+  "ol_key": "/works/OL893707W",
+  "ol_title": "Madame Bovary",
+  "authors": [
+   "Gustave Flaubert"
+  ],
+  "author_keys": [
+   "OL79039A"
+  ],
+  "csv_author": "Gustave Flaubert",
+  "pub_year": 1856,
+  "page_count": 351,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12993424-L.jpg",
+  "avg_rating": 3.74,
+  "ratings_count": 58,
+  "publisher": "Editions Minerve",
+  "description": "Charles Bovary, médecin de campagne, veuf d'une mégère, fait lors d'une tournée la rencontre du père Rouault et de sa fille, Emma. Après leur mariage, Emma reste insatisfaite et rêve d'une nouvelle vie. Son premier amant lui donne le goût du luxe et fait miroiter un avenir à deux avant de l'abandonner. Une fois remise, Emma continue à faire de folles dépenses, qui peu à peu la mènent à la ruine et au déshonneur. (Résumé par Nadine)"
+ },
+ {
+  "title": "The Sun Also Rises",
+  "match": "author",
+  "ol_key": "/works/OL62979W",
+  "ol_title": "The Sun Also Rises",
+  "authors": [
+   "Ernest Hemingway"
+  ],
+  "author_keys": [
+   "OL13640A"
+  ],
+  "csv_author": "Ernest Hemingway",
+  "pub_year": 1926,
+  "page_count": 249,
+  "isbn": "9780099908500",
+  "cover_url": "https://covers.openlibrary.org/b/id/78741-L.jpg",
+  "avg_rating": 3.78,
+  "ratings_count": 36,
+  "publisher": "Arrow Books Ltd",
+  "description": "Hemingway's profile of the Lost Generation captures life among the expatriates on Paris' Left Bank during the 1920s, the brutality of bullfighting in Spain, and the moral and spiritual dissolution of a generation."
+ },
+ {
+  "title": "The Old Man and the Sea",
+  "match": "author",
+  "ol_key": "/works/OL63073W",
+  "ol_title": "The Old Man and the Sea",
+  "authors": [
+   "Ernest Hemingway"
+  ],
+  "author_keys": [
+   "OL13640A"
+  ],
+  "csv_author": "Ernest Hemingway",
+  "pub_year": 1952,
+  "page_count": 131,
+  "isbn": "9780736651776",
+  "cover_url": "https://covers.openlibrary.org/b/id/463307-L.jpg",
+  "avg_rating": 3.91,
+  "ratings_count": 246,
+  "publisher": "Books on Tape",
+  "description": "Set in the Gulf Stream off the coast of Havana, Hemingway's magnificent fable is the tale of an old man, a young boy and a giant fish. This story of heroic endeavour won Hemingway the Nobel Prize for Literature. It stands as a unique and timeless vision of the beauty and grief of man's challenge to the elements."
+ },
+ {
+  "title": "The Stranger",
+  "match": "title",
+  "ol_key": "/works/OL17358805W",
+  "ol_title": "The Stranger",
+  "authors": [
+   "Harlan Coben"
+  ],
+  "author_keys": [
+   "OL39821A"
+  ],
+  "csv_author": "Albert Camus",
+  "pub_year": 2015,
+  "page_count": 400,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/7436648-L.jpg",
+  "avg_rating": 3.75,
+  "ratings_count": 8,
+  "publisher": "Dutton",
+  "description": "The Stranger appears out of nowhere, perhaps in a bar, or a parking lot, or at the grocery store. His identity is unknown. His motives are unclear. His information is undeniable. Then he whispers a few words in your ear and disappears, leaving you picking up the pieces of your shattered world. Adam Price has a lot to lose: a comfortable marriage to a beautiful woman, two wonderful sons, and all the trappings of the American Dream: a big house, a good job, a seemingly perfect life. Then he runs into the Stranger. When he learns a devastating secret about his wife, Corinne, he confronts her, and the mirage of perfection disappears as if it never existed at all. Soon Adam finds himself tangled in something far darker than even Corinne's deception, and realizes that if he doesn't make exactly the right moves, the conspiracy he's stumbled into will not only ruin lives -- it will end them."
+ },
+ {
+  "title": "Lolita",
+  "match": "author",
+  "ol_key": "/works/OL627084W",
+  "ol_title": "Lolita",
+  "authors": [
+   "Vladimir Nabokov"
+  ],
+  "author_keys": [
+   "OL48139A"
+  ],
+  "csv_author": "Vladimir Nabokov",
+  "pub_year": 1777,
+  "page_count": 336,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12984540-L.jpg",
+  "avg_rating": 3.96,
+  "ratings_count": 116,
+  "publisher": "Crest Giant",
+  "description": "Lolita is a 1955 novel written by Russian-American novelist Vladimir Nabokov. The novel is notable for its controversial subject: the protagonist and unreliable narrator, a middle-aged literature professor under the pseudonym Humbert Humbert, is obsessed with a 12-year-old girl, Dolores Haze, whom he sexually molests after he becomes her stepfather. \"Lolita\" is his private nickname for Dolores. The novel was originally written in English and first published in Paris in 1955 by Olympia Press. Later it was translated into Russian by Nabokov himself and published in New York City in 1967 by Phaedra Publishers."
+ },
+ {
+  "title": "Heart of Darkness",
+  "match": "author",
+  "ol_key": "/works/OL38663W",
+  "ol_title": "Heart of Darkness",
+  "authors": [
+   "Joseph Conrad"
+  ],
+  "author_keys": [
+   "OL19441A"
+  ],
+  "csv_author": "Joseph Conrad",
+  "pub_year": 1899,
+  "page_count": 136,
+  "isbn": "9789753204767",
+  "cover_url": "https://covers.openlibrary.org/b/id/12307847-L.jpg",
+  "avg_rating": 3.62,
+  "ratings_count": 146,
+  "publisher": "Engin Yayınevi",
+  "description": "Heart of Darkness (1899) is a novella by Polish-English novelist Joseph Conrad, about a voyage up the Congo River into the Congo Free State, in the heart of Africa, by the story's narrator Charles Marlow. Marlow tells his story to friends aboard a boat anchored on the River Thames. Joseph Conrad is one of the greatest English writers, and Heart of Darkness is considered his best. His readers are brought to face our psychological selves to answer, ‘Who is the true savage?’. Originally published in 1902, Heart of Darkness remains one of this century’s most enduring works of fiction. Written several years after Joseph Conrad’s grueling sojourn in the Belgian Congo, the novel is a complex meditation on colonialism, evil, and the thin line between civilization and barbarity."
+ },
+ {
+  "title": "The Sound and the Fury",
+  "match": "author",
+  "ol_key": "/works/OL82870W",
+  "ol_title": "The Sound and the Fury",
+  "authors": [
+   "William Faulkner"
+  ],
+  "author_keys": [
+   "OL21831A"
+  ],
+  "csv_author": "William Faulkner",
+  "pub_year": 1929,
+  "page_count": 358,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8292212-L.jpg",
+  "avg_rating": 3.88,
+  "ratings_count": 8,
+  "publisher": "Vintage Books",
+  "description": "In many ways this was an experimental novel, using several differing narrative styles. Divided into four parts, the author relates the same episodes from four different viewpoints, using a different style for each. The story concerns various members of a Southern family, once wealthy landowners but now struggling to maintain their reputation."
+ },
+ {
+  "title": "One Hundred Years of Solitude",
+  "match": "author",
+  "ol_key": "/works/OL43108828W",
+  "ol_title": "One Hundred Years of Solitude",
+  "authors": [
+   "Gabriel Garcia Marquez"
+  ],
+  "author_keys": [
+   "OL15290656A"
+  ],
+  "csv_author": "Gabriel García Márquez",
+  "pub_year": 1971,
+  "page_count": 417,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/15185412-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "A Bard Book",
+  "description": null
+ },
+ {
+  "title": "Invisible Man",
+  "match": "author",
+  "ol_key": "/works/OL495470W",
+  "ol_title": "Invisible Man",
+  "authors": [
+   "Ralph Ellison"
+  ],
+  "author_keys": [
+   "OL32983A"
+  ],
+  "csv_author": "Ralph Ellison",
+  "pub_year": 1952,
+  "page_count": 480,
+  "isbn": "9783250102663",
+  "cover_url": "https://covers.openlibrary.org/b/id/998256-L.jpg",
+  "avg_rating": 4.05,
+  "ratings_count": 19,
+  "publisher": "Ammann",
+  "description": "Invisible Man is the story of a young black man from the South who does not fully understand racism in the world. Filled with hope about his future, he goes to college, but gets expelled for showing one of the white benefactors the real and seamy side of black existence. He moves to Harlem and becomes an orator for the Communist party, known as the Brotherhood. In his position, he is both threatened and praised, swept up in a world he does not fully understand. As he works for the organization, he encounters many people and situations that slowly force him to face the truth about racism and his own lack of identity. As racial tensions in Harlem continue to build, he gets caught up in a riot that drives him to a manhole. In the darkness and solitude of the manhole, he begins to understand himself - his invisibility and his identity. He decides to write his story down (the body of the novel) and when he is finished, he vows to enter the world again."
+ },
+ {
+  "title": "Beloved",
+  "match": "author",
+  "ol_key": "/works/OL50548W",
+  "ol_title": "Beloved",
+  "authors": [
+   "Toni Morrison"
+  ],
+  "author_keys": [
+   "OL31120A"
+  ],
+  "csv_author": "Toni Morrison",
+  "pub_year": 1987,
+  "page_count": 321,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8261367-L.jpg",
+  "avg_rating": 3.91,
+  "ratings_count": 75,
+  "publisher": "Knopf",
+  "description": "Toni Morrison--author of Song of Solomon and Tar Baby--is a writer of remarkable powers: her novels, brilliantly acclaimed for their passion, their dazzling language and their lyric and emotional force, combine the unassailable truths of experience and emotion with the vision of legend and imagination. It is the story--set in post-Civil War Ohio--of Sethe, an escaped slave who has risked death in order to wrench herself from a living death; who has lost a husband and buried a child; who has borne the unthinkable and not gone mad: a woman of \"iron eyes and backbone to match.\" Sethe lives in a small house on the edge of town with her daughter, Denver, her mother-in-law, Baby Suggs, and a disturbing, mesmerizing intruder who calls herself Beloved. Sethe works at \"beating back the past,\" but it is alive in all of them. It keeps Denver fearful of straying from the house. It fuels the sadness that has settled into Baby Suggs' \"desolated center where the self that was no self made its home.\" And to Sethe, the past makes itself heard and felt incessantly: in memories that both haunt and soothe her...in the arrival of Paul D (\"There was something blessed in his manner."
+ },
+ {
+  "title": "Slaughterhouse-Five",
+  "match": "author",
+  "ol_key": "/works/OL98459W",
+  "ol_title": "Slaughterhouse-Five",
+  "authors": [
+   "Kurt Vonnegut"
+  ],
+  "author_keys": [
+   "OL20187A"
+  ],
+  "csv_author": "Kurt Vonnegut",
+  "pub_year": 1956,
+  "page_count": 203,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
+  "avg_rating": 4.17,
+  "ratings_count": 263,
+  "publisher": "Delta",
+  "description": "Slaughterhouse-Five is one of the world's great anti-war books. Centering on the infamous fire-bombing of Dresden, Billy Pilgrim's odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we are afraid to know."
+ },
+ {
+  "title": "Catch-22",
+  "match": "author",
+  "ol_key": "/works/OL276798W",
+  "ol_title": "Catch-22",
+  "authors": [
+   "Joseph Heller"
+  ],
+  "author_keys": [
+   "OL33512A"
+  ],
+  "csv_author": "Joseph Heller",
+  "pub_year": 1961,
+  "page_count": 463,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/6468653-L.jpg",
+  "avg_rating": 4.1,
+  "ratings_count": 211,
+  "publisher": "Dell Pub. Co.",
+  "description": "Catch-22 is like no other novel. It has its own rationale, its own extraordinary character. It moves back and forth from hilarity to horror. It is outrageously funny and strangely affecting. It is totally original. Set in the closing months of World War II in an American bomber squadron off Italy, Catch-22 is the story of a bombardier named Yossarian, who is frantic and furious because thousands of people he hasn't even met keep trying to kill him. Catch-22 is a microcosm of the twentieth-century world as it might look to someone dangerously sane. It is a novel that lives and moves and grows with astonishing power and vitality -- a masterpiece of our time. - Back cover."
+ },
+ {
+  "title": "A Clockwork Orange",
+  "match": "author",
+  "ol_key": "/works/OL261794W",
+  "ol_title": "A Clockwork Orange",
+  "authors": [
+   "Anthony Burgess"
+  ],
+  "author_keys": [
+   "OL142238A"
+  ],
+  "csv_author": "Anthony Burgess",
+  "pub_year": 1962,
+  "page_count": 192,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14430663-L.jpg",
+  "avg_rating": 4.03,
+  "ratings_count": 73,
+  "publisher": "W. W. Norton & Company",
+  "description": "A Clockwork Orange is a dystopian satirical black comedy novel by English writer Anthony Burgess, published in 1962. It is set in a near-future society that has a youth subculture of extreme violence. The teenage protagonist, Alex, narrates his violent exploits and his experiences with state authorities intent on reforming him. The book is partially written in a Russian-influenced argot called \"Nadsat\", which takes its name from the Russian suffix that is equivalent to '-teen' in English. According to Burgess, it was a jeu d'esprit written in just three weeks. In 2005, A Clockwork Orange was included on Time magazine's list of the 100 best English-language novels written since 1923, and it was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. The original manuscript of the book has been kept at McMaster University's William Ready Division of Archives and Research Collections in Hamilton, Ontario, Canada since the institution purchased the documents in 1971. It is considered one of the most influential dystopian books."
+ },
+ {
+  "title": "The Trial",
+  "match": "author",
+  "ol_key": "/works/OL43043884W",
+  "ol_title": "The Trial",
+  "authors": [
+   "Franz Kafka"
+  ],
+  "author_keys": [
+   "OL33146A"
+  ],
+  "csv_author": "Franz Kafka",
+  "pub_year": 1925,
+  "page_count": 340,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14910748-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Random House, Inc.",
+  "description": null
+ },
+ {
+  "title": "The Metamorphosis",
+  "match": "author",
+  "ol_key": "/works/OL46332398W",
+  "ol_title": "The Metamorphosis",
+  "authors": [
+   "Franz Kafka"
+  ],
+  "author_keys": [
+   "OL33146A"
+  ],
+  "csv_author": "Franz Kafka",
+  "pub_year": 2024,
+  "page_count": null,
+  "isbn": "9786230977732",
+  "cover_url": "https://covers.openlibrary.org/b/id/15276186-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Norris Book",
+  "description": null
+ },
+ {
+  "title": "Rebecca",
+  "match": "author",
+  "ol_key": "/works/OL36633W",
+  "ol_title": "Rebecca",
+  "authors": [
+   "Daphne du Maurier"
+  ],
+  "author_keys": [
+   "OL34047A"
+  ],
+  "csv_author": "Daphne du Maurier",
+  "pub_year": 1938,
+  "page_count": 386,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8238729-L.jpg",
+  "avg_rating": 4.16,
+  "ratings_count": 57,
+  "publisher": null,
+  "description": "With these words, the reader is ushered into an isolated gray stone mansion on the windswept Cornish coast, as the second Mrs. Maxim de Winter recalls the chilling events that transpired as she began her new life as the young bride of a husband she barely knew. For in every corner of every room were phantoms of a time dead but not forgotten—a past devotedly preserved by the sinister housekeeper, Mrs. Danvers: a suite immaculate and untouched, clothing laid out and ready to be worn, but not by any of the great house's current occupants. With an eerie presentiment of evil tightening her heart, the second Mrs. de Winter walked in the shadow of her mysterious predecessor, determined to uncover the darkest secrets and shattering truths about Maxim's first wife—the late and hauntingly beautiful Rebecca."
+ },
+ {
+  "title": "The Scarlet Letter",
+  "match": "author",
+  "ol_key": "/works/OL455305W",
+  "ol_title": "The Scarlet Letter",
+  "authors": [
+   "Nathaniel Hawthorne"
+  ],
+  "author_keys": [
+   "OL26681A"
+  ],
+  "csv_author": "Nathaniel Hawthorne",
+  "pub_year": 1800,
+  "page_count": 272,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/5654516-L.jpg",
+  "avg_rating": 3.42,
+  "ratings_count": 135,
+  "publisher": "J.R. Osgood",
+  "description": "A stark and allegorical tale of adultery, guilt, and social repression in Puritan New England, The Scarlet Letter is a foundational work of American literature. Nathaniel Hawthorne's exploration of the dichotomy between the public and private self, internal passion and external convention, gives us the unforgettable Hester Prynne, who discovers strength in the face of ostracism and emerges as a heroine ahead of her time."
+ },
+ {
+  "title": "Treasure Island",
+  "match": "author",
+  "ol_key": "/works/OL24034W",
+  "ol_title": "Treasure Island",
+  "authors": [
+   "Robert Louis Stevenson"
+  ],
+  "author_keys": [
+   "OL25963A"
+  ],
+  "csv_author": "Robert Louis Stevenson",
+  "pub_year": 1880,
+  "page_count": 248,
+  "isbn": "9781984916129",
+  "cover_url": "https://covers.openlibrary.org/b/id/13859660-L.jpg",
+  "avg_rating": 3.78,
+  "ratings_count": 111,
+  "publisher": "CreateSpace Independent Publishing Platform",
+  "description": "Traditionally considered a coming-of-age story, Treasure Island is an adventure tale known for its atmosphere, characters and action, and also as a wry commentary on the ambiguity of morality — as seen in Long John Silver — unusual for children's literature then and now. It is one of the most frequently dramatized of all novels. The influence of Treasure Island on popular perceptions of pirates is enormous, including treasure maps marked with an \"X\", schooners, the Black Spot, tropical islands, and one-legged seamen carrying parrots on their shoulders"
+ },
+ {
+  "title": "David Copperfield",
+  "match": "author",
+  "ol_key": "/works/OL8662242W",
+  "ol_title": "David Copperfield",
+  "authors": [
+   "Charles Dickens"
+  ],
+  "author_keys": [
+   "OL24638A"
+  ],
+  "csv_author": "Charles Dickens",
+  "pub_year": 1800,
+  "page_count": 742,
+  "isbn": "9788772475080",
+  "cover_url": "https://covers.openlibrary.org/b/id/1048892-L.jpg",
+  "avg_rating": 4.47,
+  "ratings_count": 15,
+  "publisher": "Scandinavia",
+  "description": "It adds to the charm of this book to remember that it is virtually a picture of the author's own boyhood. It is an excellent picture of the life of a struggling English youth in the middle of the last century. The pictures of Canterbury and London are true pictures and through these pages walk one of Dickens' wonderful processions of characters, quaint and humorous, villainous and tragic. Nobody cares for Dickens heroines, least of all for Dora, but take it all in al, l this book is enjoyed by young people more than any other of the great novelist. After having read this you will wish to read Nicholas Nickleby for its mingling of pathos and humor, Martin Chuzzlewit for its pictures of American life as seen through English eyes, and Pickwick Papers for its crude but boisterous humor."
+ },
+ {
+  "title": "Middlemarch",
+  "match": "author",
+  "ol_key": "/works/OL20867W",
+  "ol_title": "Middlemarch",
+  "authors": [
+   "George Eliot"
+  ],
+  "author_keys": [
+   "OL24528A"
+  ],
+  "csv_author": "George Eliot",
+  "pub_year": 1800,
+  "page_count": 783,
+  "isbn": "9780393974522",
+  "cover_url": "https://covers.openlibrary.org/b/id/252882-L.jpg",
+  "avg_rating": 4.14,
+  "ratings_count": 28,
+  "publisher": "W. W. Norton",
+  "description": "Eliot’s epic of 19th century provincial social life, set in a fictitious Midlands town in the years 1830-32, has several interlocking storylines blended effortlessly together to form a fully coherent narrative. Its main themes are the status of women, social expectations and hypocrisy, religion, political reform and education. It has often been called the greatest novel in the English language."
+ },
+ {
+  "title": "Emma",
+  "match": "author",
+  "ol_key": "/works/OL66513W",
+  "ol_title": "Emma",
+  "authors": [
+   "Jane Austen"
+  ],
+  "author_keys": [
+   "OL21594A"
+  ],
+  "csv_author": "Jane Austen",
+  "pub_year": 1815,
+  "page_count": 457,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9278312-L.jpg",
+  "avg_rating": 3.99,
+  "ratings_count": 67,
+  "publisher": "Macmillan",
+  "description": "Emma, by Jane Austen, is a novel about youthful hubris and the perils of misconstrued romance. The novel was first published in December 1815. As in her other novels, Austen explores the concerns and difficulties of genteel women living in Georgian-Regency England; she also creates a lively comedy of manners among her characters. Before she began the novel, Austen wrote, \"I am going to take a heroine whom no one but myself will much like.\" In the very first sentence she introduces the title character as \"Emma Woodhouse, handsome, clever, and rich.\" Emma, however, is also rather spoiled, headstrong, and self-satisfied; she greatly overestimates her own matchmaking abilities; she is blind to the dangers of meddling in other people's lives; and her imagination and perceptions often lead her astray."
+ },
+ {
+  "title": "Sense and Sensibility",
+  "match": "author",
+  "ol_key": "/works/OL66562W",
+  "ol_title": "Sense and Sensibility",
+  "authors": [
+   "Jane Austen"
+  ],
+  "author_keys": [
+   "OL21594A"
+  ],
+  "csv_author": "Jane Austen",
+  "pub_year": 1811,
+  "page_count": 352,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9278292-L.jpg",
+  "avg_rating": 3.9,
+  "ratings_count": 58,
+  "publisher": "Macmillan and co.",
+  "description": "When Mr. Dashwood dies, he must leave the bulk of his estate to the son by his first marriage, which leaves his second wife and three daughters (Elinor, Marianne, and Margaret) in straitened circumstances. They are taken in by a kindly cousin, but their lack of fortune affects the marriageability of both practical Elinor and romantic Marianne. When Elinor forms an attachment for the wealthy Edward Ferrars, his family disapproves and separates them. And though Mrs. Jennings tries to match the worthy (and rich) Colonel Brandon to her, Marianne finds the dashing and fiery Willoughby more to her taste. Both relationships are sorely tried. But this is a romance, and through the hardships and heartbreak, true love and a happy ending will find their way for both the sister who is all sense and the one who is all sensibility. - Publisher."
+ },
+ {
+  "title": "Persuasion",
+  "match": "author",
+  "ol_key": "/works/OL66544W",
+  "ol_title": "Persuasion",
+  "authors": [
+   "Jane Austen"
+  ],
+  "author_keys": [
+   "OL21594A"
+  ],
+  "csv_author": "Jane Austen",
+  "pub_year": 1789,
+  "page_count": 268,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12824691-L.jpg",
+  "avg_rating": 4.05,
+  "ratings_count": 59,
+  "publisher": null,
+  "description": "Persuasion tells the love story of Anne Elliot and Captain Frederick Wentworth, whose sister rents Miss Elliot's father's house, after the Napoleonic Wars come to an end. The story is set in 1814. The book itself is Jane Austen's last published book, published posthumously in December of 1818."
+ },
+ {
+  "title": "Northanger Abbey",
+  "match": "author",
+  "ol_key": "/works/OL66534W",
+  "ol_title": "Northanger Abbey",
+  "authors": [
+   "Jane Austen"
+  ],
+  "author_keys": [
+   "OL21594A"
+  ],
+  "csv_author": "Jane Austen",
+  "pub_year": 1818,
+  "page_count": 251,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12567961-L.jpg",
+  "avg_rating": 3.83,
+  "ratings_count": 48,
+  "publisher": "J. M. Dent & Co.",
+  "description": "Northanger Abbey is both a perfectly aimed literary parody and a withering satire of the commercial aspects of marriage among the English gentry at the turn of the nineteenth century. But most of all, it is the story of the initiation into life of its naïve but sweetly appealing heroine, Catherine Morland, a willing victim of the contemporary craze for Gothic literature who is determined to see herself as the heroine of a dark and thrilling romance. When Catherine is invited to Northanger Abbey, the grand though forbidding ancestral seat of her suitor, Henry Tilney, she finds herself embroiled in a real drama of misapprehension, mistreatment, and mortification, until common sense and humor—and a crucial clarification of Catherine’s financial status—puts all to right. Written in 1798 but not published until after Austen’s death in 1817, Northanger Abbey is characteristically clearheaded and strong, and infinitely subtle in its comedy."
+ },
+ {
+  "title": "Oliver Twist",
+  "match": "author",
+  "ol_key": "/works/OL8193478W",
+  "ol_title": "Oliver Twist",
+  "authors": [
+   "Charles Dickens"
+  ],
+  "author_keys": [
+   "OL24638A"
+  ],
+  "csv_author": "Charles Dickens",
+  "pub_year": 1822,
+  "page_count": 414,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/13300802-L.jpg",
+  "avg_rating": 4.1,
+  "ratings_count": 84,
+  "publisher": null,
+  "description": "Oliver Twist; or, The Parish Boy's Progress, is the second novel by English author Charles Dickens. It was originally published as a serial from 1837 to 1839, and as a three-volume book in 1838. The story follows the titular orphan, who, after being raised in a workhouse, escapes to London, where he meets a gang of juvenile pickpockets led by the elderly criminal Fagin, discovers the secrets of his parentage, and reconnects with his remaining family. Oliver Twist unromantically portrays the sordid lives of criminals, and exposes the cruel treatment of the many orphans in London in the mid-19th century.[2] The alternative title, The Parish Boy's Progress, alludes to Bunyan's The Pilgrim's Progress, as well as the 18th-century caricature series by painter William Hogarth, A Rake's Progress and A Harlot's Progress. In an early example of the social novel, Dickens satirises child labour, domestic violence, the recruitment of children as criminals, and the presence of street children. The novel may have been inspired by the story of Robert Blincoe, an orphan whose account of working as a child labourer in a cotton mill was widely read in the 1830s. It is likely that Dickens's own experiences as a youth contributed as well, considering he spent two years of his life in the workhouse at the age of 12 and subsequently, missed out on some of his education."
+ },
+ {
+  "title": "Bleak House",
+  "match": "author",
+  "ol_key": "/works/OL14868510W",
+  "ol_title": "Bleak House",
+  "authors": [
+   "Charles Dickens"
+  ],
+  "author_keys": [
+   "OL24638A"
+  ],
+  "csv_author": "Charles Dickens",
+  "pub_year": 1850,
+  "page_count": 817,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9279273-L.jpg",
+  "avg_rating": 3.83,
+  "ratings_count": 18,
+  "publisher": "Bradbury and Evans",
+  "description": "As the interminable case of Jarndyce and Jarndyce grinds its way through the Court of Chancery, it draws together a disparate group of people: Ada and Richard Clare, whose inheritance is gradually being devoured by legal costs; Esther Summerson, a ward of court, whose parentage is a source of deepening mystery; the menacing lawyer Tulkinghorn; the determined sleuth Inspector Bucket; and even Jo, the destitute little crossing-sweeper. A savage, but often comic, indictment of a society that is rotten to the core, Bleak House is one of Dickens's most ambitious novels, with a range that extends from the drawing rooms of the aristocracy to the poorest of London slums."
+ },
+ {
+  "title": "The Adventures of Huckleberry Finn",
+  "match": "author",
+  "ol_key": "/works/OL14910638W",
+  "ol_title": "The Adventures of Huckleberry Finn",
+  "authors": [
+   "Garrison Keillor",
+   "Mark Twain"
+  ],
+  "author_keys": [
+   "OL22428A",
+   "OL18319A"
+  ],
+  "csv_author": "Mark Twain",
+  "pub_year": 1996,
+  "page_count": 3,
+  "isbn": "9780453009614",
+  "cover_url": "https://covers.openlibrary.org/b/id/1237481-L.jpg",
+  "avg_rating": 1.0,
+  "ratings_count": 1,
+  "publisher": "Highbridge Audio",
+  "description": null
+ },
+ {
+  "title": "The Adventures of Tom Sawyer",
+  "match": "author",
+  "ol_key": "/works/OL53919W",
+  "ol_title": "The Adventures of Tom Sawyer",
+  "authors": [
+   "Mark Twain"
+  ],
+  "author_keys": [
+   "OL18319A"
+  ],
+  "csv_author": "Mark Twain",
+  "pub_year": 1817,
+  "page_count": 253,
+  "isbn": "9781725153998",
+  "cover_url": "https://covers.openlibrary.org/b/id/12043351-L.jpg",
+  "avg_rating": 3.95,
+  "ratings_count": 169,
+  "publisher": "Createspace Independent Publishing Platform",
+  "description": "Mark Twain created the memorable characters Tom Sawyer and Huckleberry Finn drawing from the experiences of boys he grew up with in Missouri. Set by the Mississippi River in the 1840's, it follows these boys as they get into predicament after predicament. Tom's classic whitewashing of the fence has become part of American legend, and the book paints a nostalgic picture of life in the middle of the nineteenth century. Tom runs away from home to an island in the river, chases Injun Joe and his treasure, and even gets trapped in a cave for days with Becky Thatcher. The book is one of Twain's most beloved stories."
+ },
+ {
+  "title": "The Call of the Wild",
+  "match": "author",
+  "ol_key": "/works/OL14942956W",
+  "ol_title": "The Call of the Wild",
+  "authors": [
+   "Jack London"
+  ],
+  "author_keys": [
+   "OL44633A"
+  ],
+  "csv_author": "Jack London",
+  "pub_year": 1903,
+  "page_count": 128,
+  "isbn": "9781673349511",
+  "cover_url": "https://covers.openlibrary.org/b/id/12393037-L.jpg",
+  "avg_rating": 3.94,
+  "ratings_count": 87,
+  "publisher": "Independently published",
+  "description": "As Buck, a mixed breed dog, is taken away from his home, instead of facing a feast for breakfast and the comforts of home, he faces the hardships of being a sled dog. Soon he lands in the wrong hands, being forced to keep going when it is too rough for him and the other dogs in his pack. He also fights the urges to run free with his ancestors, the wolves who live around where he is pulling the sled."
+ },
+ {
+  "title": "White Fang",
+  "match": "author",
+  "ol_key": "/works/OL74504W",
+  "ol_title": "White Fang",
+  "authors": [
+   "Jack London"
+  ],
+  "author_keys": [
+   "OL44633A"
+  ],
+  "csv_author": "Jack London",
+  "pub_year": 1905,
+  "page_count": 237,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8236920-L.jpg",
+  "avg_rating": 4.03,
+  "ratings_count": 68,
+  "publisher": "Regent Press",
+  "description": "The story of a wolf/dog cross, who is raised by Indians, and becomes a deadly fighter."
+ },
+ {
+  "title": "The Jungle",
+  "match": "author",
+  "ol_key": "/works/OL114967W",
+  "ol_title": "The Jungle",
+  "authors": [
+   "Upton Sinclair"
+  ],
+  "author_keys": [
+   "OL19024A"
+  ],
+  "csv_author": "Upton Sinclair",
+  "pub_year": 1791,
+  "page_count": 350,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8231790-L.jpg",
+  "avg_rating": 4.27,
+  "ratings_count": 99,
+  "publisher": "Doubleday, Page & Company",
+  "description": "Upton Sinclair's dramatic and deeply moving story exposed the brutal conditions in the Chicago stockyards at the turn of the nineteenth century and brought into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share of the American dream. Denounced by the conservative press as an un-American libel on the meatpacking industry, the book was championed by more progressive thinkers, including then President Theodore Roosevelt, and was a major catalyst to the passing of the Pure Food and Meat Inspection act, which has tremendous impact to this day."
+ },
+ {
+  "title": "Siddhartha",
+  "match": "author",
+  "ol_key": "/works/OL872932W",
+  "ol_title": "Siddhartha",
+  "authors": [
+   "Hermann Hesse"
+  ],
+  "author_keys": [
+   "OL76437A"
+  ],
+  "csv_author": "Hermann Hesse",
+  "pub_year": 1922,
+  "page_count": 139,
+  "isbn": "9780811202923",
+  "cover_url": "https://covers.openlibrary.org/b/id/6562535-L.jpg",
+  "avg_rating": 4.04,
+  "ratings_count": 72,
+  "publisher": "New Directions",
+  "description": "Hermann Hesse wrote Siddhartha after he traveled to India in the 1910s. It tells the story of a young boy who travels the country in a quest for spiritual enlightenment in the time of Guatama Buddha. It is a compact, lyrical work, which reads like an allegory about the finding of wisdom."
+ },
+ {
+  "title": "Steppenwolf",
+  "match": "author",
+  "ol_key": "/works/OL34654974W",
+  "ol_title": "Steppenwolf",
+  "authors": [
+   "Hermann Hesse"
+  ],
+  "author_keys": [
+   "OL76437A"
+  ],
+  "csv_author": "Hermann Hesse",
+  "pub_year": 1929,
+  "page_count": 309,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14911616-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "H. Holt",
+  "description": null
+ },
+ {
+  "title": "Demian",
+  "match": "author",
+  "ol_key": "/works/OL30457295W",
+  "ol_title": "Demian",
+  "authors": [
+   "Hermann Hesse"
+  ],
+  "author_keys": [
+   "OL76437A"
+  ],
+  "csv_author": "Hermann Hesse",
+  "pub_year": 1919,
+  "page_count": 184,
+  "isbn": "9789686769005",
+  "cover_url": "https://covers.openlibrary.org/b/id/12569297-L.jpg",
+  "avg_rating": 4.25,
+  "ratings_count": 64,
+  "publisher": "Época",
+  "description": "A young man awakens to selfhood and to a world of possibilities beyond the conventions of his upbringing in Nobel Prize winner Hermann Hesse’s beloved novel Demian. Emil Sinclair is a quiet boy drawn into a forbidden yet seductive realm of petty crime and defiance. His guide is his precocious, mysterious classmate Max Demian, who provokes in Emil a search for self-discovery and spiritual fulfillment. A brilliant psychological portrait, Demian is given new life in this translation, which together with James Franco’s personal and inspiring foreword will bring a new generation to Hesse’s widely influential coming-of-age novel."
+ },
+ {
+  "title": "The Alchemist",
+  "match": "author",
+  "ol_key": "/works/OL42974242W",
+  "ol_title": "The Alchemist",
+  "authors": [
+   "Paulo Coelho (Author)"
+  ],
+  "author_keys": [
+   "OL15254026A"
+  ],
+  "csv_author": "Paulo Coelho",
+  "pub_year": 2010,
+  "page_count": 386,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/15075893-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Thomas Press",
+  "description": null
+ },
+ {
+  "title": "Gone with the Wind",
+  "match": "author",
+  "ol_key": "/works/OL267933W",
+  "ol_title": "Gone With the Wind",
+  "authors": [
+   "Margaret Mitchell"
+  ],
+  "author_keys": [
+   "OL151749A"
+  ],
+  "csv_author": "Margaret Mitchell",
+  "pub_year": 1936,
+  "page_count": 922,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14817133-L.jpg",
+  "avg_rating": 3.71,
+  "ratings_count": 52,
+  "publisher": "Macmillan",
+  "description": "Margaret Mitchell's monumental epic of the South won a Pulitzer Prize, gave rise to the most popular motion picture of our time, and inspired a sequel that became the fastest selling novel of the century. It is one of the most popular books ever written: more than 28 million copies of the book have been sold in more than 37 countries. Today, more than 60 years after its initial publication, its achievements are unparalleled, and it remains the most revered American saga and the most beloved work by an American writer..."
+ },
+ {
+  "title": "East of Eden",
+  "match": "author",
+  "ol_key": "/works/OL23166W",
+  "ol_title": "East of Eden",
+  "authors": [
+   "John Steinbeck"
+  ],
+  "author_keys": [
+   "OL25788A"
+  ],
+  "csv_author": "John Steinbeck",
+  "pub_year": 1952,
+  "page_count": 611,
+  "isbn": "9780434740024",
+  "cover_url": "https://covers.openlibrary.org/b/id/11386937-L.jpg",
+  "avg_rating": 4.12,
+  "ratings_count": 103,
+  "publisher": "Heinemann",
+  "description": "Steinbeck considered East of Eden to be his masterpiece. In his journal, Journal of a Novel (often read as a companion to the novel) he notes that “this is the book I have always wanted and have worked and prayed to be able to write Set primarily in the Salinas Valley in the early twentieth century, the novel traces three generations of two families – the Trasks and the Hamiltons – as they grapple with the ever-present forces of good and evil. From this plot emerged some of Steinbeck’s most fascinating characters – many of whom are modeled after people in his own life. Part allegory, part autobiography, and part epic, East of Eden was an ambitious project from the start – a gift to Steinbeck’s sons that was meant to teach them about identity, grief, and what it means to be human. Tinged with biblical echoes of the fall of Adam and Eve and the rivalry of Cain and Abel, this sprawling saga has captivated audiences everywhere for generations. It is through the popularization of East of Eden that the Salinas Valley was truly transformed into “the valley of the world”; a place where everyone is able to find a piece of themselves in the golden, rolling hills."
+ },
+ {
+  "title": "The Bell Jar",
+  "match": "author",
+  "ol_key": "/works/OL1865528W",
+  "ol_title": "The Bell Jar",
+  "authors": [
+   "Sylvia Plath"
+  ],
+  "author_keys": [
+   "OL4327652A"
+  ],
+  "csv_author": "Sylvia Plath",
+  "pub_year": 1948,
+  "page_count": 261,
+  "isbn": "9780571081783",
+  "cover_url": "https://covers.openlibrary.org/b/id/8477115-L.jpg",
+  "avg_rating": 4.17,
+  "ratings_count": 78,
+  "publisher": "Faber & Faber",
+  "description": "The Bell Jar is the only novel written by American poet Sylvia Plath. It is an intensely realistic and emotional record of a successful and talented young woman's descent into madness."
+ },
+ {
+  "title": "Native Son",
+  "match": "author",
+  "ol_key": "/works/OL275128W",
+  "ol_title": "Native Son",
+  "authors": [
+   "Richard Wright",
+   "Richard Wright - undifferentiated",
+   "Richard Wright"
+  ],
+  "author_keys": [
+   "OL33621A",
+   "OL6817796A",
+   "OL7317496A"
+  ],
+  "csv_author": "Richard Wright",
+  "pub_year": 1940,
+  "page_count": 399,
+  "isbn": "9780060830557",
+  "cover_url": "https://covers.openlibrary.org/b/id/10830375-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 9,
+  "publisher": "Harper & Row",
+  "description": "Native Son (1940) is a novel written by the American author Richard Wright. It tells the story of 20-year-old Bigger Thomas, a black youth living in utter poverty in a poor area on Chicago's South Side in the 1930s."
+ },
+ {
+  "title": "Their Eyes Were Watching God",
+  "match": "author",
+  "ol_key": "/works/OL27778127W",
+  "ol_title": "Their Eyes Were Watching God",
+  "authors": [
+   "Zora Neale Hurston"
+  ],
+  "author_keys": [
+   "OL226273A"
+  ],
+  "csv_author": "Zora Neale Hurston",
+  "pub_year": 1937,
+  "page_count": 231,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12752055-L.jpg",
+  "avg_rating": 4.18,
+  "ratings_count": 51,
+  "publisher": "Ryerson Pressbooks",
+  "description": "Their Eyes Were Watching God (1937) is a classic Harlem Renaissance novel by American writer Zora Neale Hurston. The novel follows Janie Crawford as she recounts the story of her life as she journeys from a naive teenager to a woman in control of her destiny."
+ },
+ {
+  "title": "The Color Purple",
+  "match": "author",
+  "ol_key": "/works/OL273644W",
+  "ol_title": "The Color Purple",
+  "authors": [
+   "Alice Walker"
+  ],
+  "author_keys": [
+   "OL217774A"
+  ],
+  "csv_author": "Alice Walker",
+  "pub_year": 1976,
+  "page_count": 262,
+  "isbn": "9780151191536",
+  "cover_url": "https://covers.openlibrary.org/b/id/8564628-L.jpg",
+  "avg_rating": 4.16,
+  "ratings_count": 93,
+  "publisher": "Harcourt Brace Jovanovich",
+  "description": "The Color Purple is a 1982 epistolary novel by American author Alice Walker which won the 1983 Pulitzer Prize for Fiction and the National Book Award for Fiction. The novel has been the frequent target of censors and appears on the American Library Association list of the 100 Most Frequently Challenged Books of 2000–2009 at number seventeenth because of the sometimes explicit content, particularly in terms of violence. In 2003, the book was listed on the BBC's The Big Read poll of the UK's \"best-loved novels.\""
+ },
+ {
+  "title": "On the Road",
+  "match": "author",
+  "ol_key": "/works/OL65906W",
+  "ol_title": "On The Road",
+  "authors": [
+   "Jack Kerouac"
+  ],
+  "author_keys": [
+   "OL21491A"
+  ],
+  "csv_author": "Jack Kerouac",
+  "pub_year": 1957,
+  "page_count": 310,
+  "isbn": "9780060755331",
+  "cover_url": "https://covers.openlibrary.org/b/id/34655-L.jpg",
+  "avg_rating": 3.52,
+  "ratings_count": 92,
+  "publisher": "Caedmon",
+  "description": "Described as everything from a \"last gasp\" of romantic fiction to a founding text of the Beat Generation movement, this story amounts to a nonfiction novel (as critics were later to describe some works). Unpublished writer buddies wander from coast to coast in search of whatever they find, eager for experience. Kerouac's spokesman is Sal Paradise (himself) and real-life friend Neal Casady appears as Dean Moriarty."
+ },
+ {
+  "title": "The Road",
+  "match": "author",
+  "ol_key": "/works/OL40873W",
+  "ol_title": "The Road",
+  "authors": [
+   "Cormac McCarthy"
+  ],
+  "author_keys": [
+   "OL28104A"
+  ],
+  "csv_author": "Cormac McCarthy",
+  "pub_year": 2006,
+  "page_count": 256,
+  "isbn": "9780330447553",
+  "cover_url": "https://covers.openlibrary.org/b/id/198120-L.jpg",
+  "avg_rating": 3.88,
+  "ratings_count": 182,
+  "publisher": "vintage International",
+  "description": "Cormac McCarthy's tenth novel, The Road, is his most harrowing yet deeply personal work. Some unnamed catastrophe has scourged the world to a burnt-out cinder, inhabited by the last remnants of mankind and a very few surviving dogs and fungi. The sky is perpetually shrouded by dust and toxic particulates; the seasons are merely varied intensities of cold and dampness. Bands of cannibals roam the roads and inhabit what few dwellings remain intact in the woods. Through this nightmarish residue of America a haggard father and his young son attempt to flee the oncoming Appalachian winter and head towards the southern coast along carefully chosen back roads. Mummified corpses are their only benign companions, sitting in doorways and automobiles, variously impaled or displayed on pikes and tables and in cake bells, or they rise in frozen poses of horror and agony out of congealed asphalt. The boy and his father hope to avoid the marauders, reach a milder climate, and perhaps locate some remnants of civilization still worthy of that name. They possess only what they can scavenge to eat, and the rags they wear and the heat of their own bodies are all the shelter they have. A pistol with only a few bullets is their only defense besides flight."
+ },
+ {
+  "title": "Dune",
+  "match": "author",
+  "ol_key": "/works/OL893414W",
+  "ol_title": "Dune",
+  "authors": [
+   "Frank Herbert"
+  ],
+  "author_keys": [
+   "OL79034A"
+  ],
+  "csv_author": "Frank Herbert",
+  "pub_year": 1965,
+  "page_count": 604,
+  "isbn": "9781444738209",
+  "cover_url": "https://covers.openlibrary.org/b/id/11481354-L.jpg",
+  "avg_rating": 4.31,
+  "ratings_count": 465,
+  "publisher": "Hodder",
+  "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the \"spice\" melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for... When House Atreides is betrayed, the destruction of Paul's family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad'Dib, he will bring to fruition humankind's most ancient and unattainable dream. A stunning blend of adventure and mysticism, environmentalism and politics, Dune won the first Nebula Award, shared the Hugo Award, and formed the basis of what is undoubtedly the grandest epic in science fiction."
+ },
+ {
+  "title": "Neuromancer",
+  "match": "author",
+  "ol_key": "/works/OL27258W",
+  "ol_title": "Neuromancer",
+  "authors": [
+   "William Gibson"
+  ],
+  "author_keys": [
+   "OL26283A"
+  ],
+  "csv_author": "William Gibson",
+  "pub_year": 1984,
+  "page_count": 317,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/283860-L.jpg",
+  "avg_rating": 4.05,
+  "ratings_count": 84,
+  "publisher": null,
+  "description": "The first of William Gibson's Sprawl trilogy, Neuromancer is the classic cyberpunk novel. The winner of the Hugo, Nebula, and Philip K. Dick Awards, Neuromancer was the first fully-realized glimpse of humankind’s digital future — a shocking vision that has challenged our assumptions about our technology and ourselves, reinvented the way we speak and think, and forever altered the landscape of our imaginations. Henry Dorsett Case was the sharpest data-thief in the business, until vengeful former employees crippled his nervous system. But now a new and very mysterious employer recruits him for a last-chance run. The target: an unthinkably powerful artificial intelligence orbiting Earth in service of the sinister Tessier-Ashpool business clan. With a dead man riding shotgun and Molly, mirror-eyed street-samurai, to watch his back, Case embarks on an adventure that ups the ante on an entire genre of fiction. Hotwired to the leading edges of art and technology, Neuromancer is a cyberpunk, science fiction masterpiece — a classic that ranks with 1984 and Brave New World as one of the twentieth century’s most potent visions of the future."
+ },
+ {
+  "title": "Foundation",
+  "match": "author",
+  "ol_key": "/works/OL46125W",
+  "ol_title": "Foundation",
+  "authors": [
+   "Isaac Asimov"
+  ],
+  "author_keys": [
+   "OL34221A"
+  ],
+  "csv_author": "Isaac Asimov",
+  "pub_year": 1951,
+  "page_count": 240,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14612610-L.jpg",
+  "avg_rating": 4.08,
+  "ratings_count": 317,
+  "publisher": "Panther",
+  "description": "One of the great masterworks of science fiction, the Foundation novels of Isaac Asimov are unsurpassed for their unique blend of nonstop action, daring ideas, and extensive world-building. The story of our future begins with the history of Foundation and its greatest psychohistorian: Hari Seldon. For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. Only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future--a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save mankind, Seldon gathers the best minds in the Empire--both scientists and scholars--and brings them to a bleak planet at the edge of the Galaxy to serve as a beacon of hope for future generations. He calls his sanctuary the Foundation. But soon the fledgling Foundation finds itself at the mercy of corrupt warlords rising in the wake of the receding Empire. And mankind's last best hope is faced with an agonizing choice: submit to the barbarians and live as slaves--or take a stand for freedom and risk total destruction."
+ },
+ {
+  "title": "I, Robot",
+  "match": "author",
+  "ol_key": "/works/OL46241W",
+  "ol_title": "I, Robot",
+  "authors": [
+   "Isaac Asimov"
+  ],
+  "author_keys": [
+   "OL34221A"
+  ],
+  "csv_author": "Isaac Asimov",
+  "pub_year": 1950,
+  "page_count": 245,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12385229-L.jpg",
+  "avg_rating": 4.25,
+  "ratings_count": 190,
+  "publisher": "Doubleday & Company, Inc.",
+  "description": "I, Robot is a fixup novel of science fiction short stories or essays by American writer Isaac Asimov. The stories originally appeared in the American magazines Super Science Stories and Astounding Science Fiction between 1940 and 1950 and were then compiled into a book for stand-alone publication by Gnome Press in 1950, in an initial edition of 5,000 copies. The stories are woven together by a framing narrative in which the fictional Dr. Susan Calvin tells each story to a reporter (who serves as the narrator) in the 21st century. Although the stories can be read separately, they share a theme of the interaction of humans, robots, and morality, and when combined they tell a larger story of Asimov's fictional history of robotics."
+ },
+ {
+  "title": "Solaris",
+  "match": "author",
+  "ol_key": "/works/OL109524W",
+  "ol_title": "Solaris",
+  "authors": [
+   "Stanisław Lem"
+  ],
+  "author_keys": [
+   "OL29655A"
+  ],
+  "csv_author": "Stanisław Lem",
+  "pub_year": 1961,
+  "page_count": 229,
+  "isbn": "9789754706253",
+  "cover_url": "https://covers.openlibrary.org/b/id/12313764-L.jpg",
+  "avg_rating": 3.94,
+  "ratings_count": 31,
+  "publisher": "Iletisim Yayincilik",
+  "description": "The cult-classic by Stanislaw Lem that spawned the movie is now available for your Kindle! Until now the only English edition was a 1970 version, which was translated from French and which Lem himself described as a \"poor translation.\" This wonderful new English translation (by Bill Johnston) of Lem's classic Solaris is a must-have for fans of Lem's classic novel. Telling of humanity's encounter with an alien intelligence on the planet Solaris, the 1961 novel is a cult classic, exploring the ultimate futility of attempting to communicate with extra-terrestrial life. When Kris Kelvin arrives at the planet Solaris to study the ocean that covers its surface, he finds a painful, hitherto unconscious memory embodied in the living physical likeness of a long-dead lover. Others examining the planet, Kelvin learns, are plagued with their own repressed and newly corporeal memories. The Solaris ocean may be a massive brain that creates these incarnate memories, though its purpose in doing so is unknown, forcing the scientists to shift the focus of their quest and wonder if they can truly understand the universe without first understanding what lies within their hearts."
+ },
+ {
+  "title": "The Left Hand of Darkness",
+  "match": "author",
+  "ol_key": "/works/OL59800W",
+  "ol_title": "The Left Hand of Darkness",
+  "authors": [
+   "Ursula K. Le Guin"
+  ],
+  "author_keys": [
+   "OL31353A"
+  ],
+  "csv_author": "Ursula K. Le Guin",
+  "pub_year": 1969,
+  "page_count": 304,
+  "isbn": "9781101665398",
+  "cover_url": "https://covers.openlibrary.org/b/id/10618463-L.jpg",
+  "avg_rating": 4.27,
+  "ratings_count": 59,
+  "publisher": "ACE",
+  "description": "Comment by Kim Stanley Robinson, on The Guardian's website: The Left Hand of Darkness by Ursula K Le Guin (1969) > One of my favorite novels is The Left Hand of Darkness, by Ursula K Le Guin. For more than 40 years I've been recommending this book to people who want to try science fiction for the first time, and it still serves very well for that. One of the things I like about it is how clearly it demonstrates that science fiction can have not only the usual virtues and pleasures of the novel, but also the startling and transformative power of the thought experiment. > In this case, the thought experiment is quickly revealed: \"The king was pregnant,\" the book tells us early on, and after that we learn more and more about this planet named Winter, stuck in an ice age, where the humans are most of the time neither male nor female, but with the potential to become either. The man from Earth investigating this situation has a lot to learn, and so do we; and we learn it in the course of a thrilling adventure story, including a great \"crossing of the ice\". Le Guin's language is clear and clean, and has within it both the anthropological mindset of her father Alfred Kroeber, and the poetry of stories as magical things that her mother Theodora Kroeber found in native American tales. This worldly wisdom applied to the romance of other planets, and to human nature at its deepest, is Le Guin's particular gift to us, and something science fiction will always be proud of."
+ },
+ {
+  "title": "The Dispossessed",
+  "match": "author",
+  "ol_key": "/works/OL59863W",
+  "ol_title": "The Dispossessed",
+  "authors": [
+   "Ursula K. Le Guin"
+  ],
+  "author_keys": [
+   "OL31353A"
+  ],
+  "csv_author": "Ursula K. Le Guin",
+  "pub_year": 1974,
+  "page_count": 358,
+  "isbn": "9781857988826",
+  "cover_url": "https://covers.openlibrary.org/b/id/6979680-L.jpg",
+  "avg_rating": 4.46,
+  "ratings_count": 39,
+  "publisher": "Orion Publishing Group",
+  "description": "Shevek, a brilliant physicist, decides to take action. He will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe. To do this dangerous task will mean giving up his family and possibly his life. Shevek must make the unprecedented journey to the planet, Anarres, to challenge the complex structures of life and living, and ignite the fires of change."
+ },
+ {
+  "title": "Do Androids Dream of Electric Sheep?",
+  "match": "author",
+  "ol_key": "/works/OL2172356W",
+  "ol_title": "Do Androids Dream of Electric Sheep?",
+  "authors": [
+   "Philip K. Dick"
+  ],
+  "author_keys": [
+   "OL274606A"
+  ],
+  "csv_author": "Philip K. Dick",
+  "pub_year": 1968,
+  "page_count": 224,
+  "isbn": "9780345350473",
+  "cover_url": "https://covers.openlibrary.org/b/id/207515-L.jpg",
+  "avg_rating": 4.04,
+  "ratings_count": 164,
+  "publisher": "Del Rey",
+  "description": "It was January 2021, and Rick Deckard had a license to kill. Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!"
+ },
+ {
+  "title": "The Handmaid's Tale",
+  "match": "author",
+  "ol_key": "/works/OL675783W",
+  "ol_title": "The Handmaid's Tale",
+  "authors": [
+   "Margaret Atwood"
+  ],
+  "author_keys": [
+   "OL52922A"
+  ],
+  "csv_author": "Margaret Atwood",
+  "pub_year": 1985,
+  "page_count": 352,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
+  "avg_rating": 3.97,
+  "ratings_count": 151,
+  "publisher": null,
+  "description": "The Handmaid's Tale is a dystopian novel by Canadian author Margaret Atwood, published in 1985. It is set in a near-future New England, in a strongly patriarchal, totalitarian theonomic state, known as the Republic of Gilead, which has overthrown the United States government. The central character and narrator is a woman named Offred, one of the group known as \"handmaids\", who are forcibly assigned to produce children for the \"commanders\" — the ruling class of men in Gilead. The novel explores themes of subjugated women in a patriarchal society, loss of female agency and individuality, and the various means by which they resist and attempt to gain individuality and independence. The Handmaid's Tale won the 1985 Governor General's Award and the first Arthur C. Clarke Award in 1987; it was also nominated for the 1986 Nebula Award, the 1986 Booker Prize, and the 1987 Prometheus Award."
+ },
+ {
+  "title": "The Name of the Rose",
+  "match": "title",
+  "ol_key": "/works/OL13530863W",
+  "ol_title": "The name of the rose",
+  "authors": [
+   "Lope de Vega"
+  ],
+  "author_keys": [
+   "OL80534A"
+  ],
+  "csv_author": "Umberto Eco",
+  "pub_year": null,
+  "page_count": 502,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9832795-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "The Wind-Up Bird Chronicle",
+  "match": "title",
+  "ol_key": "/works/OL32437760W",
+  "ol_title": "The wind-up bird chronicle",
+  "authors": [
+   "Greg Pierce"
+  ],
+  "author_keys": [
+   "OL8776197A"
+  ],
+  "csv_author": "Haruki Murakami",
+  "pub_year": 2018,
+  "page_count": 59,
+  "isbn": null,
+  "cover_url": null,
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": null,
+  "description": "At once a detective story, an account of a disintegrating marriage, and an excavation of buried secrets from World War II, this surreal mystery follows an unassuming \"everyman,\" Toru, as he searches for his wife who's inexplicably disappeared. Toru soon encounters a cast of strange characters, each with their own intriguing stories, who begin showing up in his dreams, opening doors to a hallucinatory world charged with sexuality and violence. As the lines between dreams and reality dissolve, Toru must confront the dark forces that exist inside him as part of his human nature. -- Publisher's description"
+ },
+ {
+  "title": "Norwegian Wood",
+  "match": "author",
+  "ol_key": "/works/OL2625457W",
+  "ol_title": "Norwegian Wood",
+  "authors": [
+   "村上春樹"
+  ],
+  "author_keys": [
+   "OL382524A"
+  ],
+  "csv_author": "Haruki Murakami",
+  "pub_year": 1987,
+  "page_count": 389,
+  "isbn": "9783770156092",
+  "cover_url": "https://covers.openlibrary.org/b/id/2237620-L.jpg",
+  "avg_rating": 3.86,
+  "ratings_count": 128,
+  "publisher": "DUMONT Literatur und Kunst Verlag",
+  "description": "As his plane lands at a European airport, thirty-seven-year-old Toru Watanabe casually hears an old Beatles song. Suddenly, the music transports him back to his youth, to the turbulent Tokyo of the late sixties. He then remembers, with melancholy and unease, the unstable and mysterious Naoko, the girlfriend of his best—and only—friend from adolescence, Kizuki, and how Kizuki's suicide distanced them for a year until they reunited at university. There, they began an intimate relationship, which was soon cut short by Naoko’s fragile mental health, leading to her admission to a rest center. Shortly afterward, Watanabe fell in love with Midori, a lively and determined young woman. Indecisive and plagued by fears, Watanabe experienced only bewilderment and disillusionment in the very areas where everything was supposed to make sense: sex, love, and death. The unbearable situation led him to seek a delicate balance between his hopes and the need to find his place in the world. Mientras su avión aterriza en un aeropuerto europeo, Toru Watanabe, de treinta y siete años, escucha casualmente una vieja canción de los Beatles: de pronto, la música le hace retroceder a su juventud, al turbulento Tokio de finales de los sesenta. Recuerda entonces, con melancolía y desasosiego, a la inestable y misteriosa Naoko, la novia de su mejor -y único- amigo de la adolescencia, Kizuki, y cómo el suicidio de éste les distanció durante un año, hasta que se reencontraron en la universidad."
+ },
+ {
+  "title": "The Master and Margarita",
+  "match": "author",
+  "ol_key": "/works/OL36999384W",
+  "ol_title": "The Master and Margarita",
+  "authors": [
+   "Михаил Афанасьевич Булгаков"
+  ],
+  "author_keys": [
+   "OL52940A"
+  ],
+  "csv_author": "Mikhail Bulgakov",
+  "pub_year": 1967,
+  "page_count": 386,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/15013644-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 1,
+  "publisher": "Signet, New American Library",
+  "description": null
+ },
+ {
+  "title": "Doctor Zhivago",
+  "match": "author",
+  "ol_key": "/works/OL38068744W",
+  "ol_title": "Doctor Zhivago",
+  "authors": [
+   "Boris Pasternak"
+  ],
+  "author_keys": [
+   "OL2656897A"
+  ],
+  "csv_author": "Boris Pasternak",
+  "pub_year": 1958,
+  "page_count": 546,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/14896503-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Pantheon Books",
+  "description": null
+ },
+ {
+  "title": "The Kite Runner",
+  "match": "author",
+  "ol_key": "/works/OL5781992W",
+  "ol_title": "The Kite Runner",
+  "authors": [
+   "Khaled Hosseini"
+  ],
+  "author_keys": [
+   "OL1412764A"
+  ],
+  "csv_author": "Khaled Hosseini",
+  "pub_year": 2003,
+  "page_count": 371,
+  "isbn": "9780147542922",
+  "cover_url": "https://covers.openlibrary.org/b/id/14846827-L.jpg",
+  "avg_rating": 4.07,
+  "ratings_count": 155,
+  "publisher": "Riverhead Books",
+  "description": "The unforgettable, heartbreaking story of the unlikely friendship between a wealthy boy and the son of his father’s servant, The Kite Runner is a beautifully crafted novel set in a country that is in the process of being destroyed. It is about the power of reading, the price of betrayal, and the possibility of redemption; and an exploration of the power of fathers over sons—their love, their sacrifices, their lies. A sweeping story of family, love, and friendship told against the devastating backdrop of the history of Afghanistan over the last thirty years, The Kite Runner is an unusual and powerful novel that has become a beloved, one-of-a-kind classic."
+ },
+ {
+  "title": "A Thousand Splendid Suns",
+  "match": "author",
+  "ol_key": "/works/OL5782000W",
+  "ol_title": "A Thousand Splendid Suns",
+  "authors": [
+   "Khaled Hosseini"
+  ],
+  "author_keys": [
+   "OL1412764A"
+  ],
+  "csv_author": "Khaled Hosseini",
+  "pub_year": 2007,
+  "page_count": 406,
+  "isbn": "9780739489505",
+  "cover_url": "https://covers.openlibrary.org/b/id/8579790-L.jpg",
+  "avg_rating": 4.36,
+  "ratings_count": 137,
+  "publisher": "Riverhead Books",
+  "description": "After 103 weeks on the New York Times bestseller list and with four million copies of The Kite Runner shipped, Khaled Hosseini returns with a beautiful, riveting, and haunting novel that confirms his place as one of the most important literary writers today. Propelled by the same superb instinct for storytelling that made The Kite Runner a beloved classic, A Thousand Splendid Suns is at once an incredible chronicle of thirty years of Afghan history and a deeply moving story of family, friendship, faith, and the salvation to be found in love. Born a generation apart and with very different ideas about love and family, Mariam and Laila are two women brought jarringly together by war, by loss and by fate. As they endure the ever escalating dangers around them—in their home as well as in the streets of Kabul—they come to form a bond that makes them both sisters and mother-daughter to each other, and that will ultimately alter the course not just of their own lives but of the next generation. With heart-wrenching power and suspense, Hosseini shows how a woman's love for her family can move her to shocking and heroic acts of self-sacrifice, and that in the end it is love, or even the memory of love, that is often the key to survival. A stunning accomplishment, A Thousand Splendid Suns is a haunting, heartbreaking, compelling story of an unforgiving time, an unlikely friendship, and an indestructible love."
+ },
+ {
+  "title": "Life of Pi",
+  "match": "author",
+  "ol_key": "/works/OL2827199W",
+  "ol_title": "Life of Pi",
+  "authors": [
+   "Yann Martel"
+  ],
+  "author_keys": [
+   "OL422052A"
+  ],
+  "csv_author": "Yann Martel",
+  "pub_year": 2000,
+  "page_count": 349,
+  "isbn": "9780857865533",
+  "cover_url": "https://covers.openlibrary.org/b/id/12840573-L.jpg",
+  "avg_rating": 3.94,
+  "ratings_count": 155,
+  "publisher": "Canongate Books Ltd",
+  "description": "After the tragic sinking of a cargo ship, one solitary lifeboat remains bobbing on the wild, blue Pacific. The only survivors from the wreck are a sixteen-year-old boy named Pi, a hyena, a zebra (with a broken leg), a female orang-utan… and a 450-pound Royal Bengal tiger. The scene is set for one of the most extraordinary works of fiction in recent years."
+ },
+ {
+  "title": "The Book Thief",
+  "match": "author",
+  "ol_key": "/works/OL5819456W",
+  "ol_title": "The Book Thief",
+  "authors": [
+   "Markus Zusak",
+   "Alexandra Ernst"
+  ],
+  "author_keys": [
+   "OL1425869A",
+   "OL13164169A"
+  ],
+  "csv_author": "Markus Zusak",
+  "pub_year": 1998,
+  "page_count": 556,
+  "isbn": "9780786290215",
+  "cover_url": "https://covers.openlibrary.org/b/id/15267110-L.jpg",
+  "avg_rating": 4.15,
+  "ratings_count": 149,
+  "publisher": "Thorndike Press",
+  "description": "The extraordinary, beloved novel about the ability of books to feed the soul even in the darkest of times. When Death has a story to tell, you listen. It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will become busier still. Liesel Meminger is a foster girl living outside of Munich, who scratches out a meager existence for herself by stealing when she encounters something she can’t resist–books. With the help of her accordion-playing foster father, she learns to read and shares her stolen books with her neighbors during bombing raids as well as with the Jewish man hidden in her basement. In superbly crafted writing that burns with intensity, award-winning author Markus Zusak, author of I Am the Messenger, has given us one of the most enduring stories of our time. “The kind of book that can be life-changing.” —The New York Times"
+ },
+ {
+  "title": "All Quiet on the Western Front",
+  "match": "author",
+  "ol_key": "/works/OL38898913W",
+  "ol_title": "All Quiet on the Western Front",
+  "authors": [
+   "Erich Maria Remarque"
+  ],
+  "author_keys": [
+   "OL122169A"
+  ],
+  "csv_author": "Erich Maria Remarque",
+  "pub_year": 1956,
+  "page_count": 232,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/15262512-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Mayflower",
+  "description": null
+ },
+ {
+  "title": "The Prince",
+  "match": "author",
+  "ol_key": "/works/OL1089297W",
+  "ol_title": "The Prince",
+  "authors": [
+   "Niccolò Machiavelli"
+  ],
+  "author_keys": [
+   "OL23135A"
+  ],
+  "csv_author": "Niccolò Machiavelli",
+  "pub_year": 1515,
+  "page_count": 158,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12726168-L.jpg",
+  "avg_rating": 3.88,
+  "ratings_count": 123,
+  "publisher": "[publisher not identified]",
+  "description": "The Prince (Italian: Il Principe [il ˈprintʃipe]; Latin: De Principatibus) is a 16th-century political treatise written by Italian diplomat and political theorist Niccolò Machiavelli as an instruction guide for new princes and royals. The general theme of The Prince is of accepting that the aims of princes – such as glory and survival – can justify the use of immoral means to achieve those ends. From Machiavelli's correspondence, a version appears to have been distributed in 1513, using a Latin title, De Principatibus (Of Principalities). However, the printed version was not published until 1532, five years after Machiavelli's death. This was carried out with the permission of the Medici pope Clement VII, but \"long before then, in fact since the first appearance of The Prince in manuscript, controversy had swirled about his writings\". Although The Prince was written as if it were a traditional work in the mirrors for princes style, it was generally agreed as being especially innovative. This is partly because it was written in the vernacular Italian rather than Latin, a practice that had become increasingly popular since the publication of Dante's Divine Comedy and other works of Renaissance literature."
+ },
+ {
+  "title": "Meditations",
+  "match": "author",
+  "ol_key": "/works/OL1317211W",
+  "ol_title": "Meditations",
+  "authors": [
+   "Marcus Aurelius"
+  ],
+  "author_keys": [
+   "OL133986A"
+  ],
+  "csv_author": "Marcus Aurelius",
+  "pub_year": 1626,
+  "page_count": 203,
+  "isbn": "9780345472373",
+  "cover_url": "https://covers.openlibrary.org/b/id/211529-L.jpg",
+  "avg_rating": 4.1,
+  "ratings_count": 148,
+  "publisher": "Modern Library",
+  "description": "Meditations is a collection of personal reflections and notes by the Roman Emperor Marcus Aurelius (reigned 161 to 180 AD), offering a profound look into the philosophy of Stoicism. It was never intended for publication, making it a raw and intimate self-help manual for the emperor during his campaigns and rule. The central theme revolves around living a good, rational, and virtuous life in harmony with nature and the cosmos. Aurelius continually reminds himself that everything in the universe is constantly changing and fleeting, urging the reader to accept the impermanence of life and the inevitability of death. He stresses the importance of focusing on what one can control—namely, their own thoughts and actions—and accepting everything else with tranquility, including the behavior of others and external events. This inner fortress of the mind is the only true source of peace. The book emphasizes duty and service to the greater community. As a rational being, one's purpose is to act justly and benevolently towards fellow humans. Aurelius encourages practicing humility, rising above petty insults, and viewing difficulties as opportunities for growth and the exercise of virtue. He advocates for an objective, detached perspective on all things, stripping away subjective judgment to see the world as it truly is."
+ },
+ {
+  "title": "Walden",
+  "match": "author",
+  "ol_key": "/works/OL55649W",
+  "ol_title": "Walden",
+  "authors": [
+   "Henry David Thoreau"
+  ],
+  "author_keys": [
+   "OL19690A"
+  ],
+  "csv_author": "Henry David Thoreau",
+  "pub_year": 1854,
+  "page_count": 270,
+  "isbn": "9781095033852",
+  "cover_url": "https://covers.openlibrary.org/b/id/11248037-L.jpg",
+  "avg_rating": 3.97,
+  "ratings_count": 38,
+  "publisher": "Independently Published",
+  "description": "Walden first published in 1854 as Walden; or, Life in the Woods) is a book by American transcendentalist writer Henry David Thoreau. The text is a reflection upon the author's simple living in natural surroundings. The work is part personal declaration of independence, social experiment, voyage of spiritual discovery, satire, and—to some degree—a manual for self-reliance. Walden details Thoreau's experiences over the course of two years, two months, and two days in a cabin he built near Walden Pond amidst woodland owned by his friend and mentor Ralph Waldo Emerson, near Concord, Massachusetts. Thoreau makes precise scientific observations of nature as well as metaphorical and poetic uses of natural phenomena. He identifies many plants and animals by both their popular and scientific names, records in detail the color and clarity of different bodies of water, precisely dates and describes the freezing and thawing of the pond, and recounts his experiments to measure the depth and shape of the bottom of the supposedly \"bottomless\" Walden Pond. (Source: Wikipedia)"
+ },
+ {
+  "title": "Leaves of Grass",
+  "match": "author",
+  "ol_key": "/works/OL16333W",
+  "ol_title": "Leaves of Grass",
+  "authors": [
+   "Walt Whitman"
+  ],
+  "author_keys": [
+   "OL23178A"
+  ],
+  "csv_author": "Walt Whitman",
+  "pub_year": 1855,
+  "page_count": 384,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9000447-L.jpg",
+  "avg_rating": 3.93,
+  "ratings_count": 14,
+  "publisher": null,
+  "description": "Leaves of Grass is a poetry collection by American poet Walt Whitman. First published in 1855, Whitman spent most of his professional life writing and rewriting Leaves of Grass, revising it multiple times until his death. There have been held to be either six or nine individual editions of Leaves of Grass, the count varying depending on how they are distinguished.[2] This resulted in vastly different editions over four decades—the first edition being a small book of twelve poems, and the last, a compilation of over 400. (Source: Wikipedia)"
+ },
+ {
+  "title": "Paradise Lost",
+  "match": "author",
+  "ol_key": "/works/OL810991W",
+  "ol_title": "Paradise Lost",
+  "authors": [
+   "John Milton"
+  ],
+  "author_keys": [
+   "OL68333A"
+  ],
+  "csv_author": "John Milton",
+  "pub_year": 1667,
+  "page_count": 333,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/5992814-L.jpg",
+  "avg_rating": 3.84,
+  "ratings_count": 38,
+  "publisher": "Printed for J. and R. Tonson and S. Draper ...",
+  "description": "John Milton's Paradise Lost is one of the greatest epic poems in the English language. It tells the story of the Fall of Man, a tale of immense drama and excitement, of rebellion and treachery, of innocence pitted against corruption, in which God and Satan fight a bitter battle for control of mankind's destiny. The struggle rages across three worlds - heaven, hell, and earth - as Satan and his band of rebel angels plot their revenge against God. At the center of the conflict are Adam and Eve, who are motivated by all too human temptations but whose ultimate downfall is unyielding love. Marked by Milton's characteristic erudition, Paradise Lost is a work epic both in scale and, notoriously, in ambition. For nearly 350 years, it has held generation upon generation of audiences in rapt attention, and its profound influence can be seen in almost every corner of Western culture."
+ },
+ {
+  "title": "Hamlet",
+  "match": "author",
+  "ol_key": "/works/OL9170454W",
+  "ol_title": "Hamlet",
+  "authors": [
+   "William Shakespeare"
+  ],
+  "author_keys": [
+   "OL9388A"
+  ],
+  "csv_author": "William Shakespeare",
+  "pub_year": 1603,
+  "page_count": 188,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8281954-L.jpg",
+  "avg_rating": 4.01,
+  "ratings_count": 179,
+  "publisher": "N.L. and Iohn Trundell",
+  "description": "In this quintessential Shakespeare tragedy, a young prince's halting pursuit of revenge for the murder of his father unfolds in a series of highly charged confrontations that have held audiences spellbound for nearly four centuries. Those fateful exchanges, and the anguished soliloquies that precede and follow them, probe depths of human feeling rarely sounded in any art. The title role of Hamlet, perhaps the most demanding in all of Western drama, has provided generations of leading actors their greatest challenge. Yet all the roles in this towering drama are superbly delineated, and each of the key scenes offers actors a rare opportunity to create theatrical magic. Hamlet is a unique pleasure to read as well as to see and hear performed."
+ },
+ {
+  "title": "Macbeth",
+  "match": "author",
+  "ol_key": "/works/OL258902W",
+  "ol_title": "Macbeth",
+  "authors": [
+   "William Shakespeare"
+  ],
+  "author_keys": [
+   "OL9388A"
+  ],
+  "csv_author": "William Shakespeare",
+  "pub_year": 1508,
+  "page_count": 135,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/872432-L.jpg",
+  "avg_rating": 3.98,
+  "ratings_count": 154,
+  "publisher": "Riverhead Books",
+  "description": "The play concerns a trusted general who secretly lusts for power. Encouraged by the prophecies of three witches and urged on by his ambitious wife Macbeth commits regicide. Left fearful and superstitious by this desperate act he is driven to a spiralling course of murder and outrage, almost inevitably culminating in his own death. One of Shakespeare’s most popular tragedies, Macbeth is ostensibly based on the Scottish king although the story represented in the play bears no relation to historical fact as the true King Macbeth was well respected by his contemporaries. This book includes the hero Macbeth becoming more and more evil after he gets told his \"destiny\" by the witches and becomes greedy with power."
+ },
+ {
+  "title": "King Lear",
+  "match": "author",
+  "ol_key": "/works/OL259026W",
+  "ol_title": "King Lear",
+  "authors": [
+   "William Shakespeare"
+  ],
+  "author_keys": [
+   "OL9388A"
+  ],
+  "csv_author": "William Shakespeare",
+  "pub_year": 1608,
+  "page_count": 192,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/7420452-L.jpg",
+  "avg_rating": 3.95,
+  "ratings_count": 21,
+  "publisher": "Printed [by William Jaggard] for N. Butter",
+  "description": "King Lear divides his kingdom among the two daughters who flatter him and banishes the third one who loves him. His eldest daughters both then reject him at their homes, so Lear goes mad and wanders through a storm. His banished daughter returns with an army, but they lose the battle and Lear, all his daughters and more, die."
+ },
+ {
+  "title": "Othello",
+  "match": "author",
+  "ol_key": "/works/OL258850W",
+  "ol_title": "Othello",
+  "authors": [
+   "William Shakespeare"
+  ],
+  "author_keys": [
+   "OL9388A"
+  ],
+  "csv_author": "William Shakespeare",
+  "pub_year": 1622,
+  "page_count": 176,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/7165018-L.jpg",
+  "avg_rating": 3.85,
+  "ratings_count": 46,
+  "publisher": "Printed by N. O[kes]. for Thomas Walkley, and are to be sold at his shop, at the Eagle and Child, in Brittans Bursse",
+  "description": "Shakespeare's tragedy of jealousy and suspicion presented scene by scene in comic book format."
+ },
+ {
+  "title": "Romeo and Juliet",
+  "match": "author",
+  "ol_key": "/works/OL362427W",
+  "ol_title": "Romeo and Juliet",
+  "authors": [
+   "William Shakespeare"
+  ],
+  "author_keys": [
+   "OL9388A"
+  ],
+  "csv_author": "William Shakespeare",
+  "pub_year": 1597,
+  "page_count": 168,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8257991-L.jpg",
+  "avg_rating": 3.69,
+  "ratings_count": 216,
+  "publisher": "Printed by John Danter",
+  "description": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young Italian star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers."
+ },
+ {
+  "title": "The Republic",
+  "match": "author",
+  "ol_key": "/works/OL45528036W",
+  "ol_title": "The Republic",
+  "authors": [
+   "Plato"
+  ],
+  "author_keys": [
+   "OL10346778A"
+  ],
+  "csv_author": "Plato",
+  "pub_year": 2019,
+  "page_count": null,
+  "isbn": "9789387550322",
+  "cover_url": "https://covers.openlibrary.org/b/id/15223028-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Samaira Book Publishers",
+  "description": "Written around 380 BC, The Republic work is an important contribution to the age old question of how to best structure a society in a just way. Presented in the form of a dialogue between Socrates and three different interlocutors, it is an enquiry into the notion of a perfect community and the ideal individual within it. It is considered Plato's best-known work and has proven to be one of the most intellectually and historically influential works of philosophy and political theory. One of the most important books ever written on the subject of philosophy and political theory. An essential read for any student of philosophy or political science."
+ },
+ {
+  "title": "The Aeneid",
+  "match": "author",
+  "ol_key": "/works/OL10702987W",
+  "ol_title": "The Aeneid",
+  "authors": [
+   "Publius Vergilius Maro"
+  ],
+  "author_keys": [
+   "OL28294A"
+  ],
+  "csv_author": "Virgil",
+  "pub_year": 1990,
+  "page_count": null,
+  "isbn": "9780679729525",
+  "cover_url": "https://covers.openlibrary.org/b/id/6715695-L.jpg",
+  "avg_rating": 3.46,
+  "ratings_count": 13,
+  "publisher": "Vintage",
+  "description": "Aeneas, a Trojan warrior, searches for a new homeland after the fall of Troy. His journey becomes years of wandering. His tales of wars fought, cities built and burned, new kings, and struggling alliances spread the histories of heroes and their willingness to believe in their own resources and the miraculous help of the gods.Please Note: This book is easy to read in true text, not scanned images that can sometimes be difficult to decipher. The Microsoft eBook has a contents page linked to the chapter headings for easy navigation. The Adobe eBook has bookmarks at chapter headings and is printable up to two full copies per year. Both versions are text searchable."
+ },
+ {
+  "title": "Candide",
+  "match": "author",
+  "ol_key": "/works/OL100672W",
+  "ol_title": "Candide",
+  "authors": [
+   "Voltaire"
+  ],
+  "author_keys": [
+   "OL32293A"
+  ],
+  "csv_author": "Voltaire",
+  "pub_year": 1746,
+  "page_count": 153,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12736044-L.jpg",
+  "avg_rating": 3.98,
+  "ratings_count": 91,
+  "publisher": "Lambert]",
+  "description": "Brought up in the household of a powerful Baron, Candide is an open-minded young man, whose tutor, Pangloss, has instilled in him the belief that 'all is for the best'. But when his love for the Baron's rosy-cheeked daughter is discovered, Candide is cast out to make his own way in the world. And so he and his various companions begin a breathless tour of Europe, South America and Asia, as an outrageous series of disasters befall them - earthquakes, syphilis, a brush with the Inquisition, murder - sorely testing the young hero's optimism."
+ },
+ {
+  "title": "The Red and the Black",
+  "match": "author",
+  "ol_key": "/works/OL27297169W",
+  "ol_title": "The Red and the Black",
+  "authors": [
+   "Stendhal",
+   "Henri J Dubouchet",
+   "Horace B Samuel"
+  ],
+  "author_keys": [
+   "OL2786936A",
+   "OL10218188A",
+   "OL7807753A"
+  ],
+  "csv_author": "Stendhal",
+  "pub_year": 2011,
+  "page_count": 472,
+  "isbn": "9781950330973",
+  "cover_url": "https://covers.openlibrary.org/b/id/13861207-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Classic Wisdom Reprint",
+  "description": null
+ },
+ {
+  "title": "Gulliver's Travels",
+  "match": "author",
+  "ol_key": "/works/OL20600W",
+  "ol_title": "Gulliver's Travels",
+  "authors": [
+   "Jonathan Swift"
+  ],
+  "author_keys": [
+   "OL24522A"
+  ],
+  "csv_author": "Jonathan Swift",
+  "pub_year": 1726,
+  "page_count": 278,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12717083-L.jpg",
+  "avg_rating": 3.62,
+  "ratings_count": 89,
+  "publisher": "T. Barrois, Jnr",
+  "description": "A parody of traveler’s tales and a satire of human nature, “Gulliver’s Travels” is Jonathan Swift’s most famous work which was first published in 1726. An immensely popular tale ever since its original publication, “Gulliver’s Travels” is the story of its titular character, Lemuel Gulliver, a man who loves to travel. A series of four journeys are detailed in which Gulliver finds himself in a number of amusing and precarious situations. In the first voyage, Gulliver is imprisoned by a race of tiny people, the Lilliputians, when following a shipwreck he is washed upon the shores of their island country. In his second voyage Gulliver finds himself abandoned in Brobdingnag, a land of giants, where he is exhibited for their amusement. In his third voyage, Gulliver once again finds himself marooned; fortunately he is rescued by the flying island of Laputa, a kingdom devoted to the arts of music and mathematics. He subsequently travels to the surrounding lands of Balnibarbi, Luggnagg, Glubbdubdrib, and Japan. Finally in his last voyage, when he is set adrift by a mutinous crew, he finds himself in the curious Country of the Houyhnhnms. Through the various experiences of Gulliver, Swift brilliantly satirizes the political and cultural environment of his time in addition to creating a lasting and enchanting tale of fantasy. This edition is illustrated by Milo Winter and includes an introduction by George R. Dennis."
+ },
+ {
+  "title": "Vanity Fair",
+  "match": "author",
+  "ol_key": "/works/OL16313W",
+  "ol_title": "Vanity Fair",
+  "authors": [
+   "William Makepeace Thackeray"
+  ],
+  "author_keys": [
+   "OL23186A"
+  ],
+  "csv_author": "William Makepeace Thackeray",
+  "pub_year": 1800,
+  "page_count": 699,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/417329-L.jpg",
+  "avg_rating": 4.36,
+  "ratings_count": 11,
+  "publisher": "Knopf",
+  "description": "No one is better equipped in the struggle for wealth and worldly success than the alluring and ruthless Becky Sharp, who defies her impoverished background to clamber up the class ladder. Her sentimental companion Amelia, however, longs only for caddish soldier George. As the two heroines make their way through the tawdry glamour of Regency society, battles - military and domestic - are fought, fortunes made and lost. The one steadfast and honourable figure in this corrupt world is Dobbin with his devotion to Amelia, bringing pathos and depth to Thackeray's gloriously satirical epic of love and social adventure."
+ },
+ {
+  "title": "The Three Musketeers",
+  "match": "author",
+  "ol_key": "/works/OL38438001W",
+  "ol_title": "The three musketeers",
+  "authors": [
+   "Alexandre Dumas"
+  ],
+  "author_keys": [
+   "OL6819624A"
+  ],
+  "csv_author": "Alexandre Dumas",
+  "pub_year": 1933,
+  "page_count": 637,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/15079464-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "London : Daily Express",
+  "description": null
+ },
+ {
+  "title": "Around the World in Eighty Days",
+  "match": "author",
+  "ol_key": "/works/OL24776232W",
+  "ol_title": "Around the World in Eighty Days",
+  "authors": [
+   "Jules Verne",
+   "George Makepeace Towle"
+  ],
+  "author_keys": [
+   "OL113611A",
+   "OL6014796A"
+  ],
+  "csv_author": "Jules Verne",
+  "pub_year": 2004,
+  "page_count": 180,
+  "isbn": "9781536990768",
+  "cover_url": "https://covers.openlibrary.org/b/id/11531296-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Createspace Independent Publishing Platform",
+  "description": null
+ },
+ {
+  "title": "The Secret Garden",
+  "match": "author",
+  "ol_key": "/works/OL69612W",
+  "ol_title": "The Secret Garden",
+  "authors": [
+   "Frances Hodgson Burnett"
+  ],
+  "author_keys": [
+   "OL23767A"
+  ],
+  "csv_author": "Frances Hodgson Burnett",
+  "pub_year": 1911,
+  "page_count": 256,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12622062-L.jpg",
+  "avg_rating": 3.94,
+  "ratings_count": 106,
+  "publisher": "Standard Ebooks",
+  "description": "A ten-year-old orphan comes to live in a lonely house on the Yorkshire moors where she discovers an invalid cousin and the mysteries of a locked garden."
+ },
+ {
+  "title": "Little Women",
+  "match": "author",
+  "ol_key": "/works/OL29983W",
+  "ol_title": "Little Women",
+  "authors": [
+   "Louisa May Alcott"
+  ],
+  "author_keys": [
+   "OL26680A"
+  ],
+  "csv_author": "Louisa May Alcott",
+  "pub_year": 1848,
+  "page_count": 422,
+  "isbn": "9781423652113",
+  "cover_url": "https://covers.openlibrary.org/b/id/8775559-L.jpg",
+  "avg_rating": 4.06,
+  "ratings_count": 128,
+  "publisher": "Gibbs Smith",
+  "description": "Louisa May Alcotts classic novel, set during the Civil War, has always captivated even the most reluctant readers. Little girls, especially, love following the adventures of the four March sisters--Meg, Beth, Amy, and most of all, the tomboy Jo--as they experience the joys and disappointments, tragedies and triumphs, of growing up. This simpler version captures all the charm and warmth of the original."
+ },
+ {
+  "title": "A Room with a View",
+  "match": "author",
+  "ol_key": "/works/OL88813W",
+  "ol_title": "A Room with a View",
+  "authors": [
+   "E. M. Forster"
+  ],
+  "author_keys": [
+   "OL6898863A"
+  ],
+  "csv_author": "E.M. Forster",
+  "pub_year": 1905,
+  "page_count": 204,
+  "isbn": "9781404327542",
+  "cover_url": "https://covers.openlibrary.org/b/id/1748132-L.jpg",
+  "avg_rating": 3.74,
+  "ratings_count": 23,
+  "publisher": "IndyPublish",
+  "description": "Lucy has her rigid, middle-class life mapped out for her, until she visits Florence with her uptight cousin Charlotte, and finds her neatly ordered existence thrown off balance. Her eyes are opened by the unconventional characters she meets at the Pension Bertolini: flamboyant romantic novelist Eleanor Lavish, the Cockney Signora, curious Mr Emerson and, most of all, his passionate son George. Lucy finds herself torn between the intensity of life in Italy and the repressed morals of Edwardian England, personified in her terminally dull fiancé Cecil Vyse. Will she ever learn to follow her own heart?"
+ },
+ {
+  "title": "The Age of Innocence",
+  "match": "author",
+  "ol_key": "/works/OL98491W",
+  "ol_title": "The Age of Innocence",
+  "authors": [
+   "Edith Wharton"
+  ],
+  "author_keys": [
+   "OL20188A"
+  ],
+  "csv_author": "Edith Wharton",
+  "pub_year": 1920,
+  "page_count": 348,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/11196262-L.jpg",
+  "avg_rating": 3.54,
+  "ratings_count": 48,
+  "publisher": null,
+  "description": "Edith Wharton's most famous novel, written immediately after the end of the First World War, is a brilliantly realized anatomy of New York society in the 1870s, the world in which she grew up, and from which she spent her life escaping. Newland Archer, Wharton's protagonist, charming, tactful, enlightened, is a thorough product of this society; he accepts its standards and abides by its rules but he also recognizes its limitations. His engagement to the impeccable May Welland assures him of a safe and conventional future, until the arrival of May's cousin Ellen Olenska puts all his plans in jeopardy. Independent, free-thinking, scandalously separated from her husband, Ellen forces Archer to question the values and assumptions of his narrow world. As their love for each other grows, Archer has to decide where his ultimate loyalty lies. - Back cover."
+ },
+ {
+  "title": "The House of Mirth",
+  "match": "title",
+  "ol_key": "/works/OL98587W",
+  "ol_title": "The House of Mirth",
+  "authors": [
+   "Edith Wharton"
+  ],
+  "author_keys": [
+   "OL20188A"
+  ],
+  "csv_author": "Henry James",
+  "pub_year": 1905,
+  "page_count": 348,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9329539-L.jpg",
+  "avg_rating": 4.12,
+  "ratings_count": 17,
+  "publisher": "McCleod & Allen",
+  "description": "Beautiful, intelligent, and hopelessly addicted to luxury, Lily Bart is the heroine of this Wharton masterpiece. But it is her very taste and moral sensibility that render her unfit for survival in this world."
+ },
+ {
+  "title": "The Turn of the Screw",
+  "match": "title",
+  "ol_key": "/works/OL276386W",
+  "ol_title": "The Turn of the Screw",
+  "authors": [
+   "Henry James"
+  ],
+  "author_keys": [
+   "OL21001A"
+  ],
+  "csv_author": "Rudyard Kipling",
+  "pub_year": 1898,
+  "page_count": 160,
+  "isbn": "9780312406912",
+  "cover_url": "https://covers.openlibrary.org/b/id/181493-L.jpg",
+  "avg_rating": 3.67,
+  "ratings_count": 45,
+  "publisher": "Bedford/St. Martin's",
+  "description": "The governess of two enigmatic children fears their souls are in danger from the ghosts of the previous governess and her sinister lover."
+ },
+ {
+  "title": "Kim",
+  "match": "title",
+  "ol_key": "/works/OL19908W",
+  "ol_title": "Kim",
+  "authors": [
+   "Rudyard Kipling"
+  ],
+  "author_keys": [
+   "OL24461A"
+  ],
+  "csv_author": "Joseph Conrad",
+  "pub_year": 1901,
+  "page_count": 286,
+  "isbn": "9789626340189",
+  "cover_url": "https://covers.openlibrary.org/b/id/1053011-L.jpg",
+  "avg_rating": 3.79,
+  "ratings_count": 19,
+  "publisher": "Naxos Audiobooks",
+  "description": "Kim is Rudyard Kipling's story of an orphan born in colonial India and torn between love for his native India and the demands of Imperial loyalty to his Irish-English heritage and to the British Secret Service. Long recognized as Kipling's finest work, Kim was a key factor in his winning the Nobel Prize for Literature in 1907."
+ },
+ {
+  "title": "Lord Jim",
+  "match": "title",
+  "ol_key": "/works/OL38684W",
+  "ol_title": "Lord Jim",
+  "authors": [
+   "Joseph Conrad"
+  ],
+  "author_keys": [
+   "OL19441A"
+  ],
+  "csv_author": "Wilkie Collins",
+  "pub_year": 1900,
+  "page_count": 360,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8236295-L.jpg",
+  "avg_rating": 3.79,
+  "ratings_count": 14,
+  "publisher": "William Blackwood and Sons",
+  "description": "This compact novel, completed in 1900, as with so many of the great novels of the time, is at its baseline a book of the sea. An English boy in a simple town has dreams bigger than the outdoors and embarks at an early age into the sailor's life. The waters he travels reward him with the ability to explore the human spirit, while Joseph Conrad launches the story into both an exercise of his technical prowess and a delicately crafted picture of a character who reaches the status of a literary hero."
+ },
+ {
+  "title": "The Moonstone",
+  "match": "title",
+  "ol_key": "/works/OL176092W",
+  "ol_title": "The Moonstone",
+  "authors": [
+   "Wilkie Collins"
+  ],
+  "author_keys": [
+   "OL22358A"
+  ],
+  "csv_author": "H.G. Wells",
+  "pub_year": 1800,
+  "page_count": 448,
+  "isbn": "9780822492207",
+  "cover_url": "https://covers.openlibrary.org/b/id/8237041-L.jpg",
+  "avg_rating": 4.08,
+  "ratings_count": 25,
+  "publisher": "Globe Fearon",
+  "description": "One of the first English detective novels, this mystery involves the disappearance of a valuable diamond, originally stolen from a Hindu idol, given to a young woman on her eighteenth birthday, and then stolen again. A classic of 19th-century literature."
+ },
+ {
+  "title": "The Time Machine",
+  "match": "title",
+  "ol_key": "/works/OL52267W",
+  "ol_title": "The Time Machine",
+  "authors": [
+   "H. G. Wells"
+  ],
+  "author_keys": [
+   "OL13066A"
+  ],
+  "csv_author": "Walter Scott",
+  "pub_year": 1895,
+  "page_count": 120,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9009316-L.jpg",
+  "avg_rating": 4.01,
+  "ratings_count": 135,
+  "publisher": null,
+  "description": "The Time Traveller, a dreamer obsessed with traveling through time, builds himself a time machine and, much to his surprise, travels over 800,000 years into the future. He lands in the year 802701: the world has been transformed by a society living in apparent harmony and bliss, but as the Traveler stays in the future he discovers a hidden barbaric and depraved subterranean class. Wells's transparent commentary on the capitalist society was an instant bestseller and launched the time-travel genre."
+ },
+ {
+  "title": "Journey to the Center of the Earth",
+  "match": "title",
+  "ol_key": "/works/OL18437639W",
+  "ol_title": "Journey to the center of the earth",
+  "authors": [
+   "Jules Verne"
+  ],
+  "author_keys": [
+   "OL113611A"
+  ],
+  "csv_author": "Daniel Defoe",
+  "pub_year": 2000,
+  "page_count": null,
+  "isbn": "9781559027830",
+  "cover_url": "https://covers.openlibrary.org/b/id/8359565-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 1,
+  "publisher": "Aerie Books",
+  "description": null
+ },
+ {
+  "title": "Twenty Thousand Leagues Under the Sea",
+  "match": "title",
+  "ol_key": "/works/OL24304873W",
+  "ol_title": "Twenty thousand leagues under the sea",
+  "authors": [
+   "Jules Verne"
+  ],
+  "author_keys": [
+   "OL113611A"
+  ],
+  "csv_author": "Stephen Crane",
+  "pub_year": 1977,
+  "page_count": 48,
+  "isbn": "9780740312601",
+  "cover_url": "https://covers.openlibrary.org/b/id/10817535-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Project Gutenberg Literary Archive Foundation",
+  "description": null
+ },
+ {
+  "title": "The War of the Worlds",
+  "match": "title",
+  "ol_key": "/works/OL52114W",
+  "ol_title": "The War of the Worlds",
+  "authors": [
+   "H. G. Wells"
+  ],
+  "author_keys": [
+   "OL13066A"
+  ],
+  "csv_author": "D.H. Lawrence",
+  "pub_year": 0,
+  "page_count": 206,
+  "isbn": "9780060791247",
+  "cover_url": "https://covers.openlibrary.org/b/id/36314-L.jpg",
+  "avg_rating": 3.83,
+  "ratings_count": 181,
+  "publisher": "HarperFestival",
+  "description": "The ultimate science fiction classic: for more than one hundred years, this compelling tale of the Martian invasion of Earth has enthralled readers with a combination of imagination and incisive commentary on the imbalance of power that continues to be relevant today. The style is revolutionary for its era, employing a sophisticated first and third person account of the events which is both personal and focused on the holistic downfall of Earth's society. The Martians, as evil, mechanical and unknown a threat they are, remain daunting in today's society, where, despite technology's mammoth advances, humanity's hegemony over Earth is yet to be called into question. In Well's introduction to the book, where the character discusses with the later deceased Ogilvy about astronomy and the possibility of alien life defeating the 'savage' (to them) nineteenth-century Britain, is he insinuating that this is the truth and fate of humanity? It's up to you to decide…"
+ },
+ {
+  "title": "Ivanhoe",
+  "match": "title",
+  "ol_key": "/works/OL863808W",
+  "ol_title": "Ivanhoe",
+  "authors": [
+   "Sir Walter Scott"
+  ],
+  "author_keys": [
+   "OL75235A"
+  ],
+  "csv_author": "Virginia Woolf",
+  "pub_year": 1800,
+  "page_count": 488,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/314235-L.jpg",
+  "avg_rating": 3.71,
+  "ratings_count": 17,
+  "publisher": "Dover Publications",
+  "description": "The father of the historical novel, Sir Walter Scott invented a literary form that has remained popular for over one hundred and fifty years. Infusing his works with romance, action, and suspense, he brought long-gone eras back to life with splendor and spectacle.Set in England just after the Third Crusade, Ivanhoe is the tale of Wilfrid, a young Saxon knight, and his love for the royal princess Rowena. With his father against their union, Wilfrid embarks on a series of adventures to prove his worth, finding himself in conflict against the Normans and the Templars, and allied with such larger-than-life figures as Robin Hood and Richard the Lion Hearted. A timeless story of courage, chivalry, and courtly love, Ivanhoe is a grand epic, and its place in classical literature is assured."
+ },
+ {
+  "title": "Robinson Crusoe",
+  "match": "title",
+  "ol_key": "/works/OL45089W",
+  "ol_title": "Robinson Crusoe",
+  "authors": [
+   "Daniel Defoe"
+  ],
+  "author_keys": [
+   "OL18283A"
+  ],
+  "csv_author": "Ernest Hemingway",
+  "pub_year": 1686,
+  "page_count": 274,
+  "isbn": "9780553213737",
+  "cover_url": "https://covers.openlibrary.org/b/id/368541-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 30,
+  "publisher": "Bantam Classics",
+  "description": "During one of his several adventurous voyages in the 1600's, an Englishman becomes the sole survivor of a shipwreck and lives for nearly thirty years on a deserted island."
+ },
+ {
+  "title": "The Red Badge of Courage",
+  "match": "title",
+  "ol_key": "/works/OL20844W",
+  "ol_title": "The Red Badge of Courage",
+  "authors": [
+   "Stephen Crane"
+  ],
+  "author_keys": [
+   "OL24527A"
+  ],
+  "csv_author": "William Faulkner",
+  "pub_year": 1855,
+  "page_count": 174,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8236915-L.jpg",
+  "avg_rating": 3.67,
+  "ratings_count": 30,
+  "publisher": "D. Appleton",
+  "description": "The Red Badge of Courage is a war novel by American author Stephen Crane (1871–1900). Taking place during the American Civil War, the story is about a young private of the Union Army, Henry Fleming, who flees from the field of battle. Overcome with shame, he longs for a wound, a \"red badge of courage,\" to counteract his cowardice. When his regiment once again faces the enemy, Henry acts as standard-bearer. Although Crane was born after the war, and had not at the time experienced battle first-hand, the novel is known for its realism. He began writing what would become his second novel in 1893, using various contemporary and written accounts (such as those published previously by Century Magazine) as inspiration. It is believed that he based the fictional battle on that of Chancellorsville; he may also have interviewed veterans of the124th New York Volunteer Infantry Regiment, commonly known as the Orange Blossoms. Initially shortened and serialized in newspapers in December 1894, the novel was published in full in October 1895. A longer version of the work, based on Crane's original manuscript, was published in 1982. The novel is known for its distinctive style, which includes realistic battle sequences as well as the repeated use of color imagery, and ironic tone. Separating itself from a traditional war narrative, Crane's story reflects the inner experience of its protagonist (a soldier fleeing from combat) rather than the external world around him."
+ },
+ {
+  "title": "Sons and Lovers",
+  "match": "title",
+  "ol_key": "/works/OL81295W",
+  "ol_title": "Sons and Lovers",
+  "authors": [
+   "D. H. Lawrence"
+  ],
+  "author_keys": [
+   "OL19964A"
+  ],
+  "csv_author": "Fyodor Dostoevsky",
+  "pub_year": 1913,
+  "page_count": 491,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8246175-L.jpg",
+  "avg_rating": 4.5,
+  "ratings_count": 10,
+  "publisher": "Duckworth",
+  "description": "<p><i>Sons and Lovers</i>, a story of working-class England, is <a href=\"https://standardebooks.org/ebooks/d-h-lawrence\"><abbr>D. H.</abbr> Lawrence’s</a> third novel. It went through various drafts, and was titled “Paul Morel” until the final draft, before being published and met with an indifferent reaction from contemporary critics. Modern critics now consider it to be <abbr>D. H.</abbr> Lawrence’s masterpiece, with the Modern Library placing it ninth in its “100 Best English-Language Novels of the 20th Century.”</p> <p>The novel follows the Morels, a family living in a coal town, and headed by a passionate but boorish miner. His wife, originally from a refined family, is dragged down by Morel’s classlessness, and finds her life’s joy in her children. As the children grow up and start leading lives of their own, they struggle against their mother’s emotional drain on them.</p> <p><i>Sons and Lovers</i> was written during a period in Lawrence’s life when his own mother was gravely ill. Its exploration of the Oedipal instinct, frank depiction of working-class household unhappiness and violence, and accurate and colorful depiction of Nottinghamshire dialect, make it a fascinating window into the life of people not often chronicled in fiction of the day.</p>"
+ },
+ {
+  "title": "Mrs Dalloway",
+  "match": "title",
+  "ol_key": "/works/OL39349W",
+  "ol_title": "Mrs. Dalloway",
+  "authors": [
+   "Virginia Woolf"
+  ],
+  "author_keys": [
+   "OL19450A"
+  ],
+  "csv_author": "Nikolai Gogol",
+  "pub_year": 1925,
+  "page_count": 224,
+  "isbn": "9780141904108",
+  "cover_url": "https://covers.openlibrary.org/b/id/6397580-L.jpg",
+  "avg_rating": 3.72,
+  "ratings_count": 54,
+  "publisher": "Penguin Group UK",
+  "description": "Virginia Woolf’s novel chronicles a day in the life of Clarissa Dalloway, a politician’s wife in 1920s London, as she prepares to host a party that evening. The narrative follows Clarissa’s thoughts (and sometimes those of people she meets) as she goes about her errands, and events in the day remind her of her youth and friendships from the past. As the book progresses characters from the past emerge, igniting old feelings and making Clarissa question the life she has created for herself. Mrs. Dalloway became the inspiration for Michael Cunningham’s 1998 novel The Hours."
+ },
+ {
+  "title": "To the Lighthouse",
+  "match": "title",
+  "ol_key": "/works/OL39396W",
+  "ol_title": "To the Lighthouse",
+  "authors": [
+   "Virginia Woolf"
+  ],
+  "author_keys": [
+   "OL19450A"
+  ],
+  "csv_author": "Ivan Turgenev",
+  "pub_year": 1927,
+  "page_count": 242,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8231846-L.jpg",
+  "avg_rating": 3.76,
+  "ratings_count": 29,
+  "publisher": "Harcourt, Brace and World,inc.",
+  "description": "This novel is an extraordinarily poignant evocation of a lost happiness that lives on in the memory. For years now the Ramsays have spent every summer in their holiday home in Scotland, and they expect these summers will go on forever.In this, her most autobiographical novel, Virginia Woolf captures the intensity of childhood longing and delight, and the shifting complexity of adult relationships. From an acute awareness of transcience, she creates an enduring work of art."
+ },
+ {
+  "title": "Orlando",
+  "match": "title",
+  "ol_key": "/works/OL39360W",
+  "ol_title": "Orlando",
+  "authors": [
+   "Virginia Woolf"
+  ],
+  "author_keys": [
+   "OL19450A"
+  ],
+  "csv_author": "Anton Chekhov",
+  "pub_year": 1928,
+  "page_count": 226,
+  "isbn": "9783596505470",
+  "cover_url": "https://covers.openlibrary.org/b/id/3240273-L.jpg",
+  "avg_rating": 4.09,
+  "ratings_count": 22,
+  "publisher": "Fischer (Tb.), Frankfurt",
+  "description": "In her most exuberant, most fanciful novel, Woolf has created a character liberated from the restraints of time and sex. Born in the Elizabethan Age to wealth and position, Orlando is a young nobleman at the beginning of the story-and a modern woman three centuries later."
+ },
+ {
+  "title": "The Waves",
+  "match": "title",
+  "ol_key": "/works/OL39316W",
+  "ol_title": "The Waves",
+  "authors": [
+   "Virginia Woolf"
+  ],
+  "author_keys": [
+   "OL19450A"
+  ],
+  "csv_author": "Albert Camus",
+  "pub_year": 1931,
+  "page_count": 256,
+  "isbn": "9780192838124",
+  "cover_url": "https://covers.openlibrary.org/b/id/119517-L.jpg",
+  "avg_rating": 4.38,
+  "ratings_count": 13,
+  "publisher": "Oxford Univ Pr",
+  "description": "Tracing the lives of a group of friends, this novel follows their development from childhood to middle age. Social events, individual achievements and disappointments form the outer structure of the book, but the focus is the inner life of the characters which is conveyed in rich poetic language."
+ },
+ {
+  "title": "A Farewell to Arms",
+  "match": "title",
+  "ol_key": "/works/OL63072W",
+  "ol_title": "A Farewell to Arms",
+  "authors": [
+   "Ernest Hemingway"
+  ],
+  "author_keys": [
+   "OL13640A"
+  ],
+  "csv_author": "Jean-Paul Sartre",
+  "pub_year": 1929,
+  "page_count": 332,
+  "isbn": "9780684717975",
+  "cover_url": "https://covers.openlibrary.org/b/id/7226599-L.jpg",
+  "avg_rating": 3.65,
+  "ratings_count": 62,
+  "publisher": "Scribner",
+  "description": "A Farewell to Arms is about a love affair between the expatriate American Henry and Catherine Barkley against the backdrop of the First World War, cynical soldiers, fighting and the displacement of populations. The publication of A Farewell to Arms cemented Hemingway's stature as a modern American writer, became his first best-seller, and is described by biographer Michael Reynolds as \"the premier American war novel from that debacle World War I.\""
+ },
+ {
+  "title": "For Whom the Bell Tolls",
+  "match": "title",
+  "ol_key": "/works/OL63009W",
+  "ol_title": "For Whom the Bell Tolls",
+  "authors": [
+   "Ernest Hemingway"
+  ],
+  "author_keys": [
+   "OL13640A"
+  ],
+  "csv_author": "Samuel Beckett",
+  "pub_year": 1940,
+  "page_count": 480,
+  "isbn": "9780736657013",
+  "cover_url": "https://covers.openlibrary.org/b/id/2560810-L.jpg",
+  "avg_rating": 3.69,
+  "ratings_count": 26,
+  "publisher": "Books on Tape",
+  "description": "High in the pine forests of the Spanish Sierra, a guerrilla band prepares to blow up a vital bridge. Robert Jordan, a young American volunteer, has been sent to handle the dynamiting. There, in the mountains, he finds the dangers and the intense comradeship of war. And there he discovers Maria, a young woman who has escaped from Franco's rebels."
+ },
+ {
+  "title": "Absalom, Absalom!",
+  "match": "title",
+  "ol_key": "/works/OL82928W",
+  "ol_title": "Absalom, Absalom!",
+  "authors": [
+   "William Faulkner"
+  ],
+  "author_keys": [
+   "OL21831A"
+  ],
+  "csv_author": "Salman Rushdie",
+  "pub_year": 1936,
+  "page_count": 378,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8292960-L.jpg",
+  "avg_rating": 4.5,
+  "ratings_count": 10,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "Light in August",
+  "match": "title",
+  "ol_key": "/works/OL82931W",
+  "ol_title": "Light in August",
+  "authors": [
+   "William Faulkner"
+  ],
+  "author_keys": [
+   "OL21831A"
+  ],
+  "csv_author": "Chinua Achebe",
+  "pub_year": 1931,
+  "page_count": 480,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8292249-L.jpg",
+  "avg_rating": 3.1,
+  "ratings_count": 10,
+  "publisher": "Modern Library",
+  "description": "One of Faulkner's most admired and accessible novels, \"Light in August reveals the great American author at the height of his powers. Lena Grove's resolute search for the father of her unborn child begets a rich, poignant, and ultimately hopeful story of perseverance in the face of mortality. It also acquaints us with several of Faulkner's most unforgettable characters, including the Reverend Gail Hightower, who is plagued by visions of Confederate horsemen, and Joe Christmas, a ragged, itinerant soul obsessed with his mixed-race ancestry. Powerfully entwining these characters' stories, \"Light in August vividly brings to life Faulkner's imaginary South, one of literature's great invented landscapes, in all of its impoverished, violent, unerringly fascinating glory. This edition reproduces the corrected text of \"Light in August as established in 1985 by Noel Polk."
+ },
+ {
+  "title": "The Idiot",
+  "match": "title",
+  "ol_key": "/works/OL17771503W",
+  "ol_title": "The Idiot",
+  "authors": [
+   "Elif Batuman"
+  ],
+  "author_keys": [
+   "OL3031163A"
+  ],
+  "csv_author": "Tayeb Salih",
+  "pub_year": 1969,
+  "page_count": 432,
+  "isbn": "9781594205613",
+  "cover_url": "https://covers.openlibrary.org/b/id/8054401-L.jpg",
+  "avg_rating": 3.57,
+  "ratings_count": 7,
+  "publisher": "Penguin Press",
+  "description": "Embarking on her freshman year at Harvard in the early tech days of the 1990s, a young artist and daughter of Turkish immigrants begins a correspondence with an older mathematics student from Hungary while struggling with her changing sense of self, first love and a daunting career prospect."
+ },
+ {
+  "title": "Notes from Underground",
+  "match": "title",
+  "ol_key": "/works/OL2700418W",
+  "ol_title": "Notes from Underground",
+  "authors": [
+   "Stephen Duncombe"
+  ],
+  "author_keys": [
+   "OL394701A"
+  ],
+  "csv_author": "Alan Paton",
+  "pub_year": 1997,
+  "page_count": 256,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/2062555-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": "Verso",
+  "description": "245 pages ; 23 cm"
+ },
+ {
+  "title": "Dead Souls",
+  "match": "title",
+  "ol_key": "/works/OL17396611W",
+  "ol_title": "Dead Souls",
+  "authors": [
+   "Nikolaĭ Vasilʹevich  Gogolʹ"
+  ],
+  "author_keys": [
+   "OL2627043A"
+  ],
+  "csv_author": "Arundhati Roy",
+  "pub_year": 1942,
+  "page_count": 317,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/7496125-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "Fathers and Sons",
+  "match": "title",
+  "ol_key": "/works/OL16058646W",
+  "ol_title": "Fathers and sons",
+  "authors": [
+   "Carolyn McSparren"
+  ],
+  "author_keys": [
+   "OL1386218A"
+  ],
+  "csv_author": "Henry James",
+  "pub_year": 1999,
+  "page_count": 298,
+  "isbn": "9780373708291",
+  "cover_url": "https://covers.openlibrary.org/b/id/6921276-L.jpg",
+  "avg_rating": 4.0,
+  "ratings_count": 1,
+  "publisher": "Harlequin Books",
+  "description": "Her client is her ex-husband's son. When Kate Mulholland divorced David Canfield twenty years ago for an act of betrayal that resulted in the birth of a baby boy, she never expected to see David or his son again. She certainly never expected David to keep track of her successful career as an Atlanta lawyer. But that's exactly what he did. And now he's asking for her help. His son, Jason, has been charged with the murder of his high-school sweetheart, and David needs the best lawyer he can find. Kate knows she can handle the case. What she doesn't know is whether she--and David--can handle the feelings that still exist between them."
+ },
+ {
+  "title": "Uncle Vanya",
+  "match": "title",
+  "ol_key": "/works/OL23181669W",
+  "ol_title": "Uncle Vanya",
+  "authors": [
+   "Annie Baker"
+  ],
+  "author_keys": [
+   "OL7093138A"
+  ],
+  "csv_author": "Iris Murdoch",
+  "pub_year": 2014,
+  "page_count": 98,
+  "isbn": "9780573701566",
+  "cover_url": "https://covers.openlibrary.org/b/id/12135998-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Samuel French",
+  "description": "\"A refreshingly intimate and modern spin on a Chekhovian classic.\" Devastatingly beautiful. People are going to be talking about this one for years.\"? The Village VoiceOne of the most-produced playwrights in the United States, Annie Baker lends her truthful observation and elegant command of the colloquial to Chekhov's despairing masterpiece. A critical hit in its sold-out Off-Broadway premiere, this contemporary telling is \"the most intimate and engaging exploration of Chekhov's bleak comedy since Andre; Gregory's Vanya on 42nd Street\" (Bloomberg News). Annie Baker's works include The Aliens (Obie Award), Body Awareness, Circle Mirror Transformation (Obie Award), Nocturama, and The Flick. Recent honors include a New York Drama Critics Circle Special Citation, Susan Smith Blackburn Prize nomination, Time Warner Storytelling Fellowship, MacDowell Fellowship and commissions from Center Theater Group and Playwrights Horizons.\"--"
+ },
+ {
+  "title": "Nausea",
+  "match": "title",
+  "ol_key": "/works/OL19363285W",
+  "ol_title": "Nausea",
+  "authors": [
+   "Jean-Paul. Satre"
+  ],
+  "author_keys": [
+   "OL7489744A"
+  ],
+  "csv_author": "Jean Rhys",
+  "pub_year": 1969,
+  "page_count": null,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8480115-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "Waiting for Godot",
+  "match": "title",
+  "ol_key": "/works/OL1938670W",
+  "ol_title": "Waiting for Godot",
+  "authors": [
+   "Thomas Cousineau"
+  ],
+  "author_keys": [
+   "OL232596A"
+  ],
+  "csv_author": "Kazuo Ishiguro",
+  "pub_year": 1989,
+  "page_count": 136,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/7145198-L.jpg",
+  "avg_rating": 4.5,
+  "ratings_count": 2,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "The Unbearable Lightness of Being",
+  "match": "title",
+  "ol_key": "/works/OL29245997W",
+  "ol_title": "The Unbearable Lightness of Being",
+  "authors": [
+   "Ardian Vehbiu"
+  ],
+  "author_keys": [
+   "OL424033A"
+  ],
+  "csv_author": "Michael Ondaatje",
+  "pub_year": 1987,
+  "page_count": 222,
+  "isbn": null,
+  "cover_url": null,
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "Love in the Time of Cholera",
+  "match": "title",
+  "ol_key": "/works/OL23624225W",
+  "ol_title": "Love in the Time of Cholera",
+  "authors": [
+   "Gabriel García Márquez"
+  ],
+  "author_keys": [
+   "OL27363A"
+  ],
+  "csv_author": "Hilary Mantel",
+  "pub_year": null,
+  "page_count": null,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/10518348-L.jpg",
+  "avg_rating": 5.0,
+  "ratings_count": 1,
+  "publisher": null,
+  "description": null
+ },
+ {
+  "title": "Chronicle of a Death Foretold",
+  "match": "title",
+  "ol_key": "/works/OL26201952W",
+  "ol_title": "Chronicle of a Death Foretold",
+  "authors": [
+   "Gabriel García Márquez"
+  ],
+  "author_keys": [
+   "OL27363A"
+  ],
+  "csv_author": "David Mitchell",
+  "pub_year": 1984,
+  "page_count": 62,
+  "isbn": "9781665039932",
+  "cover_url": "https://covers.openlibrary.org/b/id/12198662-L.jpg",
+  "avg_rating": 0,
+  "ratings_count": 0,
+  "publisher": "Blackstone Publishing",
+  "description": null
+ },
+ {
+  "title": "Midnight's Children",
+  "match": "title",
+  "ol_key": "/works/OL457179W",
+  "ol_title": "Midnight's Children",
+  "authors": [
+   "Salman Rushdie"
+  ],
+  "author_keys": [
+   "OL26769A"
+  ],
+  "csv_author": "Neil Gaiman",
+  "pub_year": 1981,
+  "page_count": 578,
+  "isbn": "9780140132700",
+  "cover_url": "https://covers.openlibrary.org/b/id/8346713-L.jpg",
+  "avg_rating": 3.95,
+  "ratings_count": 40,
+  "publisher": "Penguin Books",
+  "description": "Midnight's Children is a 1981 novel by author Salman Rushdie. It portrays India's transition from British colonial rule to independence and the partition of India. It is considered an example of postcolonial, postmodern, and magical realist literature. The story is told by its chief protagonist, Saleem Sinai, and is set in the context of actual historical events. The style of preserving history with fictional accounts is self-reflexive. Midnight's Children won both the Booker Prize and the James Tait Black Memorial Prize in 1981. It was awarded the \"Booker of Bookers\" Prize and the best all-time prize winners in 1993 and 2008 to celebrate the Booker Prize 25th and 40th anniversary.In 2003, the novel was listed on the BBC's The Big Read poll of the UK's \"best-loved novels\". It was also added to the list of Great Books of the 20th Century, published by Penguin Books."
+ },
+ {
+  "title": "Things Fall Apart",
+  "match": "title",
+  "ol_key": "/works/OL891786W",
+  "ol_title": "Things Fall Apart",
+  "authors": [
+   "Chinua Achebe"
+  ],
+  "author_keys": [
+   "OL78910A"
+  ],
+  "csv_author": "Cormac McCarthy",
+  "pub_year": 1958,
+  "page_count": 192,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/12816943-L.jpg",
+  "avg_rating": 3.92,
+  "ratings_count": 101,
+  "publisher": "Fawcett Publications",
+  "description": "Things Fall Apart is the debut novel by Nigerian author Chinua Achebe, first published in 1958. It depicts pre-colonial life in the southeastern part of Nigeria and the arrival of Europeans during the late 19th century. It is seen as the archetypal modern African novel in English, and one of the first to receive global critical acclaim. It is a staple book in schools throughout Africa and is widely read and studied in English-speaking countries around the world. The novel was first published in the UK in 1962 by William Heinemann Ltd, and became the first work published in Heinemann's African Writers Series. The novel follows the life of Okonkwo, an Igbo (\"Ibo\" in the novel) man and local wrestling champion in the fictional Nigerian clan of Umuofia. The work is split into three parts, with the first describing his family, personal history, and the customs and society of the Igbo, and the second and third sections introducing the influence of European colonialism and Christian missionaries on Okonkwo, his family, and the wider Igbo community. Things Fall Apart was followed by a sequel, No Longer at Ease (1960), originally written as the second part of a larger work along with Arrow of God (1964). Achebe states that his two later novels A Man of the People (1966) and Anthills of the Savannah (1987), while not featuring Okonkwo's descendants, are spiritual successors to the previous novels in chronicling African history."
+ },
+ {
+  "title": "Cry, the Beloved Country",
+  "match": "title",
+  "ol_key": "/works/OL2384132W",
+  "ol_title": "Cry, the Beloved Country",
+  "authors": [
+   "Alan Paton"
+  ],
+  "author_keys": [
+   "OL325487A"
+  ],
+  "csv_author": "James Clavell",
+  "pub_year": 1940,
+  "page_count": 278,
+  "isbn": "9780684718637",
+  "cover_url": "https://covers.openlibrary.org/b/id/8235289-L.jpg",
+  "avg_rating": 3.92,
+  "ratings_count": 13,
+  "publisher": "C. Scribner's Sons",
+  "description": "This book is the most famous and important novel in South Africa's history, and an immediate worldwide bestseller when it was published in 1948. Alan Paton's impassioned novel about a black man's country under white man's law is a work of searing beauty. The eminent literary critic Lewis Gannett wrote, \" We have had many novels from statesmen and reformers, almost all bad; many novels from poets, almost all thin. In Alan Paton's Cry, the Beloved Country the statesman, the poet and the novelist meet in a unique harmony.\" Cry, the Beloved Country is the deeply moving story of the Zulu pastor Stephen Kumalo and his son, Absalom, set against the background of a land and a people riven by racial injustice. Remarkable for its lyricism, unforgettable for character and incident, Cry, the Beloved Country is a classic work of love and hope, courage and endurance, born of the dignity of man. - Jacket flap."
+ },
+ {
+  "title": "The God of Small Things",
+  "match": "title",
+  "ol_key": "/works/OL1052133W",
+  "ol_title": "The God of Small Things",
+  "authors": [
+   "Arundhati Roy"
+  ],
+  "author_keys": [
+   "OL104867A"
+  ],
+  "csv_author": "Ken Follett",
+  "pub_year": 1997,
+  "page_count": 357,
+  "isbn": "9780679457312",
+  "cover_url": "https://covers.openlibrary.org/b/id/10513792-L.jpg",
+  "avg_rating": 3.84,
+  "ratings_count": 82,
+  "publisher": "Random House",
+  "description": "The God of Small Things is the debut novel of Indian writer Arundhati Roy. It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the \"Love Laws\" that lay down \"who should be loved, and how. And how much.\" The book explores how the small things affect people's behavior and their lives. The book also reflects its irony against casteism, which is a major discrimination that prevails in India. It won the Booker Prize in 1997."
+ },
+ {
+  "title": "Howard's End",
+  "match": "title",
+  "ol_key": "/works/OL88881W",
+  "ol_title": "Howards End",
+  "authors": [
+   "E. M. Forster"
+  ],
+  "author_keys": [
+   "OL6898863A"
+  ],
+  "csv_author": "Jeffrey Eugenides",
+  "pub_year": 1910,
+  "page_count": 342,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8235207-L.jpg",
+  "avg_rating": 4.25,
+  "ratings_count": 12,
+  "publisher": "A. A. Knopf",
+  "description": "Howards End is a novel by E. M. Forster about social conventions, codes of conduct and relationships in turn-of-the-century England. A strong-willed and intelligent woman refuses to allow the pretensions of her husband's smug English family to ruin her life. Howards End is considered by some to be Forster's masterpiece"
+ },
+ {
+  "title": "The Portrait of a Lady",
+  "match": "title",
+  "ol_key": "/works/OL276365W",
+  "ol_title": "The Portrait of a Lady",
+  "authors": [
+   "Henry James"
+  ],
+  "author_keys": [
+   "OL21001A"
+  ],
+  "csv_author": "David Foster Wallace",
+  "pub_year": 1881,
+  "page_count": 608,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/3352367-L.jpg",
+  "avg_rating": 3.96,
+  "ratings_count": 24,
+  "publisher": null,
+  "description": "Young American Isabel Archer charms European society, but falls prey to the machinations of a calculating older woman."
+ },
+ {
+  "title": "Dubliners",
+  "match": "title",
+  "ol_key": "/works/OL86320W",
+  "ol_title": "Dubliners",
+  "authors": [
+   "James Joyce"
+  ],
+  "author_keys": [
+   "OL31827A"
+  ],
+  "csv_author": "Don DeLillo",
+  "pub_year": 1914,
+  "page_count": 240,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/8216412-L.jpg",
+  "avg_rating": 3.88,
+  "ratings_count": 84,
+  "publisher": "G. Richards",
+  "description": "James Joyce's disillusion with the publication of Dubliners in 1914 was the result of ten years battling with publishers, resisting their demands to remove swear words, real place names and much else, including two entire stories. Although only 24 when he signed his first publishing contract for the book, Joyce already knew its worth: to alter it in any way would 'retard the course of civilisation in Ireland'. Joyce's aim was to tell the truth -- to create a work of art that would reflect life in Ireland at the turn of the last century. By rejecting euphemism, he would reveal to the Irish the unromantic reality, the recognition of which would lead to the spiritual liberation of the country. Each of the fifteen stories offers a glimpse of the lives of ordinary Dubliners -- a death, an encounter, an opportunity not taken, a memory rekindled -- and collectively they paint a portrait of a nation. - Back cover. Dubliners is a collection of vignettes of Dublin life at the end of the 19th Century written, by Joyce’s own admission, in a manner that captures some of the unhappiest moments of life. Some of the dominant themes include lost innocence, missed opportunities and an inability to escape one’s circumstances. Joyce’s intention in writing Dubliners, in his own words, was to write a chapter of the moral history of his country, and he chose Dublin for the scene because that city seemed to him to be the centre of paralysis."
+ },
+ {
+  "title": "Wide Sargasso Sea",
+  "match": "title",
+  "ol_key": "/works/OL1858668W",
+  "ol_title": "Wide Sargasso Sea",
+  "authors": [
+   "Jean Rhys"
+  ],
+  "author_keys": [
+   "OL4397788A"
+  ],
+  "csv_author": "Stendhal",
+  "pub_year": 1966,
+  "page_count": 189,
+  "isbn": null,
+  "cover_url": "https://covers.openlibrary.org/b/id/9269373-L.jpg",
+  "avg_rating": 4.06,
+  "ratings_count": 18,
+  "publisher": null,
+  "description": null
+ }
+]
