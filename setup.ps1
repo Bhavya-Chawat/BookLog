@@ -16,7 +16,7 @@ function Warn($m) { Write-Host "   TODO $m" -ForegroundColor Yellow; [void]$Todo
 function Fail($m) { Write-Host "   FAIL $m" -ForegroundColor Red }
 
 function Get-EnvValue($name) {
-    $line = Get-Content $EnvFile | Where-Object { $_ -match "^\s*$name=" } | Select-Object -First 1
+    $line = Get-Content $EnvFile | ForEach-Object { $_.TrimStart([char]0xFEFF) } | Where-Object { $_ -match "^\s*$name=" } | Select-Object -First 1
     if ($line) { return ($line -replace "^\s*$name=", '').Trim() } else { return '' }
 }
 function Set-EnvValue($name, $value) {
@@ -24,7 +24,7 @@ function Set-EnvValue($name, $value) {
     if ($lines | Where-Object { $_ -match "^\s*$name=" }) {
         $lines = $lines | ForEach-Object { if ($_ -match "^\s*$name=") { "$name=$value" } else { $_ } }
     } else { $lines += "$name=$value" }
-    Set-Content -Path $EnvFile -Value $lines -Encoding utf8
+    [IO.File]::WriteAllLines($EnvFile, [string[]]$lines, (New-Object Text.UTF8Encoding($false)))
 }
 
 # ---------------------------------------------------------------- env file

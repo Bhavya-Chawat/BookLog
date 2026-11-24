@@ -110,6 +110,9 @@ def start():
 
 def stop():
     _stop.set()
+    # wait for the worker to finish its pass so it never touches a closed DB pool
+    if _thread is not None and _thread.is_alive():
+        _thread.join(timeout=10)
 
 
 def status():

@@ -77,7 +77,7 @@ async def viewer_optional(
     viewer = None
     if credentials:
         try:
-            token = await run_in_threadpool(firebase_auth.verify_id_token, credentials.credentials)
+            token = await run_in_threadpool(firebase_auth.verify_id_token, credentials.credentials, None, False, 10)
         except Exception:
             raise HTTPException(status_code=401, detail="Invalid or expired sign-in token")
         row = await run_in_threadpool(ensure_user, token["uid"], token.get("name"), token.get("email"))
