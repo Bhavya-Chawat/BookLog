@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+psycopg2-binary
+pydantic
+python-dotenv
+firebase-admin
+neo4j
+pymongo
+openai
+httpx

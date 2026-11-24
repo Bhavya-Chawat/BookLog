@@ -1,0 +1,12 @@
+booklog-firebase-key.json
+*firebase-adminsdk*.json
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+backend/db/.openlibrary_cache/
+backend/.env
+backups/
+.claude/
+database/booklog.dump
+database/booklog.sql
