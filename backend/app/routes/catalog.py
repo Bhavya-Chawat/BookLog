@@ -33,8 +33,8 @@ def languages():
 
 
 @router.get("/books")
-def all_books():
-    return book_service.get_all_books()
+def all_books(limit: int = Query(100, ge=1, le=500), offset: int = Query(0, ge=0)):
+    return book_service.get_all_books(limit, offset)
 
 
 @router.get("/books/stats")

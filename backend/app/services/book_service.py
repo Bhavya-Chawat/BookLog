@@ -177,9 +177,9 @@ def list_languages():
 # BOOKS
 # =====================================================================
 
-def get_all_books():
+def get_all_books(limit: int = 100, offset: int = 0):
     with db.cursor() as cur:
-        cur.execute(f"SELECT {BOOK_CARD} FROM book_summary bs ORDER BY bs.title")
+        cur.execute(f"SELECT {BOOK_CARD} FROM book_summary bs ORDER BY bs.title LIMIT %s OFFSET %s", (limit, offset))
         return cur.fetchall()
 
 
@@ -208,7 +208,9 @@ def get_book_details(title: str, viewer=None):
                    b.ratings_count,
                    b.isbn          AS isbn13,
                    p.name          AS publisher,
-                   (SELECT status FROM shelf s WHERE s.book_id = b.book_id AND s.user_id = app_user_id()) AS shelf_status
+                   (SELECT status FROM shelf s WHERE s.book_id = b.book_id AND s.user_id = app_user_id()) AS shelf_status,
+                   ARRAY(SELECT t.name FROM book_tag bt JOIN tag t USING (tag_id)
+                         WHERE bt.book_id = b.book_id AND t.tag_type = 'mood' ORDER BY t.name) AS moods
             FROM book_summary bs
             JOIN book b USING (book_id)
             LEFT JOIN publisher p USING (publisher_id)

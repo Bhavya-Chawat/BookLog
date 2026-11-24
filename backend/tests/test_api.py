@@ -160,7 +160,9 @@ with TestClient(app) as c:
     check(any(u["username"] == alice for u in found), "search users")
 
     # Neo4j sync through the outbox
-    applied = sync_worker.process_once()
+    applied = 0
+    while (n := sync_worker.process_once()):
+        applied += n
     check(all(s["pending"] == 0 for s in sync_worker.status() if s["target"] == "neo4j"),
           f"outbox synced to Neo4j ({applied} ops)")
     sug = c.get("/people/suggestions", headers=as_(A)).json()

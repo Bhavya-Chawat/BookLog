@@ -17,8 +17,14 @@ def browse(
     min_rating: Optional[float] = Query(None, ge=0, le=5),
     offset: int = Query(0, ge=0),
     limit: int = Query(30, ge=1, le=60),
+    mood: Optional[str] = Query(None, max_length=40),
 ):
-    return discover_service.browse(genre, sort, decade, max_pages, min_rating, offset, limit)
+    return discover_service.browse(genre, sort, decade, max_pages, min_rating, offset, limit, mood)
+
+
+@router.get("/discover/moods")
+def moods():
+    return discover_service.mood_index()
 
 
 @router.get("/discover/genres")

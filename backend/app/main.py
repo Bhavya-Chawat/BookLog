@@ -21,7 +21,8 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    # Vite moves to 5174, 5175... when 5173 is busy; `vite preview` uses 4173
+    allow_origin_regex=r"http://(localhost|127\.0\.0\.1):(517\d|4173)",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

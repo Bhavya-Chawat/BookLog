@@ -1,4 +1,5 @@
 """Admin and moderator endpoints."""
+from datetime import date
 from typing import List, Literal, Optional
 
 from fastapi import APIRouter, Depends
@@ -6,7 +7,7 @@ from pydantic import BaseModel, Field
 
 from app import sync_worker
 from app.deps import Viewer, admin_required, moderator_required
-from app.services import admin_service
+from app.services import admin_service, insights_service
 
 router = APIRouter(prefix="/admin", tags=["admin"])
 
@@ -129,6 +130,17 @@ def resolve(report_id: int, body: Resolve, viewer: Viewer = Depends(moderator_re
 @router.get("/analytics")
 def analytics(refresh: bool = True, viewer: Viewer = Depends(admin_required)):
     return admin_service.analytics(refresh)
+
+
+@router.get("/insights")
+def insights(
+    range: Literal["7d", "30d", "90d", "12m", "ytd", "last_year", "all", "custom"] = "30d",
+    start: Optional[date] = None,
+    end: Optional[date] = None,
+    viewer: Viewer = Depends(admin_required),
+):
+    """Analytics for a time frame; each section includes the SQL that produced it."""
+    return insights_service.insights(range, start, end)
 
 
 @router.get("/audit")

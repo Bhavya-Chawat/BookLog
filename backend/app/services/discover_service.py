@@ -26,12 +26,17 @@ SORTS = {
 }
 
 
-def browse(genre=None, sort="popular", decade=None, max_pages=None, min_rating=None, offset=0, limit=30):
+def browse(genre=None, sort="popular", decade=None, max_pages=None, min_rating=None, offset=0, limit=30, mood=None):
     """One page of the catalogue for infinite scrolling, plus the total match count."""
     where, params = ["bs.cover_url IS NOT NULL"], {}
     if genre:
         where.append("%(genre)s = ANY(bs.genres)")
         params["genre"] = genre
+    if mood:
+        # mood tags live in the ER diagram's TAG / BOOK_TAG tables (migration 005)
+        where.append("""EXISTS (SELECT 1 FROM book_tag bt JOIN tag t USING (tag_id)
+                                WHERE bt.book_id = bs.book_id AND t.tag_type = 'mood' AND t.name = %(mood)s)""")
+        params["mood"] = mood
     if decade is not None:
         where.append("bs.pub_year >= %(d0)s AND bs.pub_year < %(d0)s + 10")
         params["d0"] = decade
@@ -69,6 +74,26 @@ def genre_index():
             GROUP BY g.genre_id
             HAVING count(*) >= 3
             ORDER BY book_count DESC
+            """
+        )
+        return cur.fetchall()
+
+
+def mood_index():
+    """Every mood tag with its description, book count and three well-known covers."""
+    with db.cursor() as cur:
+        cur.execute(
+            """
+            SELECT t.name, r.blurb, count(*) AS book_count,
+                   (array_agg(b.cover_url ORDER BY b.ratings_count DESC)
+                        FILTER (WHERE b.cover_url LIKE '%%/b/id/%%'))[1:3] AS covers
+            FROM tag t
+            JOIN book_tag bt USING (tag_id)
+            JOIN book b USING (book_id)
+            LEFT JOIN mood_rule r USING (tag_id)
+            WHERE t.tag_type = 'mood'
+            GROUP BY t.tag_id, t.name, r.blurb
+            ORDER BY t.name
             """
         )
         return cur.fetchall()
