@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Check, Lock, Plus } from 'lucide-react';
 import NeoButton from './NeoButton';
 import { ErrorBox, Input, Modal, Spinner, Toggle } from './ui';

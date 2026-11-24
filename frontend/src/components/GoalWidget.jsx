@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import NeoButton from './NeoButton';
 import { Input } from './ui';
 import { getGoal, setGoal } from '../services/api';

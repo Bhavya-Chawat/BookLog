@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { LayoutGrid, Library, Shuffle, X } from 'lucide-react';
@@ -6,7 +6,7 @@ import BookCard from '../components/BookCard';
 import Bookshelf from '../components/Bookshelf';
 import NeoButton, { cn } from '../components/NeoButton';
 import { Chip, CoverImage, EASE, ErrorBox, Page, PageTitle, Spinner } from '../components/ui';
-import { browseBooks, errorMessage, getGenreIndex, getRandomBook } from '../services/api';
+import { browseBooks, errorMessage, getGenreIndex, getMoods, getRandomBook } from '../services/api';
 
 const SORTS = [
   ['popular', 'Most read'],
@@ -87,8 +87,10 @@ const ExplorePage = () => {
   const decade = params.get('decade') ? Number(params.get('decade')) : null;
   const maxPages = params.get('pages') ? Number(params.get('pages')) : null;
   const minRating = params.get('rating') ? Number(params.get('rating')) : null;
+  const mood = params.get('mood');
 
   const [genres, setGenres] = useState([]);
+  const [moods, setMoods] = useState([]);
   const [books, setBooks] = useState([]);
   const [total, setTotal] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -98,7 +100,7 @@ const ExplorePage = () => {
   const pickView = (v) => { setView(v); try { localStorage.setItem('booklog-explore-view', v); } catch { /* ignore */ } };
   const sentinel = useRef(null);
   const busy = useRef(false);
-  const queryKey = `${genre}|${sort}|${decade}|${maxPages}|${minRating}`;
+  const queryKey = `${genre}|${sort}|${decade}|${maxPages}|${minRating}|${mood}`;
 
   const set = (k, v) => {
     const next = new URLSearchParams(params);
@@ -106,14 +108,17 @@ const ExplorePage = () => {
     setParams(next, { replace: true });
   };
 
-  useEffect(() => { getGenreIndex().then(setGenres).catch(() => {}); }, []);
+  useEffect(() => {
+    getGenreIndex().then(setGenres).catch(() => {});
+    getMoods().then(setMoods).catch(() => {});
+  }, []);
 
   const load = useCallback(async (offset) => {
     if (busy.current) return;
     busy.current = true;
     setLoading(true);
     try {
-      const r = await browseBooks({ genre: genre || undefined, sort, decade: decade ?? undefined, max_pages: maxPages || undefined, min_rating: minRating ?? undefined, offset, limit: PAGE });
+      const r = await browseBooks({ genre: genre || undefined, sort, decade: decade ?? undefined, max_pages: maxPages || undefined, min_rating: minRating ?? undefined, mood: mood || undefined, offset, limit: PAGE });
       setTotal(r.total);
       setBooks((prev) => (offset === 0 ? r.books : [...prev, ...r.books]));
       setError(null);
@@ -139,7 +144,8 @@ const ExplorePage = () => {
   }, [books.length, total, load]);
 
   const shownGenres = genres.filter((g) => g.name.toLowerCase().includes(genreFilter.toLowerCase()));
-  const activeFilters = [genre, decade, maxPages, minRating].filter((v) => v !== null && v !== undefined).length;
+  const activeFilters = [genre, decade, maxPages, minRating, mood].filter((v) => v !== null && v !== undefined).length;
+  const moodInfo = moods.find((m) => m.name === mood);
 
   return (
     <Page>
@@ -148,7 +154,7 @@ const ExplorePage = () => {
         animal="cat" prop="glasses" seed={4}
         right={total !== null && <p className="text-right"><span className="font-display text-[48px] block">{total.toLocaleString()}</span><span className="caps">books match</span></p>}
       >
-        <span>{genre ? `${genre} books` : 'Every book'}</span>
+        <span>{[mood, genre].filter(Boolean).join(' ') ? `${[mood, genre].filter(Boolean).join(' ')} books` : 'Every book'}</span>
       </PageTitle>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
@@ -185,6 +191,22 @@ const ExplorePage = () => {
         {/* Results */}
         <div className="min-w-0 lg:col-span-9">
           <div className="space-y-3 mb-10">
+            {moods.length > 0 && (
+              <div>
+                <div className="flex items-baseline gap-3 mb-2">
+                  <p className="caps">Mood</p>
+                  {moodInfo?.blurb && <p className="text-[13px] text-text-muted">{moodInfo.blurb}</p>}
+                </div>
+                <div className="flex gap-2 overflow-x-auto pb-1" data-lenis-prevent>
+                  <Chip active={!mood} onClick={() => set('mood', null)}>Any mood</Chip>
+                  {moods.map((m) => (
+                    <Chip key={m.name} active={mood === m.name} onClick={() => set('mood', mood === m.name ? null : m.name)}>
+                      {m.name} <span className="font-main text-[11px] opacity-70 ml-1 tabular-nums">{m.book_count.toLocaleString()}</span>
+                    </Chip>
+                  ))}
+                </div>
+              </div>
+            )}
             <div className="flex gap-2 overflow-x-auto pb-1" data-lenis-prevent>
               {SORTS.map(([k, l]) => <Chip key={k} active={sort === k} onClick={() => set('sort', k === 'popular' ? null : k)}>{l}</Chip>)}
             </div>

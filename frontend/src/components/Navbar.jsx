@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { ArrowUpRight, Bell, Dices, MessageCircle, Moon, Search, Sun } from 'lucide-react';
@@ -235,8 +235,7 @@ const Navbar = () => {
           <nav className="hidden xl:flex items-center gap-1">
             {links.map((l) => (
               <Link key={l.path} to={l.path} className="group relative px-3.5 py-2 caps text-text-main">
-                <span className={cn('relative transition-opacity', isActive(l.path) ? 'opacity-100' : 'opacity-80 group-hover:opacity-100')}>{l.name}</span>
-                {isActive(l.path)
+                <span className={cn('relative transition-opacity', isActive(l.path) ? 'opacity-100' : 'opacity-80 group-hover:opacity-100')}>{l.name}</span>                {isActive(l.path)
                   ? <motion.span layoutId="nav-dot" className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-1.5 h-1.5 rounded-full bg-red" />
                   : <Paw className="absolute left-1/2 -translate-x-1/2 -bottom-3 w-3.5 h-3.5 opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300" />}
               </Link>

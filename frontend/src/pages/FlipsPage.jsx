@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowUpRight, ChevronDown, ChevronUp, Heart, Link2, Globe, MessageCircle, Send, Sparkles, Trash2, X } from 'lucide-react';
@@ -114,7 +114,7 @@ const ActionButton = ({ icon: Icon, label, onClick, active, fill }) => (
 );
 
 /** One full-height reel. */
-const Reel = ({ reel, active, saved, onSave, onOpenTakes, onToast }) => {
+const Reel = ({ reel, active, saved, takesOpen, onSave, onOpenTakes, onToast }) => {
   const { book, takes } = reel;
   const [tint, setTint] = useState(['#E33529', '#8E1F17']);
   const [burst, setBurst] = useState(0);
@@ -154,7 +154,7 @@ const Reel = ({ reel, active, saved, onSave, onOpenTakes, onToast }) => {
       {/* right rail */}
       <div className="absolute right-3 bottom-[24%] flex flex-col gap-4">
         <ActionButton icon={Heart} label={saved ? 'Saved' : 'Want'} active={saved} fill onClick={like} />
-        <ActionButton icon={MessageCircle} label={takes.length ? String(takes.length) : 'Take'} onClick={() => onOpenTakes(reel)} />
+        <ActionButton icon={MessageCircle} label={takes.length ? String(takes.length) : 'Take'} active={takesOpen} onClick={() => onOpenTakes(reel)} />
         <ActionButton icon={Link2} label="Share" onClick={share} />
         <Link to={`/book/${encodeURIComponent(book.title)}`} className="flex flex-col items-center gap-1 text-white group" aria-label="Open book">
           <span className="w-12 h-12 rounded-full bg-red text-[#FBFBF4] flex items-center justify-center transition-transform duration-300 group-hover:-rotate-12 group-hover:scale-110"><ArrowUpRight className="w-[22px] h-[22px]" /></span>
@@ -178,14 +178,23 @@ const Reel = ({ reel, active, saved, onSave, onOpenTakes, onToast }) => {
   );
 };
 
-/** Takes on one book: list + composer. The side panel on desktop, a sheet on mobile. */
-const TakesPanel = ({ reel, onClose, onChanged }) => {
+/**
+ * Takes on one book: list + composer. The side panel on desktop, a sheet on mobile.
+ * `composing` / `onCompose` let the reel's comment button open and close the composer.
+ */
+const TakesPanel = ({ reel, onClose, onChanged, composing = true, onCompose }) => {
   const { currentUser, loginWithGoogle } = useAuth();
   const [text, setText] = useState('');
   const [vibe, setVibe] = useState('fun_fact');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState(null);
+  const input = useRef(null);
   const { book, takes } = reel;
+
+  // Opening the composer puts the cursor in the box
+  useEffect(() => {
+    if (composing && onCompose) input.current?.focus({ preventScroll: true });
+  }, [composing, onCompose]);
 
   const submit = async (e) => {
     e.preventDefault();
@@ -252,7 +261,14 @@ const TakesPanel = ({ reel, onClose, onChanged }) => {
         </AnimatePresence>
       </div>
 
-      {currentUser && (
+      {currentUser && !composing && (
+        <div className="pt-4 border-t border-border">
+          <button onClick={() => onCompose?.(true)} className="w-full h-11 rounded-full border-[1.5px] border-text-main/30 hover:border-text-main text-[14px] flex items-center justify-center gap-2">
+            <MessageCircle className="w-4 h-4" /> Write a take
+          </button>
+        </div>
+      )}
+      {currentUser && composing && (
         <form onSubmit={submit} className="pt-4 border-t border-border">
           <div className="flex gap-1.5 overflow-x-auto pb-2" data-lenis-prevent>
             {Object.entries(VIBES).map(([k, [emoji, label]]) => (
@@ -263,9 +279,13 @@ const TakesPanel = ({ reel, onClose, onChanged }) => {
           </div>
           <div className="flex items-end gap-2 mt-2">
             <textarea
+              ref={input}
               value={text}
               onChange={(e) => setText(e.target.value.slice(0, 280))}
-              onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey) submit(e); }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey) submit(e);
+                if (e.key === 'Escape' && onCompose) onCompose(false);
+              }}
               rows={2}
               placeholder="A fun fact, a hot take, a line you loved…"
               className="flex-1 resize-none rounded-[14px] border border-border bg-bg-base px-3.5 py-2.5 text-[14px] outline-none focus:border-text-main"
@@ -369,6 +389,11 @@ const FlipsPage = () => {
   const pickMode = (k) => (k === 'following' && !currentUser ? loginWithGoogle() : setMode(k));
   const current = reels[active];
   const sheetReel = sheet && reels.find((r) => r.book.book_id === sheet);
+  // The comment button opens the take box for that book; pressing it again closes it
+  const toggleTakes = (reel) => {
+    if (!currentUser && sheet !== reel.book.book_id) flash('Sign in to write a take');
+    setSheet((s) => (s === reel.book.book_id ? null : reel.book.book_id));
+  };
 
   return (
     <div className="max-w-[1400px] mx-auto px-3 sm:px-8 lg:px-10 pt-4 pb-16">
@@ -425,7 +450,7 @@ const FlipsPage = () => {
           >
             {reels.map((r, i) => (
               <div key={r.book.book_id} data-index={i} className="h-full snap-start snap-always">
-                <Reel reel={r} active={i === active} saved={saved.has(r.book.book_id)} onSave={save} onOpenTakes={(x) => setSheet(x.book.book_id)} onToast={flash} />
+                <Reel reel={r} active={i === active} saved={saved.has(r.book.book_id)} takesOpen={sheet === r.book.book_id} onSave={save} onOpenTakes={toggleTakes} onToast={flash} />
               </div>
             ))}
             {!reels.length && !loading && (
@@ -450,7 +475,15 @@ const FlipsPage = () => {
 
         {/* Right: takes on the reel on screen */}
         <aside className="hidden lg:block h-[calc(100vh-130px)] min-h-[520px] rounded-[32px] bg-surface-white p-7">
-          {current ? <TakesPanel key={current.book.book_id} reel={current} onChanged={setTakes} /> : <p className="caps">Takes appear here.</p>}
+          {current ? (
+            <TakesPanel
+              key={current.book.book_id}
+              reel={current}
+              onChanged={setTakes}
+              composing={sheet === current.book.book_id}
+              onCompose={(open) => setSheet(open ? current.book.book_id : null)}
+            />
+          ) : <p className="caps">Takes appear here.</p>}
         </aside>
       </div>
 

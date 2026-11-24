@@ -17,5 +17,11 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
+    rules: {
+      // advisory only: data-loading effects that reset state are intentional here
+      'react-hooks/set-state-in-effect': 'warn',
+      // only affects hot-reload during development, not the running app
+      'react-refresh/only-export-components': 'warn',
+    },
   },
 ])

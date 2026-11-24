@@ -1,21 +1,23 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar, { NAV } from './components/Navbar';
 import Footer from './components/Footer';
 import { CommandPalette, Intro, PageTransition, SmoothScroll } from './components/shell';
 import { OnboardingGate } from './components/GenrePicker';
-import HomePage from './pages/HomePage';
-import LandingPage from './pages/LandingPage';
-import ExplorePage from './pages/ExplorePage';
-import SearchPage from './pages/SearchPage';
-import BookDetailsPage from './pages/BookDetailsPage';
-import AuthorDetailsPage from './pages/AuthorDetailsPage';
-import ListsPage, { NewListPage } from './pages/ListsPage';
 import { AuthProvider } from './contexts/AuthContext';
 import { PulseProvider } from './components/social';
 import { Spinner } from './components/ui';
 
-// Heavier, signed-in pages load on demand
+// Every page is its own file, downloaded the first time it is opened,
+// so the first visit only loads the app shell and the page you land on.
+const HomePage = lazy(() => import('./pages/HomePage'));
+const LandingPage = lazy(() => import('./pages/LandingPage'));
+const ExplorePage = lazy(() => import('./pages/ExplorePage'));
+const SearchPage = lazy(() => import('./pages/SearchPage'));
+const BookDetailsPage = lazy(() => import('./pages/BookDetailsPage'));
+const AuthorDetailsPage = lazy(() => import('./pages/AuthorDetailsPage'));
+const ListsPage = lazy(() => import('./pages/ListsPage'));
+const NewListPage = lazy(() => import('./pages/ListsPage').then((m) => ({ default: m.NewListPage })));
 const MyLibraryPage = lazy(() => import('./pages/MyLibraryPage'));
 const ListDetailPage = lazy(() => import('./pages/ListDetailPage'));
 const FeedPage = lazy(() => import('./pages/FeedPage'));
@@ -41,7 +43,7 @@ function Shell() {
   const { pathname } = useLocation();
   useEffect(() => { document.documentElement.dataset.page = pageColour(pathname); }, [pathname]);
   // The landing page is a full-screen cover with its own intro
-  if (pathname === '/') return <LandingPage />;
+  if (pathname === '/') return <Suspense fallback={<div className="min-h-screen bg-bg-base" />}><LandingPage /></Suspense>;
   return (
     <>
       <SmoothScroll />

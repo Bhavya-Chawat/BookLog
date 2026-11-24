@@ -111,7 +111,6 @@ const Conversation = ({ username, onSent }) => {
   if (error && !conv) return <div className="h-full flex items-center justify-center font-serif text-3xl text-text-muted p-8 text-center">{error}</div>;
   if (!conv) return <div className="h-full flex items-center justify-center label">Opening conversation…</div>;
 
-  let lastDay = null;
   return (
     <div className="h-full flex flex-col">
       <div className="flex items-center gap-3 px-5 h-20 border-b border-border shrink-0">
@@ -134,8 +133,8 @@ const Conversation = ({ username, onSent }) => {
         )}
         {conv.messages.map((m, i) => {
           const day = dayLabel(m.created_at);
-          const showDay = day !== lastDay;
-          lastDay = day;
+          const prev = conv.messages[i - 1];
+          const showDay = !prev || day !== dayLabel(prev.created_at);
           const next = conv.messages[i + 1];
           const tail = !next || next.mine !== m.mine;
           return (

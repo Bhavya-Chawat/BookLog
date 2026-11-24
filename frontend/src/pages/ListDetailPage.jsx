@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ArrowDown, ArrowUp, Heart, Lock, MessageSquare, Pencil, Trash2, X } from 'lucide-react';
 import NeoButton, { cn } from '../components/NeoButton';

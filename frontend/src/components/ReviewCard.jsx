@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Flag, Heart, MessageSquare } from 'lucide-react';
 import NeoButton, { cn } from './NeoButton';
 import Comments from './Comments';

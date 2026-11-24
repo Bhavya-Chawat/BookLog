@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
+import { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Heart, MessageCircle, Send, UserPlus, X } from 'lucide-react';
@@ -56,7 +56,7 @@ export const OnlineDot = ({ on, className }) => (on ? (
 // Notifications panel
 // ---------------------------------------------------------------------
 const NOTE = {
-  follow: [UserPlus, (n) => <>started following you</>, (n) => `/u/${n.actor}`],
+  follow: [UserPlus, () => <>started following you</>, (n) => `/u/${n.actor}`],
   like_review: [Heart, (n) => <>liked your review of <b className="font-medium">{n.title}</b></>, (n) => `/book/${encodeURIComponent(n.title)}`],
   comment_review: [MessageCircle, (n) => <>commented on your review of <b className="font-medium">{n.title}</b></>, (n) => `/book/${encodeURIComponent(n.title)}`],
   comment_list: [MessageCircle, (n) => <>commented on your list <b className="font-medium">{n.title}</b></>, (n) => `/lists/${n.list_id}`],

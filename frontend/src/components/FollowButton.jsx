@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import NeoButton from './NeoButton';
 import { useAuth } from '../contexts/AuthContext';
 import { followUser, unfollowUser } from '../services/api';

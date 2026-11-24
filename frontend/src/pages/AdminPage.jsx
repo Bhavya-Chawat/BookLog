@@ -1,7 +1,8 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Pencil, Plus, RefreshCw, Trash2 } from 'lucide-react';
 import NeoButton from '../components/NeoButton';
+import AdminInsights from '../components/AdminInsights';
 import {
   Card, Empty, ErrorBox, Field, Input, Modal, Page, PageTitle, SectionTitle, Select, Spinner, Stars, Tabs, TextArea, UserLink, timeAgo,
 } from '../components/ui';
@@ -395,7 +396,7 @@ const AdminPage = () => {
   if (!isStaff) return <Page><Empty title="Admins and moderators only" /></Page>;
 
   const tabs = isAdmin
-    ? [{ id: 'overview', label: 'Reports' }, { id: 'moderation', label: 'Moderation' }, { id: 'books', label: 'Books' }, { id: 'authors', label: 'Authors' }, { id: 'genres', label: 'Genres' }, { id: 'users', label: 'Users & roles' }, { id: 'audit', label: 'Audit log' }]
+    ? [{ id: 'overview', label: 'Reports' }, { id: 'insights', label: 'Analytics' }, { id: 'moderation', label: 'Moderation' }, { id: 'books', label: 'Books' }, { id: 'authors', label: 'Authors' }, { id: 'genres', label: 'Genres' }, { id: 'users', label: 'Users & roles' }, { id: 'audit', label: 'Audit log' }]
     : [{ id: 'moderation', label: 'Moderation' }];
 
   return (
@@ -403,6 +404,7 @@ const AdminPage = () => {
       <PageTitle animal="owl" kicker="( Staff ) catalogue, reports, analytics and audit log">{isAdmin ? 'Admin' : 'Moderation'}</PageTitle>
       <Tabs active={tab} onChange={setTab} tabs={tabs} />
       {tab === 'overview' && <Overview />}
+      {tab === 'insights' && <AdminInsights />}
       {tab === 'moderation' && <Moderation />}
       {tab === 'books' && <BooksAdmin />}
       {tab === 'authors' && <AuthorsAdmin />}

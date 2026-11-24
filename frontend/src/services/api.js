@@ -42,6 +42,7 @@ export const logClick = (bookId, source) => api.post('/activity/click', { book_i
 // ---------------- Discover ----------------
 export const browseBooks = (params) => data(api.get('/discover/browse', { params }));
 export const getGenreIndex = () => data(api.get('/discover/genres'));
+export const getMoods = () => data(api.get('/discover/moods'));
 export const getRandomBook = (genre) => data(api.get('/discover/random', { params: genre ? { genre } : {} }));
 export const getBookOfTheDay = () => data(api.get('/discover/today'));
 export const getCatalogueStats = () => data(api.get('/discover/stats'));
@@ -128,6 +129,7 @@ export const sendChatMessage = (content, sessionId) => data(api.post('/chat/mess
 // ---------------- Admin ----------------
 export const admin = {
   analytics: () => data(api.get('/admin/analytics')),
+  insights: (params) => data(api.get('/admin/insights', { params })),
   audit: (table) => data(api.get('/admin/audit', { params: table ? { table } : {} })),
   reports: (status = 'open') => data(api.get('/admin/reports', { params: { status } })),
   resolveReport: (id, action) => data(api.post(`/admin/reports/${id}/resolve`, { action })),

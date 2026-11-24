@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import NeoButton, { cn } from './NeoButton';
 import { Modal } from './ui';
 import { useAuth } from '../contexts/AuthContext';

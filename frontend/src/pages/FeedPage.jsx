@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, ListPlus } from 'lucide-react';
 import { Avatar, Cover, Empty, Page, PageTitle, Spinner, Stars, UserLink, timeAgo } from '../components/ui';

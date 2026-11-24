@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowLeft, Bookmark, BookOpen, Check, Heart, ListPlus, Pencil, Plus, Send, Trash2 } from 'lucide-react';
@@ -163,6 +163,11 @@ const BookDetailsPage = () => {
             <div className="flex flex-wrap gap-x-3 gap-y-1 mb-5">
               {book.categories?.map((cat) => (
                 <Link key={cat} to={`/explore?genre=${encodeURIComponent(cat)}`} className="label link-draw">{cat}</Link>
+              ))}
+              {book.moods?.map((m) => (
+                <Link key={m} to={`/explore?mood=${encodeURIComponent(m)}`} className="label px-2.5 py-0.5 -my-0.5 rounded-full bg-text-main/[0.07] hover:bg-text-main/[0.14] transition-colors" title={`More ${m.toLowerCase()} books`}>
+                  {m}
+                </Link>
               ))}
             </div>
             <RevealText as="h1" delay={0.1} className="font-display text-[clamp(3.4rem,8vw,8rem)] break-words">
