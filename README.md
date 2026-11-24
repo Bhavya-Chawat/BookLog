@@ -1,191 +1,230 @@
 # BookLog
 
-A social book diary and recommendation system. Log books with ratings and reviews, keep shelves and lists, follow other readers, get recommendations that explain themselves, and ask a chatbot for books in plain language.
+A social book diary and recommendation system. Log books with ratings and reviews, keep shelves and ranked lists, follow other readers, swap takes and messages, get recommendations that explain themselves, and ask a chatbot for books in plain language. Admins get moderation tools and time-frame analytics that show the SQL behind every number.
 
 *DBMS course project (CD252IA), Department of ISE, RV College of Engineering, by Archit Patil and Bhavya Chawat.*
 
-**Stack:** PostgreSQL 15+ (main database) · Neo4j 5 (social graph) · MongoDB (logs, chat, cached recommendations) · FastAPI · React 19 + Vite + Tailwind · Framer Motion + Lenis · Firebase Auth · OpenAI (chatbot)
+**Stack:** PostgreSQL 15+ (main database) · Neo4j 5 (social graph) · MongoDB (documents and logs) · FastAPI (Python) · React 19 + Vite + Tailwind · Firebase Auth (Google sign-in) · OpenAI (chatbot)
 
-## Features
+## Documentation
 
-**Account**: Google sign-in, unique username, bio, language, private diary, favourite genres (asked on first sign-in), export all your data as JSON, delete your account and everything in it. Roles: reader, moderator, admin.
+| Document | What's in it |
+|---|---|
+| **This README** | What BookLog is, how to install and run it, the scripts, tests and backups |
+| **[docs/SETUP.md](docs/SETUP.md)** | Step-by-step setup on Windows from a fresh clone, demo data, troubleshooting |
+| **[docs/FEATURES.md](docs/FEATURES.md)** | Every feature in detail, what each database stores and why, triggers, row-level security, the sync outbox, the admin analytics SQL, demo data and the API list |
+| [database/README.md](database/README.md) | The catalogue snapshot that `setup.bat` restores |
+| http://localhost:8000/docs | Interactive API docs (while the API is running) |
 
-**Books & search**: a catalogue of 20,000+ books with covers, descriptions, authors (bios and photos) and publishers. Live search as you type by title, author, genre or ISBN with spelling mistakes allowed (pg_trgm), filter by genre, language and minimum rating; the page shows how many milliseconds PostgreSQL took. A **⌘K / Ctrl+K command palette** searches from anywhere. Book pages show details, reading time, average rating, reviews, similar books (with the scoring explained) and which people you follow have read it, shown as a 3D book with the cover's colour palette.
+## Features at a glance
 
-**Explore**: browse the whole catalogue with infinite scroll, filtered by genre, decade, length and rating and sorted by most read, highest rated, newest, oldest, shortest or longest. "Spin the shelf" picks a random well-rated book. The home page has a book of the day, the catalogue in numbers (books per decade of publication) and a genre index.
+- **Catalogue of ~24,900 books (1,390 in Technology)** with covers, authors, genres and publishers. Typo-tolerant live search (PostgreSQL `pg_trgm`) and a Ctrl+K palette.
+- **Diary**: half-star ratings, reviews, likes and re-reads. **Shelves** (Want to Read, Reading Now), **yearly reading goal**, **ranked lists** you can re-order.
+- **Social**: follow readers and authors, activity feed, people you may know, taste match % and steps apart (Neo4j), likes, comments, **direct messages**, notifications.
+- **Flips**: swipe through books and leave short **takes** (MongoDB).
+- **Moods**: every book is tagged Dark, Cosy, Funny, Tense, Inspiring… (rules + trigger in SQL), and Explore filters by mood.
+- **Explore**, home page discovery, a reader quiz, and **Year in books** stats for every reader.
+- **Recommendations** from five sources, each with a reason. A **chatbot** that can only suggest books that really exist in the database.
+- **Admin**: catalogue editing, moderation, audit log, roles, sync status, and **Analytics** by time frame (most read books, genres, authors, readers, ratings, goals, funnel…) with a SQL button on every section.
+- Privacy enforced **in the database**: private diaries use PostgreSQL row-level security.
 
-**Flips**: flip through books one screen at a time (For you, Latest, Following). Readers leave short "takes" on a book (a fun fact, a hot take, a mood) that everyone can see with the reader's name, and anyone signed in can like them. Takes live in MongoDB; the one exception comes from PostgreSQL: a private account's takes are shown only to its followers (`users.is_private` + `user_follow`).
+Full details: [docs/FEATURES.md](docs/FEATURES.md).
 
-**Diary, shelves, lists**: log a book with date, half-star rating (0.5 to 5), review and a like; edit or delete entries; re-reads are separate entries. Want to Read and Reading Now shelves. Yearly reading goal with progress. Public or private ranked lists you can re-order. Like and comment on reviews and lists. Report reviews to moderators.
+## The three databases
 
-**Social**: follow / unfollow, followers and following, activity feed (what people you follow logged, rated, reviewed and listed), people you may know (friends of friends), taste match % and how many steps apart two readers are (Neo4j).
-
-**Year in books**: every reader gets a stats page (`/u/<username>/stats`, by year or all time): books, pages, reviews, re-reads, books per month, rating spread, favourite genres and authors, how their ratings compare with everyone else's, and highlights (top rated, longest, shortest, oldest, hidden gem). It reads the diary under row-level security, so private diaries stay private.
-
-**Recommendations**: from your highly rated books, readers with similar taste (Neo4j), people you follow, authors you follow, your favourite genres and trending books (MongoDB). Every recommendation says why.
-
-**Chatbot**: ask "a dark fantasy under 400 pages" or "something like Dune but shorter". The model can only see books through a `search_books` tool that queries PostgreSQL, and only books returned by the database are shown, so it can't invent titles. Conversations are saved in MongoDB.
-
-**Admin & moderation**: add, edit and delete books, authors and genres (with parent genres); moderators handle reported reviews; reports on most read books, most active users and genre trends (materialized views); audit log of important changes; role management; sync status.
-
-Not built (left out on purpose): predicted ratings and automatic theme/mood tagging (ML).
-
-## Design
-
-"Dog-eared": cream paper, one tomato red for type, tall condensed caps (Bayon) for anything loud and small uppercase grotesk (Inter Tight) for everything else, with pink and sky-blue sections. Light mode and a night-reading mode.
-
-The cast is a set of original line-drawn **book-dogs** (`frontend/src/components/Dogs.jsx`). Each is a book that became a dog: its floppy ears are the hardcover boards, its shaggy coat is the page edges and its leash is the red ribbon bookmark. Each one has an accessory (glasses, beret, quill, headphones, crown, bow), and every feature gets its own dog. They blink, their eyes follow the cursor, their ears swing and the ribbon sways. The logo is a book-dachshund that trots across the loading screen.
-
-Motion and 3D: real CSS 3D books (cover, spine with the title, page block) that turn toward the pointer, words that rise from behind masks as you scroll, floating page-balls, parallax, a ribbon that draws itself down the page, and a red flood when you enter from the cover page. Everything respects `prefers-reduced-motion`.
-
-The home page tells the whole project top to bottom: hero, about (with live counts), "our shelves" (every feature, each with its dog), how it works, your circle (signed in), today's pick as a 3D book, authors with bios, "pick your pace" (yearly reading goal), the assistant, and readers.
-
-## How the three databases work together
-
-| Database | Holds | Why |
+| Database | Stores | Why |
 |---|---|---|
-| **PostgreSQL** (source of truth) | Catalogue, users, diary, lists, comments, likes, shelves, goals, reports, audit log | ACID transactions, constraints, triggers, row-level security |
-| **Neo4j** | `(:User)-[:FOLLOWS]->(:User)`, `(:User)-[:RATED]->(:Book)` | Friends of friends, shortest path, taste similarity |
-| **MongoDB** | `activity_logs`, `chat_sessions`, `saved_recommendations` (TTL index, 1 hour) | Flexible documents, high-volume logs, automatic expiry |
+| **PostgreSQL** (source of truth) | Books, authors, genres, users, diary, shelves, goals, lists, follows, likes, comments, reports, audit log, sync outbox | Transactions, constraints, triggers, row-level security, materialized views |
+| **Neo4j** | `(:User)-[:FOLLOWS]->(:User)` and `(:User)-[:RATED]->(:Book)` | Friends of friends, shortest paths, readers with similar taste |
+| **MongoDB** | Takes, direct messages, chatbot conversations, activity logs, cached recommendations, presence | Document-shaped and high-volume data, automatic expiry (TTL) |
 
-**Keeping them consistent.** PostgreSQL triggers write every follow, diary change and account deletion into a `sync_outbox` table *in the same transaction* as the change. A background worker in the API applies the outbox to Neo4j / MongoDB and retries failures until they succeed (pending rows and errors show on the admin page). `backend/db/sync_neo4j.py` rebuilds the graph from PostgreSQL. If Neo4j or MongoDB is down, the app keeps working: social features fall back to SQL and logging is skipped.
+PostgreSQL triggers write every follow, rating and account deletion into a `sync_outbox` table in the same transaction, and a background worker in the API copies them to Neo4j and MongoDB (see [section 7 of the docs](docs/FEATURES.md#7-keeping-the-databases-consistent)). If Neo4j or MongoDB is down, the rest of the app keeps working.
 
-## PostgreSQL design highlights
+## Repository layout
 
-- Schema follows the ER diagram ([schema.sql](backend/db/schema.sql)) plus [migrations](backend/db/migrations/).
-- **Triggers**: book average rating and rating count update on every diary change (the row lock prevents lost updates under concurrency); reading-goal progress; audit log; sync outbox.
-- **Row-level security** on `diary_entry`: private diaries are invisible to other users at the database level. The API connects as `booklog_app` (not a superuser, because superusers bypass RLS) and sets `app.user_id` for each transaction.
-- **Constraints**: rating 0.5–5 in steps of 0.5, no self-follow, unique follows / likes, a comment targets exactly one review or list, list positions unique (deferred so lists can be re-ranked in one transaction), username format.
-- **Materialized views** for admin reports; **GIN trigram indexes** for search.
-- **Cascading deletes**: deleting an account removes everything belonging to it in one transaction.
+```
+BookLog/
+├── setup.bat / setup.ps1        setup on Windows from a fresh clone (safe to re-run)
+├── run.bat                      start the API and the website
+├── booklog-firebase-key.json    Firebase service-account key (you add it; never committed)
+├── docs/
+│   ├── SETUP.md                 setup guide
+│   └── FEATURES.md              features and databases, in detail
+├── data/                        source data
+│   ├── data.csv                         original catalogue
+│   ├── master_curated_books_universe_180.csv   curated classics (corrected)
+│   ├── master_curated_books_universe.csv       earlier version of the curated list
+│   └── curated_books_fix.json           Open Library data used to correct the curated books
+├── database/                    catalogue snapshot restored by setup (booklog-database.zip, no users)
+├── backend/
+│   ├── .env.example             copy to .env and fill in
+│   ├── requirements.txt
+│   ├── app/                     the FastAPI application
+│   │   ├── main.py              app, CORS, /health, start-up (indexes, sync worker)
+│   │   ├── auth.py, deps.py     Firebase token check, roles, current viewer
+│   │   ├── database.py          PostgreSQL pool; sets app.user_id / app.role for RLS
+│   │   ├── graph.py             Neo4j queries
+│   │   ├── mongo.py             MongoDB collections and helpers
+│   │   ├── sync_worker.py       outbox worker (PostgreSQL → Neo4j / MongoDB)
+│   │   ├── routes/              HTTP endpoints
+│   │   └── services/            the logic and SQL (book, discover, diary, list, social,
+│   │                            user, reels, chat, admin, insights = admin analytics)
+│   ├── db/                      SQL only
+│   │   ├── schema.sql           base schema (the ER diagram)
+│   │   ├── migrations/          002 phase 2 (tables, triggers, RLS, views), 003 app role, 004 report role,
+│   │   │                        005 mood tags (TAG / BOOK_TAG, rules, trigger)
+│   │   └── demo_queries.sql     live database demo for presentations
+│   ├── scripts/                 every runnable script (see the table below)
+│   └── tests/test_api.py        end-to-end API test (100 checks)
+└── frontend/
+    └── src/
+        ├── pages/               one file per page (Home, Explore, Flips, Book, Library, Lists,
+        │                        Feed, People, Profile, Stats, Messages, Chat, Quiz, Settings, Admin…)
+        ├── components/          shared UI, modals, cards, AdminInsights (analytics tab)
+        ├── contexts/            signed-in user
+        ├── services/api.js      API client
+        └── firebase.js          Firebase web config
+```
 
-Differences from the ER diagram (all needed by features): `users` instead of the reserved word `USER`; `users.firebase_uid` / `friend_code`; `book.subtitle` / `cover_url` / `ratings_count`; `author.photo_url`; `list.user_id` (owner); `comment.entry_id` / `list_id` (what is commented on); extra tables `user_follow`, `author_follow`, `review_like`, `list_like`, `shelf`, `review_report`, `audit_log`, `sync_outbox`.
+## Setup on Windows
 
-## Setup
+**Full step-by-step guide: [docs/SETUP.md](docs/SETUP.md).** In short:
 
-### 1. Databases
+1. Install Python 3.10+, Node.js 20.19+ (LTS), PostgreSQL 15+, Neo4j Desktop and MongoDB Community Server. Start a Neo4j instance.
+2. Put the Firebase service-account key in the repo root as `booklog-firebase-key.json` (or use your own Firebase project; see the guide).
+3. Double-click **`setup.bat`**. It asks for your Neo4j password, MongoDB URL, OpenAI key (optional) and `postgres` password, installs the packages, restores the catalogue (24,884 books, 16,156 authors, mood tags) **with no users or activity**, creates the `booklog_app` role and rebuilds Neo4j. If a `booklog` database already exists it is left exactly as it is. Safe to re-run.
+4. Double-click **`run.bat`**: the API on http://localhost:8000 and the website on http://localhost:5173. http://localhost:8000/health should show all three databases `true`.
 
-PostgreSQL (`brew install postgresql@15`), Neo4j (`brew install neo4j`) and MongoDB:
+**Make yourself an admin.** Sign in on the website once, then:
+
+```powershell
+backend\venv\Scripts\python.exe backend\scripts\make_admin.py your_username
+```
+
+Reload the site and the **Admin** page appears in the menu. For sample readers, see *Demo data* in the guide.
+
+### Looking at the data
+- **PostgreSQL**: in pgAdmin, open *Servers → PostgreSQL → Databases → booklog → Schemas → public → Tables*. Right-click a table → *View/Edit Data*, or use *Tools → Query Tool* for SQL.
+- **MongoDB**: in Compass, connect to `mongodb://localhost:27017` and open the `booklog` database.
+- **Neo4j**: in Neo4j Desktop, open the instance with *Neo4j Browser* and run `MATCH (u:User)-[r]->(x) RETURN u, r, x LIMIT 100`.
+
+## Scripts
+
+Everything runnable lives in `backend/scripts/`. Run the scripts from the repo root with the project's Python (`backend\venv\Scripts\python.exe` on Windows, `backend/venv/bin/python` on macOS and Linux). They read `backend/.env`.
+
+| Script | What it does | When you need it |
+|---|---|---|
+| `make_admin.py <username> [role]` | Makes an account admin (or `moderator` / `reader`) | After you first sign in |
+| `seed_demo_users.py` | Adds 16 demo readers with ~18 months of activity in PostgreSQL and MongoDB. `--reset` rebuilds them, `--remove` deletes them (real accounts are never touched). | Optional; setup asks (default no) |
+| `fill_user.py <username>` | Gives a real account a demo history: ~30 diary entries, shelves, goals, 2 lists, a circle of demo readers (both ways), takes and messages. `--reset` rebuilds it. | Before a demo, after signing in once |
+| `sync_neo4j.py` | Rebuilds the whole Neo4j graph from PostgreSQL | After restoring a backup, or if Neo4j was wiped |
+| `fix_curated_books.py` | `apply` corrects the 178 curated classics (real authors, years, descriptions) from `data/curated_books_fix.json`; `fetch` re-downloads from Open Library; `csv` rewrites the CSV | Only for a database built with `seed_from_csv.py`; the snapshot is already corrected |
+| `seed_from_csv.py` | **Drops and recreates** the database schema, runs the migrations and loads the CSVs in `data/` | Building the database from scratch instead of the snapshot |
+| `import_openlibrary.py` | Adds books from Open Library across ~130 subjects (cached in `backend/scripts/.openlibrary_cache/`). `--subjects computer_science,machine_learning` limits it to some subjects; `--cache-only` uses only what is already downloaded | Building from scratch |
+| `backfill_openlibrary.py` | Fills in descriptions, author bios and photos an import skipped (`--wikipedia` falls back to Wikipedia summaries) | Building from scratch |
+| `migrate_from_neo4j.py` | One-time import of users and ratings from the old Neo4j-only version | Historical |
+| `backup.sh` / `restore.sh` | Back up / restore PostgreSQL (macOS and Linux shells) | See *Backup and restore* |
+
+Example:
+
+```powershell
+backend\venv\Scripts\python.exe backend\scripts\seed_demo_users.py --reset
+```
+
+`seed_from_csv.py`, `import_openlibrary.py` and `backfill_openlibrary.py` need a superuser connection: set `DATABASE_ADMIN_URL=postgresql://postgres:<password>@localhost:5432/booklog` in `backend/.env`.
+
+## Tests
+
+The end-to-end test acts as several temporary users (Firebase is replaced by a test header), checks 100 things across all three databases and deletes its users at the end. It runs against a **copy** of the database, so your real data is untouched.
+
+```powershell
+New-Item -ItemType Directory -Force backups | Out-Null; & "C:\Program Files\PostgreSQL\18\bin\pg_dump.exe" -U postgres -Fc -f backups\booklog_test.dump booklog
+```
+
+```powershell
+& "C:\Program Files\PostgreSQL\18\bin\createdb.exe" -U postgres booklog_test
+```
+
+```powershell
+& "C:\Program Files\PostgreSQL\18\bin\pg_restore.exe" -U postgres --no-owner -d booklog_test backups\booklog_test.dump
+```
+
+Then run it with `DATABASE_URL` pointing at `booklog_test` (same as in `.env`, with `/booklog_test` at the end):
+
+```powershell
+$env:DATABASE_URL = "postgresql://booklog_app:<password>@localhost:5432/booklog_test"; backend\venv\Scripts\python.exe backend\tests\test_api.py
+```
+
+It should end with `ALL 100 CHECKS PASSED`. The test expects a database without the demo readers. If you copied it after seeding, remove them first with `seed_demo_users.py --remove --no-mongo <test database URL>`.
+
+**Live database demo** for presentations (joins, aggregation, fuzzy search, constraints, triggers, RLS, outbox, materialized views, cascades; rolls everything back):
+
+```powershell
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d booklog -f backend\db\demo_queries.sql
+```
+
+## Backup and restore
+
+**Windows:**
+
+```powershell
+New-Item -ItemType Directory -Force backups | Out-Null; & "C:\Program Files\PostgreSQL\18\bin\pg_dump.exe" -U postgres -Fc --no-owner --no-privileges -f backups\booklog.dump booklog
+```
+
+To restore on another computer, create the `booklog` database there and restore with `pg_restore --no-owner --no-privileges -d booklog <file>`, then run migrations 003 and 004 (`psql -f backend\db\migrations\003_app_role.sql`, same for 004). (`setup.bat` only restores the catalogue snapshot from the zip, never a backup.) Use `-f` with a file, as above; piping `pg_dump` output through PowerShell corrupts non-English text.
+
+**macOS / Linux:** `sh backend/scripts/backup.sh` writes `backups/booklog-<date>.dump`; `sh backend/scripts/restore.sh <file>` restores it, re-creates the roles and rebuilds Neo4j.
+
+Neo4j never needs a backup, because it is rebuilt from PostgreSQL. MongoDB holds takes, messages and chat history; back it up with `mongodump` (or Compass export) if you need them.
+
+## Setup on macOS / Linux
 
 ```bash
-brew trust mongodb/brew && brew install mongodb-community
+brew install postgresql@15 neo4j && brew tap mongodb/brew && brew install mongodb-community
 ```
 
 ```bash
 brew services start postgresql@15 && brew services start neo4j && brew services start mongodb-community
 ```
 
-Set a Neo4j password before its first start: `neo4j-admin dbms set-initial-password <password>`.
-
-### 2. Load the data
+Set a Neo4j password before its first start with `neo4j-admin dbms set-initial-password <password>`. Then:
 
 ```bash
-createdb booklog
+cd backend && python3 -m venv venv && venv/bin/pip install -r requirements.txt && cp .env.example .env
 ```
+
+Fill in `backend/.env`, then unzip and restore the catalogue snapshot (no users):
 
 ```bash
-backend/venv/bin/python backend/db/seed_from_csv.py
+unzip database/booklog-database.zip -d database/ && sh backend/scripts/restore.sh database/booklog.dump
 ```
 
-```bash
-backend/venv/bin/python backend/db/import_openlibrary.py
-```
-
-```bash
-backend/venv/bin/python backend/db/backfill_openlibrary.py
-```
-
-`seed_from_csv.py` drops and recreates everything, runs the migrations (including creating the `booklog_app` role) and loads the CSV catalogue. `import_openlibrary.py` adds books from Open Library across ~100 subjects with covers, descriptions, author bios and photos (`--per-genre 300 --pages 6 --workers 8` gives 20,000+; API responses are cached, so re-runs are fast). `backfill_openlibrary.py` finishes an import that was stopped early: it fills in real descriptions and author bios and photos that were skipped, and can be stopped and re-run at any time. With `--wikipedia` it falls back to the Wikipedia page summary for authors Open Library has nothing on, accepting it only when the page describes a writer (Wikipedia text is CC BY-SA 4.0). All three run as your own Postgres account.
-
-### 3. Backend
-
-Copy `backend/.env.example` to `backend/.env` and fill in `NEO4J_PASSWORD` and `OPENAI_API_KEY` (for the chatbot). Never commit `.env`.
-
-```bash
-cd backend && python3 -m venv venv && venv/bin/pip install -r requirements.txt
-```
+Optional demo readers: `backend/venv/bin/python backend/scripts/seed_demo_users.py`.
 
 ```bash
 cd backend && venv/bin/uvicorn app.main:app --reload --port 8000
 ```
 
-The Firebase Admin service account JSON must be in the repo root. API docs: http://localhost:8000/docs · Health of all three databases: http://localhost:8000/health
-
-**Make yourself an admin** (after signing in once):
-
-```bash
-psql -d booklog -c "UPDATE users SET role = 'admin' WHERE username = 'your_username'"
-```
-
-### 4. Frontend
-
 ```bash
 cd frontend && npm install && npm run dev
 ```
 
-Open http://localhost:5173
+## Troubleshooting
 
-## Backup, restore and sharing
+| Problem | Fix |
+|---|---|
+| `/health` shows `"neo4j": false` | Start the instance in Neo4j Desktop; check `NEO4J_PASSWORD` in `backend/.env`. |
+| `/health` shows `"mongodb": false` | Start the **MongoDB** Windows service (`services.msc`), or check `MONGO_URL`. |
+| API window says port 8000 is in use | Another program is on port 8000. Find it with `Get-NetTCPConnection -LocalPort 8000` and stop that process. |
+| Sign-in works but every request is 401 | `booklog-firebase-key.json` is missing from the repo root, or belongs to a different Firebase project than `frontend/src/firebase.js`. |
+| Chatbot says it isn't set up | Add `OPENAI_API_KEY` to `backend/.env` and restart the API. |
+| Admin page says "Admins and moderators only" | Run `make_admin.py` (see above), then reload. |
+| Demo readers not in the People suggestions | The sync worker copies them to Neo4j while the API runs; or run `sync_neo4j.py`. |
 
-```bash
-sh backend/db/backup.sh
-```
+## Security notes
 
-creates `backups/booklog-<date>.dump` (about 1 MB, ignored by git). On another computer, after installing PostgreSQL:
+Never commit `backend/.env` (database, Neo4j and OpenAI secrets) or `booklog-firebase-key.json`. Both are in `.gitignore`. Each person keeps their own copy.
 
-```bash
-sh backend/db/restore.sh booklog-2026-11-11.dump
-```
+## Design
 
-This creates the `booklog` database, restores all tables, data, triggers, row-level security policies and views, re-creates the `booklog_app` / `booklog_reports` roles, and rebuilds Neo4j from PostgreSQL. MongoDB lives in Atlas, so everyone using the same `MONGO_URL` shares it.
-
-Files that are **not** in git and must be sent privately: `backend/.env` (each person sets their own `NEO4J_PASSWORD`) and the Firebase service account JSON in the repo root.
-
-## Tests and demo
-
-End-to-end API test (94 checks, runs against a copy of the database):
-
-```bash
-dropdb --if-exists booklog_test && createdb booklog_test && pg_dump booklog | psql -q booklog_test
-```
-
-```bash
-DATABASE_URL=postgresql://booklog_app@localhost:5432/booklog_test backend/venv/bin/python backend/tests/test_api.py
-```
-
-Live database demo for presentations (joins, aggregation, fuzzy search, constraints, triggers, row-level security, outbox, materialized views, cascades; rolls everything back):
-
-```bash
-psql -d booklog -f backend/db/demo_queries.sql
-```
-
-## Project layout
-
-```
-backend/
-  db/schema.sql                 base schema (ER diagram)
-  db/migrations/                002 phase 2 (tables, triggers, RLS, views), 003 app role
-  db/seed_from_csv.py           reset + load CSV catalogue
-  db/import_openlibrary.py      add books from Open Library
-  db/backfill_openlibrary.py    fill in skipped descriptions, author bios and photos
-  db/sync_neo4j.py              rebuild Neo4j from PostgreSQL
-  db/migrate_from_neo4j.py      one-time import from the old Neo4j app
-  db/demo_queries.sql           presentation demo
-  app/main.py                   FastAPI app, health check
-  app/deps.py                   Firebase sign-in, roles, per-request viewer
-  app/database.py               PostgreSQL pool (sets app.user_id for RLS)
-  app/graph.py                  Neo4j queries
-  app/mongo.py                  MongoDB collections
-  app/sync_worker.py            outbox worker
-  app/services/                 book, discover, diary, list, user, admin, chat logic
-  app/routes/                   API routes
-  tests/test_api.py             end-to-end test
-frontend/src/
-  pages/                        Home, Explore, Search, Book, Author, My Books, Lists, List,
-                                Feed, People, Profile, Year in books, Settings, Assistant, Admin
-  components/shell.jsx          intro, smooth scroll, cursor, page transitions, ⌘K palette, theme
-  components/Logo.jsx           the BookLog mark and wordmark
-  components/                   shared UI, modals, review cards, goal widget...
-  utils/colors.js               colour palette extraction from covers
-  services/api.js               API client
-```
+"Dog-eared": cream paper, one tomato red for type, tall condensed caps (Bayon) and a small uppercase grotesk (Inter Tight), with pink and sky-blue sections, plus a night-reading mode. The mascots are original line-drawn **book-dogs** (`frontend/src/components/Dogs.jsx`): books whose ears are hardcover boards and whose leash is the ribbon bookmark. Motion includes CSS 3D books, masked word reveals and smooth scrolling, and everything respects `prefers-reduced-motion`.
